@@ -51,5 +51,45 @@ def test_allocine_scraper():
     except Exception as e:
         logger.error(f"❌ Erreur lors de la sauvegarde : {str(e)}")
 
+def test_movie_details():
+    """Test la récupération des affiches pour quelques films"""
+    scraper = AllocineScraper()
+    
+    # Liste de films à tester
+    films = [
+        "Mickey 17",
+        "The Brutalist",
+        "Yōkai - le monde des esprits",
+        "L'Énigme Velázquez"
+    ]
+    
+    logger.info("\nTest de récupération des affiches:")
+    for titre in films:
+        details = scraper.get_movie_details(titre)
+        if details['poster']:
+            logger.info(f"✅ {titre}: {details['poster']}")
+        else:
+            logger.error(f"❌ {titre}: Pas d'affiche trouvée")
+
+def test_seances_avec_affiches():
+    """Test la récupération des séances avec leurs affiches"""
+    scraper = AllocineScraper()
+    seances = scraper.get_seances()
+    
+    # Regrouper par film pour éviter les doublons
+    films_uniques = {}
+    for seance in seances:
+        if seance['titre'] not in films_uniques:
+            films_uniques[seance['titre']] = seance['poster']
+    
+    logger.info("\nAffiches trouvées:")
+    for titre, poster in films_uniques.items():
+        if poster:
+            logger.info(f"✅ {titre}: {poster}")
+        else:
+            logger.warning(f"⚠️ {titre}: Pas d'affiche")
+
 if __name__ == "__main__":
-    test_allocine_scraper() 
+    test_allocine_scraper()
+    test_movie_details()
+    test_seances_avec_affiches() 

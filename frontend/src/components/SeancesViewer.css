@@ -33,10 +33,26 @@
 }
 
 .film-card {
+  display: grid;
+  grid-template-columns: 120px 1fr;
+  gap: 1rem;
+  padding: 1rem;
   background: white;
   border-radius: 8px;
-  padding: 20px;
   box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.film-poster {
+  width: 120px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.film-info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
 }
 
 .film-card h3 {

@@ -42,30 +42,39 @@ const SeancesViewer = ({ seances }) => {
         ))}
       </div>
 
-      <div className="films-grid">
+      <div className="films-list">
         {Object.values(seancesByFilm).map(film => (
           <div key={film.titre} className="film-card">
-            <h3>{film.titre}</h3>
-            {film.duree && <p className="duree">{film.duree}</p>}
-            <div className="seances-par-cinema">
-              {Object.entries(
-                film.seances.reduce((acc, s) => {
-                  if (!acc[s.cinema]) acc[s.cinema] = [];
-                  acc[s.cinema].push(s);
-                  return acc;
-                }, {})
-              ).map(([cinema, seances]) => (
-                <div key={cinema} className="cinema-seances">
-                  <h4>{cinema}</h4>
-                  <div className="horaires">
-                    {seances.map((s, i) => (
-                      <span key={i} className="seance">
-                        {s.heure} - {s.version}
-                      </span>
-                    ))}
+            {film.seances[0].poster && (
+              <img 
+                src={film.seances[0].poster} 
+                alt={`Affiche ${film.titre}`} 
+                className="film-poster"
+              />
+            )}
+            <div className="film-info">
+              <h3>{film.titre}</h3>
+              {film.duree && <p className="duree">{film.duree}</p>}
+              <div className="seances-par-cinema">
+                {Object.entries(
+                  film.seances.reduce((acc, s) => {
+                    if (!acc[s.cinema]) acc[s.cinema] = [];
+                    acc[s.cinema].push(s);
+                    return acc;
+                  }, {})
+                ).map(([cinema, seances]) => (
+                  <div key={cinema} className="cinema-seances">
+                    <h4>{cinema}</h4>
+                    <div className="horaires">
+                      {seances.map((s, i) => (
+                        <span key={i} className="seance">
+                          {s.heure} - {s.version}
+                        </span>
+                      ))}
+                    </div>
                   </div>
-                </div>
-              ))}
+                ))}
+              </div>
             </div>
           </div>
         ))}
