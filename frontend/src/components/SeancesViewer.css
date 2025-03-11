@@ -1,0 +1,83 @@
+.seances-viewer {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.date-selector {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 30px;
+  overflow-x: auto;
+  padding-bottom: 10px;
+}
+
+.date-selector button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px;
+  background: #f0f0f0;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.date-selector button.active {
+  background: #007bff;
+  color: white;
+}
+
+.films-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.film-card {
+  background: white;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.film-card h3 {
+  margin: 0 0 10px 0;
+  font-size: 1.2em;
+}
+
+.duree {
+  color: #666;
+  font-size: 0.9em;
+  margin: 5px 0;
+}
+
+.cinema-seances {
+  margin-top: 15px;
+}
+
+.cinema-seances h4 {
+  margin: 0 0 10px 0;
+  font-size: 1em;
+  color: #444;
+}
+
+.horaires {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.seance {
+  background: #f8f9fa;
+  padding: 5px 10px;
+  border-radius: 4px;
+  font-size: 0.9em;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.seance small {
+  font-size: 0.8em;
+  color: #666;
+  margin-top: 2px;
+} 

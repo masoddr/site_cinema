@@ -1,13 +1,14 @@
 # CinéToulouse - Agrégateur de Programmation Cinéma
 
 ## 📝 Description du Projet
-Application web permettant de consulter en un seul endroit la programmation des cinémas indépendants de Toulouse :
+Application web permettant de consulter en un seul endroit la programmation des cinémas de Toulouse :
 - American Cosmograph
 - ABC
 - Pathé Wilson
 
 On utiliseras une méthode TDD pour développer le projet.
 On mettra à jour les parties docker tout au long du projet pour tester les différentes fonctionnalités.
+Tu mettras à jour ce document tout au long du projet.
 
 ## 🏗 Architecture Technique
 
@@ -97,7 +98,7 @@ Frontend
 - [ ] Système de logging
 
 ### Phase 2 : Backend et Base de Données
-- [ ] Création du schéma de base de données
+- [x] Création du schéma de base de données
 - [ ] Mise en place de l'API Flask
 - [ ] Endpoints CRUD
 - [ ] Documentation API

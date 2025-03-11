@@ -1,0 +1,47 @@
+---
+// Importer directement les fichiers JSON
+import acSeances from '../../public/american_cosmograph_seances.json';
+import abcSeances from '../../public/abc_seances.json';
+
+// Normaliser les titres (tout en minuscules)
+const normalizeTitle = (title) => title.toLowerCase().trim();
+
+// Ajouter le titre normalisé à chaque séance pour la comparaison
+const acSeancesNormalized = acSeances.map(s => ({
+  ...s,
+  titreNormalise: normalizeTitle(s.titre)
+}));
+
+const abcSeancesNormalized = abcSeances.map(s => ({
+  ...s,
+  titreNormalise: normalizeTitle(s.titre)
+}));
+
+// Trouver les films programmés dans les deux cinémas
+const titresAC = new Set(acSeancesNormalized.map(s => s.titreNormalise));
+const titresABC = new Set(abcSeancesNormalized.map(s => s.titreNormalise));
+const filmsDansLesDeux = [...titresAC].filter(titre => titresABC.has(titre));
+
+console.log("Films programmés dans les deux cinémas:", filmsDansLesDeux);
+
+// Combiner et trier les séances
+const allSeances = [...acSeancesNormalized, ...abcSeancesNormalized].sort((a, b) => 
+  new Date(a.jour) - new Date(b.jour) || 
+  a.heure.localeCompare(b.heure)
+);
+
+import SeancesViewer from '../components/SeancesViewer';
+---
+
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cinémas Toulouse</title>
+  </head>
+  <body>
+    <main>
+      <SeancesViewer client:load seances={allSeances} />
+    </main>
+  </body>
+</html> 
