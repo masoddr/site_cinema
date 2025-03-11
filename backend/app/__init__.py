@@ -3,17 +3,17 @@ from flask_sqlalchemy import SQLAlchemy
 from flask_cors import CORS
 import os
 from dotenv import load_dotenv
+from .config import Config  # Importons la classe Config
 
 load_dotenv()
 
 db = SQLAlchemy()
 
-def create_app():
+def create_app(config_class=Config):  # Ajout du paramètre config_class
     app = Flask(__name__)
     
-    # Configuration
-    app.config['SQLALCHEMY_DATABASE_URI'] = os.getenv('DATABASE_URL', 'sqlite:///test.db')
-    app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
+    # Utiliser la configuration depuis la classe Config
+    app.config.from_object(config_class)
     
     # Configuration CORS simplifiée pour le développement
     CORS(app, resources={
@@ -30,8 +30,7 @@ def create_app():
     from app.routes import api
     app.register_blueprint(api, url_prefix='/api')
     
-    # Ne pas créer la base de données pour le moment
-    # with app.app_context():
-    #     db.create_all()
+    # Créer le dossier data s'il n'existe pas
+    os.makedirs(os.path.join(os.path.dirname(app.root_path), 'data'), exist_ok=True)
     
     return app

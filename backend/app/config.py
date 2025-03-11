@@ -14,7 +14,14 @@ class Config:
     SQLALCHEMY_TRACK_MODIFICATIONS = False
     
     # Configuration Scraping
-    SCRAPING_INTERVAL = int(os.environ.get('SCRAPING_INTERVAL', 24))
+    SCRAPING_INTERVAL = int(os.environ.get('SCRAPING_INTERVAL', 168))
+    
+    # Chemin vers le fichier de cache des séances
+    SEANCES_CACHE_FILE = os.path.join(
+        os.path.dirname(os.path.dirname(os.path.abspath(__file__))),
+        'data',
+        'seances_cache.json'
+    )
 
 class TestConfig(Config):
     TESTING = True

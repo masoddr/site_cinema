@@ -99,7 +99,6 @@ const SeancesViewer = ({ seances }) => {
                   className="voir-plus"
                   onClick={() => setSelectedFilm(film)}
                 >
-                  Voir plus
                 </button>
               </div>
             </div>

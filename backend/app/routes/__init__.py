@@ -1,5 +1,6 @@
 from flask import Blueprint, jsonify, current_app
 from app.scrapers.allocine import AllocineScraper
+from app.cache_manager import SeancesCacheManager
 from datetime import datetime
 
 # Créer le blueprint
@@ -12,13 +13,16 @@ def test():
 @api.route('/seances', methods=['GET'])
 def get_seances():
     try:
-        scraper = AllocineScraper()
-        seances = scraper.get_seances()
+        if not current_app.config.get('SEANCES_CACHE_FILE'):
+            raise ValueError("Configuration SEANCES_CACHE_FILE manquante")
+            
+        cache_manager = SeancesCacheManager(current_app.config['SEANCES_CACHE_FILE'])
+        seances = cache_manager.get_cache()
         
-        # Convertir les dates en string pour JSON
-        for seance in seances:
-            if isinstance(seance['jour'], datetime):
-                seance['jour'] = seance['jour'].isoformat()
+        if seances is None:
+            scraper = AllocineScraper()
+            seances = scraper.get_seances()
+            cache_manager.update_cache(seances)
         
         response = jsonify(seances)
         response.headers.add('Content-Type', 'application/json')

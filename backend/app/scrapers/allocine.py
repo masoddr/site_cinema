@@ -5,6 +5,7 @@ from .base_scraper import BaseScraper
 import requests
 from bs4 import BeautifulSoup
 import urllib.parse
+import unicodedata
 
 try:
     from allocineAPI.allocineAPI import allocineAPI
@@ -36,6 +37,21 @@ class AllocineScraper(BaseScraper):
         self.headers = {
             'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
         }
+
+    def clean_title(self, title):
+        """Nettoie et normalise le titre pour gérer les caractères spéciaux"""
+        if isinstance(title, bytes):
+            try:
+                title = title.decode('utf-8')
+            except UnicodeDecodeError:
+                try:
+                    title = title.decode('latin-1')
+                except UnicodeDecodeError:
+                    title = title.decode('utf-8', errors='ignore')
+        
+        # Normaliser les caractères spéciaux
+        title = unicodedata.normalize('NFKC', str(title))
+        return title
 
     def get_movie_details(self, movie_title):
         """Récupère les détails d'un film, y compris son affiche"""
@@ -229,15 +245,20 @@ class AllocineScraper(BaseScraper):
             return []
 
     def get_seances(self):
-        """Récupère toutes les séances des deux cinémas"""
-        all_seances = []
-        
-        for cinema in self.cinemas.values():
-            seances = self.get_seances_cinema(cinema['id'], cinema['name'])
-            all_seances.extend(seances)
-            logger.info(f"Nombre de séances trouvées pour {cinema['name']}: {len(seances)}")
-
-        return all_seances
+        try:
+            seances = []
+            for cinema_id, cinema_info in self.cinemas.items():
+                cinema_seances = self.get_seances_cinema(
+                    cinema_info['id'], 
+                    cinema_info['name']
+                )
+                for seance in cinema_seances:
+                    seance['titre'] = self.clean_title(seance['titre'])
+                seances.extend(cinema_seances)
+            return seances
+        except Exception as e:
+            logger.error(f"Erreur lors de la récupération des séances: {e}")
+            return []
 
     def save_to_json(self, filename='seances.json'):
         """Sauvegarde toutes les séances dans un fichier JSON"""

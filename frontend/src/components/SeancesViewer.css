@@ -1,5 +1,5 @@
 .seances-viewer {
-  max-width: 1200px;
+  max-width: 1400px;
   margin: 0 auto;
   padding: 20px;
 }
@@ -28,8 +28,8 @@
 
 .films-grid {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 2rem;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 1.5rem;
   padding: 2rem;
 }
 
@@ -40,13 +40,15 @@
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0,0,0,0.1);
   overflow: hidden;
-  height: 100%;
+  height: auto;
+  min-height: 300px;
+  position: relative;
 }
 
 .film-poster-container {
   position: relative;
   width: 100%;
-  padding-top: 150%; /* Ratio 2:3 pour les affiches de film */
+  padding-top: 120%;
 }
 
 .film-poster {
@@ -72,17 +74,23 @@
 }
 
 .film-info {
-  padding: 1rem;
+  padding: 0.75rem;
+  padding-bottom: 44px;
   flex-grow: 1;
   display: flex;
   flex-direction: column;
-  gap: 0.5rem;
+  gap: 0.3rem;
+  font-size: 0.9rem;
 }
 
 .film-info h3 {
   margin: 0;
-  font-size: 1.1rem;
-  line-height: 1.3;
+  font-size: 1rem;
+  line-height: 1.2;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
 }
 
 .film-card h3 {
@@ -97,26 +105,26 @@
 }
 
 .cinema-seances {
-  margin-top: 15px;
+  margin-top: 8px;
 }
 
 .cinema-seances h4 {
-  margin: 0 0 10px 0;
-  font-size: 1em;
-  color: #444;
+  margin: 0 0 5px 0;
+  font-size: 0.9em;
 }
 
 .horaires {
   display: flex;
   flex-wrap: wrap;
-  gap: 10px;
+  gap: 5px;
+  margin-bottom: 8px;
 }
 
 .seance {
   background: #f8f9fa;
-  padding: 5px 10px;
+  padding: 3px 6px;
   border-radius: 4px;
-  font-size: 0.9em;
+  font-size: 0.8em;
   display: inline-flex;
   flex-direction: column;
   align-items: center;
@@ -129,55 +137,76 @@
 }
 
 /* Responsive design */
-@media (max-width: 1200px) {
+@media (max-width: 1400px) {
+  .films-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+@media (max-width: 1100px) {
   .films-grid {
     grid-template-columns: repeat(3, 1fr);
   }
 }
 
-@media (max-width: 900px) {
+@media (max-width: 800px) {
   .films-grid {
     grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    padding: 1rem;
   }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 480px) {
   .films-grid {
-    grid-template-columns: 1fr;
+    gap: 0.8rem;
+    padding: 0.8rem;
   }
 }
 
 .badges {
   display: flex;
-  gap: 0.5rem;
-  margin-bottom: 0.5rem;
+  gap: 0.3rem;
+  margin-bottom: 0.3rem;
 }
 
 .badge {
   background: #f0f0f0;
-  padding: 0.25rem 0.5rem;
+  padding: 0.2rem 0.4rem;
   border-radius: 4px;
-  font-size: 0.9rem;
+  font-size: 0.8rem;
 }
 
 .synopsis-preview {
-  font-size: 0.9rem;
-  color: #666;
-  line-height: 1.4;
-  margin: 0.5rem 0;
+  display: none;
 }
 
 .voir-plus {
-  margin-top: auto;
-  padding: 0.5rem;
+  position: absolute;
+  bottom: 8px;
+  right: 8px;
+  width: 28px;
+  height: 28px;
   background: #007bff;
   color: white;
   border: none;
-  border-radius: 4px;
+  border-radius: 50%;
   cursor: pointer;
-  transition: background-color 0.2s;
+  transition: background-color 0.2s, transform 0.2s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  padding: 0;
+  line-height: 1;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+}
+
+.voir-plus::before {
+  content: '+';
 }
 
 .voir-plus:hover {
   background: #0056b3;
+  transform: scale(1.1);
 } 
