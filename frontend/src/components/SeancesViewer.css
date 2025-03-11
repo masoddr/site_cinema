@@ -28,31 +28,61 @@
 
 .films-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-  gap: 20px;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+  padding: 2rem;
 }
 
 .film-card {
-  display: grid;
-  grid-template-columns: 120px 1fr;
-  gap: 1rem;
-  padding: 1rem;
+  display: flex;
+  flex-direction: column;
   background: white;
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  overflow: hidden;
+  height: 100%;
+}
+
+.film-poster-container {
+  position: relative;
+  width: 100%;
+  padding-top: 150%; /* Ratio 2:3 pour les affiches de film */
 }
 
 .film-poster {
-  width: 120px;
-  height: 180px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
   object-fit: cover;
-  border-radius: 4px;
+}
+
+.film-poster-placeholder {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #f0f0f0;
+  color: #666;
 }
 
 .film-info {
+  padding: 1rem;
+  flex-grow: 1;
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
+}
+
+.film-info h3 {
+  margin: 0;
+  font-size: 1.1rem;
+  line-height: 1.3;
 }
 
 .film-card h3 {
@@ -96,4 +126,23 @@
   font-size: 0.8em;
   color: #666;
   margin-top: 2px;
+}
+
+/* Responsive design */
+@media (max-width: 1200px) {
+  .films-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 900px) {
+  .films-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .films-grid {
+    grid-template-columns: 1fr;
+  }
 } 

@@ -42,42 +42,51 @@ const SeancesViewer = ({ seances }) => {
         ))}
       </div>
 
-      <div className="films-list">
-        {Object.values(seancesByFilm).map(film => (
-          <div key={film.titre} className="film-card">
-            {film.seances[0].poster && (
-              <img 
-                src={film.seances[0].poster} 
-                alt={`Affiche ${film.titre}`} 
-                className="film-poster"
-              />
-            )}
-            <div className="film-info">
-              <h3>{film.titre}</h3>
-              {film.duree && <p className="duree">{film.duree}</p>}
-              <div className="seances-par-cinema">
-                {Object.entries(
-                  film.seances.reduce((acc, s) => {
-                    if (!acc[s.cinema]) acc[s.cinema] = [];
-                    acc[s.cinema].push(s);
-                    return acc;
-                  }, {})
-                ).map(([cinema, seances]) => (
-                  <div key={cinema} className="cinema-seances">
-                    <h4>{cinema}</h4>
-                    <div className="horaires">
-                      {seances.map((s, i) => (
-                        <span key={i} className="seance">
-                          {s.heure} - {s.version}
-                        </span>
-                      ))}
-                    </div>
+      <div className="films-grid">
+        {Object.values(seancesByFilm)
+          // Trier les films par ordre alphabétique
+          .sort((a, b) => a.titre.localeCompare(b.titre, 'fr'))
+          .map(film => (
+            <div key={film.titre} className="film-card">
+              <div className="film-poster-container">
+                {film.seances[0].poster ? (
+                  <img 
+                    src={film.seances[0].poster} 
+                    alt={`Affiche ${film.titre}`} 
+                    className="film-poster"
+                  />
+                ) : (
+                  <div className="film-poster-placeholder">
+                    Pas d'affiche
                   </div>
-                ))}
+                )}
+              </div>
+              <div className="film-info">
+                <h3>{film.titre}</h3>
+                {film.duree && <p className="duree">{film.duree}</p>}
+                <div className="seances-par-cinema">
+                  {Object.entries(
+                    film.seances.reduce((acc, s) => {
+                      if (!acc[s.cinema]) acc[s.cinema] = [];
+                      acc[s.cinema].push(s);
+                      return acc;
+                    }, {})
+                  ).map(([cinema, seances]) => (
+                    <div key={cinema} className="cinema-seances">
+                      <h4>{cinema}</h4>
+                      <div className="horaires">
+                        {seances.map((s, i) => (
+                          <span key={i} className="seance">
+                            {s.heure} - {s.version}
+                          </span>
+                        ))}
+                      </div>
+                    </div>
+                  ))}
+                </div>
               </div>
             </div>
-          </div>
-        ))}
+          ))}
       </div>
     </div>
   );
