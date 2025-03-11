@@ -1,5 +1,5 @@
 import logging
-from datetime import datetime, date
+from datetime import datetime, date, timedelta
 import json
 from .base_scraper import BaseScraper
 import requests
@@ -131,65 +131,70 @@ class AllocineScraper(BaseScraper):
         logger.info(f"Récupération des séances pour {cinema_name}")
         
         try:
-            # Utiliser la date du jour au lieu d'une date future
-            today = date.today().strftime("%Y-%m-%d")
-            logger.info(f"Requête API pour {cinema_name} (ID: {cinema_id}) à la date {today}")
-            
-            seances_data = self.api.get_showtime(cinema_id, today)
-            
-            if not seances_data:
-                logger.error(f"Aucune donnée retournée par l'API pour {cinema_name}")
-                return []
-            
-            seances = []
-            
-            for movie in seances_data:
-                titre = movie.get('title', '')
+            all_seances = []
+            # Récupérer les séances pour aujourd'hui et les 6 prochains jours
+            for i in range(7):
+                current_date = (date.today() + timedelta(days=i)).strftime("%Y-%m-%d")
+                logger.info(f"Requête API pour {cinema_name} (ID: {cinema_id}) à la date {current_date}")
                 
-                # Chercher l'affiche sur la page du cinéma
-                poster_url = self.get_movie_poster_from_cinema_page(titre, cinema_id)
+                seances_data = self.api.get_showtime(cinema_id, current_date)
                 
-                # Si pas trouvé, essayer l'autre méthode
-                if not poster_url:
-                    movie_details = self.get_movie_details(titre)
-                    poster_url = movie_details.get('poster', '')
+                if not seances_data:
+                    logger.warning(f"Aucune donnée retournée par l'API pour {cinema_name} à la date {current_date}")
+                    continue
                 
-                logger.info(f"Film '{titre}' - URL de l'affiche: {poster_url}")
-                
-                # Convertir les caractères encodés en UTF-8
-                try:
-                    titre = bytes(titre, 'latin1').decode('unicode-escape').encode('latin1').decode('utf-8')
-                except Exception as e:
-                    logger.warning(f"Erreur lors du décodage du titre '{titre}': {e}")
-                
-                # Pour chaque séance du film
-                for seance in movie.get('showtimes', []):
+                for movie in seances_data:
+                    titre = movie.get('title', '')
+                    
+                    # On ne récupère l'affiche qu'une seule fois par film
+                    if not any(s['titre'] == titre for s in all_seances):
+                        # Chercher l'affiche sur la page du cinéma
+                        poster_url = self.get_movie_poster_from_cinema_page(titre, cinema_id)
+                        
+                        # Si pas trouvé, essayer l'autre méthode
+                        if not poster_url:
+                            movie_details = self.get_movie_details(titre)
+                            poster_url = movie_details.get('poster', '')
+                        
+                        logger.info(f"Film '{titre}' - URL de l'affiche: {poster_url}")
+                    else:
+                        # Réutiliser l'URL de l'affiche déjà trouvée
+                        poster_url = next(s['poster'] for s in all_seances if s['titre'] == titre)
+
+                    # Convertir les caractères encodés en UTF-8
                     try:
-                        horaire = seance.get('startsAt')
-                        version = seance.get('diffusionVersion', '')
-                        
-                        # Convertir le format de version
-                        if version == 'ORIGINAL':
-                            version = 'VO'
-                        elif version in ['DUBBED', 'LOCAL']:
-                            version = 'VF'
-                        
-                        dt = datetime.fromisoformat(horaire)
-                        seances.append({
-                            'titre': titre,
-                            'heure': dt.strftime('%Hh%M'),
-                            'jour': dt.replace(hour=0, minute=0, second=0, microsecond=0),
-                            'cinema': cinema_name,
-                            'version': version,
-                            'duree': '',  # Non fourni dans cette réponse
-                            'tags': [],
-                            'poster': poster_url  # Ajout de l'URL de l'affiche
-                        })
-                    except ValueError as e:
-                        logger.error(f"Format d'horaire invalide {horaire}: {e}")
-            
-            logger.info(f"Nombre de séances trouvées : {len(seances)}")
-            return seances
+                        titre = bytes(titre, 'latin1').decode('unicode-escape').encode('latin1').decode('utf-8')
+                    except Exception as e:
+                        logger.warning(f"Erreur lors du décodage du titre '{titre}': {e}")
+
+                    # Pour chaque séance du film
+                    for seance in movie.get('showtimes', []):
+                        try:
+                            horaire = seance.get('startsAt')
+                            version = seance.get('diffusionVersion', '')
+                            
+                            # Convertir le format de version
+                            if version == 'ORIGINAL':
+                                version = 'VO'
+                            elif version in ['DUBBED', 'LOCAL']:
+                                version = 'VF'
+                            
+                            dt = datetime.fromisoformat(horaire)
+                            all_seances.append({
+                                'titre': titre,
+                                'heure': dt.strftime('%Hh%M'),
+                                'jour': dt.replace(hour=0, minute=0, second=0, microsecond=0),
+                                'cinema': cinema_name,
+                                'version': version,
+                                'duree': '',
+                                'tags': [],
+                                'poster': poster_url
+                            })
+                        except ValueError as e:
+                            logger.error(f"Format d'horaire invalide {horaire}: {e}")
+                
+            logger.info(f"Nombre total de séances trouvées : {len(all_seances)}")
+            return all_seances
             
         except Exception as e:
             logger.error(f"Erreur lors de la récupération des séances : {str(e)}")
