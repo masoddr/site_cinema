@@ -145,4 +145,39 @@
   .films-grid {
     grid-template-columns: 1fr;
   }
+}
+
+.badges {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.badge {
+  background: #f0f0f0;
+  padding: 0.25rem 0.5rem;
+  border-radius: 4px;
+  font-size: 0.9rem;
+}
+
+.synopsis-preview {
+  font-size: 0.9rem;
+  color: #666;
+  line-height: 1.4;
+  margin: 0.5rem 0;
+}
+
+.voir-plus {
+  margin-top: auto;
+  padding: 0.5rem;
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.voir-plus:hover {
+  background: #0056b3;
 } 

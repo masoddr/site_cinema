@@ -1,10 +1,12 @@
 import React, { useState } from 'react';
+import FilmModal from './FilmModal';
 import './SeancesViewer.css';
 
 const SeancesViewer = ({ seances }) => {
   const [selectedDate, setSelectedDate] = useState(
     seances.length > 0 ? seances[0].jour.split('T')[0] : null
   );
+  const [selectedFilm, setSelectedFilm] = useState(null);
 
   // Grouper les séances par film pour la date sélectionnée
   const seancesByFilm = seances.reduce((acc, seance) => {
@@ -44,7 +46,6 @@ const SeancesViewer = ({ seances }) => {
 
       <div className="films-grid">
         {Object.values(seancesByFilm)
-          // Trier les films par ordre alphabétique
           .sort((a, b) => a.titre.localeCompare(b.titre, 'fr'))
           .map(film => (
             <div key={film.titre} className="film-card">
@@ -63,12 +64,22 @@ const SeancesViewer = ({ seances }) => {
               </div>
               <div className="film-info">
                 <h3>{film.titre}</h3>
-                {film.duree && <p className="duree">{film.duree}</p>}
-                <div className="seances-par-cinema">
+                <div className="badges">
+                  {film.duree && <span className="badge">{film.duree}</span>}
+                  {film.genre && <span className="badge">{film.genre}</span>}
+                </div>
+                {film.synopsis && (
+                  <p className="synopsis-preview">
+                    {film.synopsis.slice(0, 100)}...
+                  </p>
+                )}
+                <div className="seances-jour">
                   {Object.entries(
                     film.seances.reduce((acc, s) => {
-                      if (!acc[s.cinema]) acc[s.cinema] = [];
-                      acc[s.cinema].push(s);
+                      if (s.jour.split('T')[0] === selectedDate) {
+                        if (!acc[s.cinema]) acc[s.cinema] = [];
+                        acc[s.cinema].push(s);
+                      }
                       return acc;
                     }, {})
                   ).map(([cinema, seances]) => (
@@ -84,10 +95,23 @@ const SeancesViewer = ({ seances }) => {
                     </div>
                   ))}
                 </div>
+                <button 
+                  className="voir-plus"
+                  onClick={() => setSelectedFilm(film)}
+                >
+                  Voir plus
+                </button>
               </div>
             </div>
           ))}
       </div>
+
+      {selectedFilm && (
+        <FilmModal 
+          film={selectedFilm} 
+          onClose={() => setSelectedFilm(null)}
+        />
+      )}
     </div>
   );
 };
