@@ -80,3 +80,74 @@ Pour maintenir les données à jour, un cronjob doit être configuré pour s'ex�
 ## Tests
 
 Les tests sont dans le dossier `tests/` et peuvent être lancés avec pytest. 
+
+## Installation et test en local
+
+### Prérequis
+- Python 3.8 ou supérieur
+- pip
+- virtualenv (recommandé)
+
+### Installation
+
+1. Créer et activer un environnement virtuel :
+```bash
+python -m venv venv
+source venv/bin/activate  # Sur Linux/MacOS
+# ou
+venv\Scripts\activate  # Sur Windows
+```
+
+2. Installer les dépendances :
+```bash
+pip install -r requirements.txt
+```
+
+### Lancer l'application en local
+
+1. Configurer les variables d'environnement :
+```bash
+export FLASK_APP=app
+export FLASK_ENV=development
+```
+
+2. Lancer le serveur backend :
+```bash
+# Depuis le dossier backend/
+flask run
+```
+
+Le serveur backend sera accessible à l'adresse : http://localhost:5000
+
+3. Lancer le frontend (dans un nouveau terminal) :
+```bash
+# Depuis le dossier frontend/
+npm install  # Uniquement la première fois pour installer les dépendances
+npm run dev
+```
+
+Le frontend sera accessible à l'adresse : http://localhost:3000
+
+### Architecture en développement
+
+En développement, l'application fonctionne avec :
+- Le backend Flask sur le port 5000
+- Le frontend React sur le port 3000
+- Une configuration CORS permettant la communication entre les deux serveurs
+
+Pour vérifier que tout fonctionne :
+1. Ouvrez http://localhost:3000 dans votre navigateur
+2. Vérifiez que le frontend arrive à communiquer avec le backend en consultant les séances de cinéma
+3. Vous pouvez aussi tester l'API directement via http://localhost:5000/api/seances
+
+### Tester les scrapers individuellement
+
+Vous pouvez tester chaque scraper séparément en exécutant les scripts correspondants :
+
+```bash
+python scripts/scrape_abc.py
+# ou
+python scripts/scrape_american_cosmograph.py
+```
+
+Les résultats seront sauvegardés dans les fichiers JSON correspondants dans le dossier courant. 
