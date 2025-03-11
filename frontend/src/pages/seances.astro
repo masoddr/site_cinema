@@ -1,0 +1,53 @@
+---
+import Layout from '../layouts/Layout.astro';
+import SeancesViewer from '../components/SeancesViewer';
+
+// Récupérer les séances depuis l'API (on réutilise le même code que dans index.astro)
+let seances = [];
+try {
+  const response = await fetch('http://localhost:5000/api/seances', {
+    headers: {
+      'Accept': 'application/json'
+    }
+  });
+  
+  if (!response.ok) {
+    throw new Error(`HTTP error! status: ${response.status}`);
+  }
+  
+  const contentType = response.headers.get('content-type');
+  if (!contentType || !contentType.includes('application/json')) {
+    throw new TypeError("La réponse n'est pas du JSON!");
+  }
+  
+  seances = await response.json();
+  
+} catch (error) {
+  console.error('Erreur lors de la récupération des séances:', error);
+}
+
+// Normaliser les titres (tout en minuscules)
+const normalizeTitle = (title) => title.toLowerCase().trim();
+
+// Ajouter le titre normalisé à chaque séance
+const seancesNormalized = seances.map(s => ({
+  ...s,
+  titreNormalise: normalizeTitle(s.titre)
+}));
+
+// Trier les séances
+const sortedSeances = seancesNormalized.sort((a, b) => 
+  new Date(a.jour) - new Date(b.jour) || 
+  a.heure.localeCompare(b.heure)
+);
+---
+
+<Layout title="Séances - Cinémas Toulouse">
+  <SeancesViewer client:load seances={sortedSeances} />
+</Layout>
+
+<style>
+  body {
+    background-color: #f5f5f5;
+  }
+</style> 

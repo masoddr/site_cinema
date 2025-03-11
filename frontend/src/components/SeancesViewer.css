@@ -2,28 +2,113 @@
   max-width: 1400px;
   margin: 0 auto;
   padding: 20px;
+  display: flex;
+  gap: 2rem;
+}
+
+.seances-content {
+  flex: 1;
 }
 
 .date-selector {
   display: flex;
-  gap: 10px;
+  gap: 12px;
   margin-bottom: 30px;
   overflow-x: auto;
-  padding-bottom: 10px;
+  padding: 4px;
+  scrollbar-width: thin;
+  scrollbar-color: #007bff #f0f0f0;
+}
+
+.date-selector::-webkit-scrollbar {
+  height: 6px;
+}
+
+.date-selector::-webkit-scrollbar-track {
+  background: #f0f0f0;
+  border-radius: 10px;
+}
+
+.date-selector::-webkit-scrollbar-thumb {
+  background: #007bff;
+  border-radius: 10px;
 }
 
 .date-selector button {
-  padding: 10px 20px;
-  border: none;
-  border-radius: 20px;
-  background: #f0f0f0;
+  padding: 10px 16px;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  background: white;
   cursor: pointer;
   white-space: nowrap;
+  min-width: 90px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+  transition: all 0.2s ease;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.date-selector button:hover {
+  background: #f8f9fa;
+  transform: translateY(-1px);
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
 }
 
 .date-selector button.active {
   background: #007bff;
   color: white;
+  border-color: #007bff;
+  box-shadow: 0 3px 8px rgba(0, 123, 255, 0.3);
+}
+
+.date-selector .day-name {
+  font-weight: 600;
+  font-size: 0.9rem;
+  text-transform: capitalize;
+}
+
+.date-selector .date {
+  font-size: 0.8rem;
+  opacity: 0.9;
+}
+
+/* Dark mode adjustments */
+.dark-mode .date-selector button {
+  background: #2c2c2c;
+  border-color: #3a3a3a;
+  color: #ffffff;
+}
+
+.dark-mode .date-selector button:hover {
+  background: #3a3a3a;
+}
+
+.dark-mode .date-selector button.active {
+  background: #007bff;
+  border-color: #007bff;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .date-selector {
+    gap: 8px;
+    margin-bottom: 20px;
+  }
+
+  .date-selector button {
+    padding: 8px 12px;
+    min-width: 80px;
+  }
+
+  .date-selector .day-name {
+    font-size: 0.8rem;
+  }
+
+  .date-selector .date {
+    font-size: 0.75rem;
+  }
 }
 
 .films-grid {
@@ -209,4 +294,423 @@
 .voir-plus:hover {
   background: #0056b3;
   transform: scale(1.1);
+}
+
+.cinemas-filter {
+  width: 250px;
+  height: fit-content;
+  background-color: white;
+  border-radius: 12px;
+  padding: 1.5rem;
+  position: sticky;
+  top: 20px;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+.cinemas-filter h3 {
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+  color: #1a1a1a;
+  font-weight: 600;
+  padding-bottom: 0.75rem;
+  border-bottom: 2px solid #f0f0f0;
+}
+
+.cinema-checkboxes {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.cinema-checkbox {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  cursor: pointer;
+  padding: 0.5rem;
+  border-radius: 6px;
+  transition: background-color 0.2s;
+}
+
+.cinema-checkbox:hover {
+  background-color: #f8f9fa;
+}
+
+.cinema-checkbox input[type="checkbox"] {
+  cursor: pointer;
+  width: 18px;
+  height: 18px;
+  border-radius: 4px;
+  border: 2px solid #cbd5e0;
+  appearance: none;
+  position: relative;
+  transition: all 0.2s;
+}
+
+.cinema-checkbox input[type="checkbox"]:checked {
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.cinema-checkbox input[type="checkbox"]:checked::after {
+  content: "✓";
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 12px;
+}
+
+@media (max-width: 1100px) {
+  .seances-viewer {
+    flex-direction: column;
+  }
+
+  .cinemas-filter {
+    width: 100%;
+    position: static;
+  }
+
+  .cinema-checkboxes {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .cinema-checkbox {
+    flex: 0 1 auto;
+  }
+}
+
+/* Style amélioré pour le bouton retour */
+.home-link {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  color: #007bff;
+  text-decoration: none;
+  font-weight: 500;
+  padding: 0.7rem 1.2rem;
+  border-radius: 50px;
+  transition: all 0.3s ease;
+  background: rgba(0, 123, 255, 0.1);
+  border: 2px solid transparent;
+  position: relative;
+  overflow: hidden;
+}
+
+.home-link::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    120deg,
+    transparent,
+    rgba(0, 123, 255, 0.2),
+    transparent
+  );
+  transform: translateX(-100%) translateY(-50%);
+  transition: transform 0.6s ease;
+}
+
+.home-link:hover {
+  background: rgba(0, 123, 255, 0.15);
+  transform: translateX(-5px);
+}
+
+.home-link:hover::before {
+  transform: translateX(100%) translateY(-50%);
+}
+
+.arrow-back {
+  font-size: 1.4rem;
+  transition: transform 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+}
+
+.home-link:hover .arrow-back {
+  transform: translateX(-5px);
+}
+
+/* Dark mode styles pour le bouton */
+.dark-mode .home-link {
+  color: #66b3ff;
+  background: rgba(102, 179, 255, 0.1);
+}
+
+.dark-mode .home-link:hover {
+  background: rgba(102, 179, 255, 0.15);
+}
+
+.dark-mode .home-link::before {
+  background: linear-gradient(
+    120deg,
+    transparent,
+    rgba(102, 179, 255, 0.2),
+    transparent
+  );
+}
+
+/* Responsive styles pour le bouton */
+@media (max-width: 768px) {
+  .home-link {
+    padding: 0.6rem 1rem;
+    font-size: 0.9rem;
+  }
+
+  .arrow-back {
+    font-size: 1.2rem;
+    width: 20px;
+    height: 20px;
+  }
+}
+
+/* Theme Toggle Switch */
+.theme-toggle {
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 30px;
+  cursor: pointer;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #f0f0f0;
+  transition: .4s;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 5px;
+}
+
+.slider:before {
+  content: "";
+  position: absolute;
+  height: 26px;
+  width: 26px;
+  left: 2px;
+  bottom: 2px;
+  background-color: white;
+  transition: .4s;
+  border-radius: 50%;
+  z-index: 2;
+}
+
+input:checked + .slider {
+  background-color: #2c3e50;
+}
+
+input:checked + .slider:before {
+  transform: translateX(30px);
+}
+
+.sun, .moon {
+  font-size: 16px;
+  line-height: 30px;
+  z-index: 1;
+}
+
+/* Dark Mode Styles */
+.dark-mode {
+  background-color: #1a1a1a;
+  color: #ffffff;
+}
+
+.dark-mode .cinemas-filter {
+  background-color: #2c2c2c;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.2);
+}
+
+.dark-mode .home-link {
+  color: #66b3ff;
+}
+
+.dark-mode .home-link:hover {
+  background-color: rgba(102, 179, 255, 0.1);
+}
+
+.dark-mode .cinema-checkbox {
+  color: #ffffff;
+}
+
+.dark-mode .cinema-checkbox:hover {
+  background-color: #3a3a3a;
+}
+
+.dark-mode .film-card {
+  background-color: #2c2c2c;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.dark-mode .seance {
+  background-color: #3a3a3a;
+  color: #ffffff;
+}
+
+.dark-mode .badge {
+  background-color: #3a3a3a;
+  color: #ffffff;
+}
+
+.dark-mode .voir-plus {
+  background-color: #66b3ff;
+}
+
+.dark-mode .voir-plus:hover {
+  background-color: #3399ff;
+}
+
+/* Responsive adjustments for theme toggle */
+@media (max-width: 768px) {
+  .theme-toggle {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+  }
+}
+
+/* Ajout des styles pour la navbar */
+.top-navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 60px;
+  background: white;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 2rem;
+  z-index: 100;
+}
+
+.nav-left, .nav-center, .nav-right {
+  display: flex;
+  align-items: center;
+}
+
+.main-content {
+  margin-top: 80px;
+  padding: 0 2rem;
+}
+
+.cinema-filters {
+  position: relative;
+}
+
+.filter-toggle {
+  background: #f0f0f0;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.9rem;
+  transition: all 0.2s ease;
+}
+
+.filter-toggle:hover {
+  background: #e0e0e0;
+}
+
+.filter-count {
+  color: #666;
+  font-size: 0.8rem;
+}
+
+.filter-dropdown {
+  position: absolute;
+  top: calc(100% + 5px);
+  left: 50%;
+  transform: translateX(-50%);
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  padding: 1rem;
+  margin-top: 0.5rem;
+  display: none;
+  max-height: 400px;
+  overflow-y: auto;
+  min-width: 250px;
+  z-index: 1000;
+  transition: opacity 0.2s ease, transform 0.2s ease;
+  opacity: 0;
+  transform: translateX(-50%) translateY(-10px);
+}
+
+.filter-dropdown.show {
+  display: block;
+  opacity: 1;
+  transform: translateX(-50%) translateY(0);
+}
+
+/* Amélioration de l'apparence des checkboxes dans le dropdown */
+.filter-dropdown .cinema-checkbox {
+  padding: 0.5rem 1rem;
+  transition: background-color 0.2s ease;
+  border-radius: 4px;
+  width: 100%;
+}
+
+.filter-dropdown .cinema-checkbox:hover {
+  background-color: rgba(0, 123, 255, 0.1);
+}
+
+/* Dark mode adjustments */
+.dark-mode .filter-dropdown {
+  background: #2c2c2c;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+}
+
+.dark-mode .filter-dropdown .cinema-checkbox:hover {
+  background-color: rgba(102, 179, 255, 0.1);
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .top-navbar {
+    padding: 0 1rem;
+  }
+
+  .nav-center {
+    position: static;
+  }
+
+  .filter-dropdown {
+    left: 1rem;
+    right: 1rem;
+    max-width: none;
+  }
+
+  .main-content {
+    padding: 0 1rem;
+  }
 } 
