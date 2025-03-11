@@ -1,36 +1,6 @@
 {
-  "last_update": "2025-03-11T17:08:49.190926",
+  "last_update": "2025-03-11T23:05:28.372074",
   "seances": [
-    {
-      "titre": "Dans la cuisine des Nguyen",
-      "heure": "14h45",
-      "jour": "2025-03-11T00:00:00",
-      "cinema": "ABC",
-      "version": "VF",
-      "duree": "",
-      "tags": [],
-      "poster": "https://fr.web.img3.acsta.net/c_310_420/img/55/c3/55c3f4c7926a506aac1793733656d204.jpg"
-    },
-    {
-      "titre": "Mickey 17",
-      "heure": "15h20",
-      "jour": "2025-03-11T00:00:00",
-      "cinema": "ABC",
-      "version": "VO",
-      "duree": "",
-      "tags": [],
-      "poster": "https://fr.web.img5.acsta.net/c_310_420/img/a5/5e/a55e6a3b1771606323178493aae5e262.jpg"
-    },
-    {
-      "titre": "Mickey 17",
-      "heure": "18h00",
-      "jour": "2025-03-11T00:00:00",
-      "cinema": "ABC",
-      "version": "VO",
-      "duree": "",
-      "tags": [],
-      "poster": "https://fr.web.img5.acsta.net/c_310_420/img/a5/5e/a55e6a3b1771606323178493aae5e262.jpg"
-    },
     {
       "titre": "Mickey 17",
       "heure": "20h45",
@@ -39,37 +9,7 @@
       "version": "VO",
       "duree": "",
       "tags": [],
-      "poster": "https://fr.web.img5.acsta.net/c_310_420/img/a5/5e/a55e6a3b1771606323178493aae5e262.jpg"
-    },
-    {
-      "titre": "Le Système Victoria",
-      "heure": "18h30",
-      "jour": "2025-03-11T00:00:00",
-      "cinema": "ABC",
-      "version": "VF",
-      "duree": "",
-      "tags": [],
-      "poster": "https://fr.web.img3.acsta.net/c_310_420/img/e3/28/e328eca42d0a8d22649001a4df7d44f5.jpg"
-    },
-    {
-      "titre": "A Real Pain",
-      "heure": "13h30",
-      "jour": "2025-03-11T00:00:00",
-      "cinema": "ABC",
-      "version": "VO",
-      "duree": "",
-      "tags": [],
-      "poster": "https://fr.web.img6.acsta.net/c_310_420/img/e2/fe/e2fef695bb16493195f32c606ceaf275.jpg"
-    },
-    {
-      "titre": "A Real Pain",
-      "heure": "15h30",
-      "jour": "2025-03-11T00:00:00",
-      "cinema": "ABC",
-      "version": "VO",
-      "duree": "",
-      "tags": [],
-      "poster": "https://fr.web.img6.acsta.net/c_310_420/img/e2/fe/e2fef695bb16493195f32c606ceaf275.jpg"
+      "poster": "https://fr.web.img4.acsta.net/c_310_420/o_club-allocine-2024-310x420.png_0_se/img/a5/5e/a55e6a3b1771606323178493aae5e262.jpg"
     },
     {
       "titre": "A Real Pain",
@@ -79,37 +19,7 @@
       "version": "VO",
       "duree": "",
       "tags": [],
-      "poster": "https://fr.web.img6.acsta.net/c_310_420/img/e2/fe/e2fef695bb16493195f32c606ceaf275.jpg"
-    },
-    {
-      "titre": "À bicyclette !",
-      "heure": "16h40",
-      "jour": "2025-03-11T00:00:00",
-      "cinema": "ABC",
-      "version": "VF",
-      "duree": "",
-      "tags": [],
-      "poster": "https://fr.web.img5.acsta.net/c_310_420/img/9c/f8/9cf8cf27a2706be4849760190dddd37b.jpg"
-    },
-    {
-      "titre": "À bicyclette !",
-      "heure": "21h00",
-      "jour": "2025-03-11T00:00:00",
-      "cinema": "ABC",
-      "version": "VF",
-      "duree": "",
-      "tags": [],
-      "poster": "https://fr.web.img5.acsta.net/c_310_420/img/9c/f8/9cf8cf27a2706be4849760190dddd37b.jpg"
-    },
-    {
-      "titre": "Mon gâteau préféré",
-      "heure": "17h15",
-      "jour": "2025-03-11T00:00:00",
-      "cinema": "ABC",
-      "version": "VO",
-      "duree": "",
-      "tags": [],
-      "poster": "https://fr.web.img6.acsta.net/c_310_420/img/2a/29/2a297c63dfe1f721eafea530bdffde5c.jpg"
+      "poster": "https://fr.web.img4.acsta.net/c_310_420/img/e2/fe/e2fef695bb16493195f32c606ceaf275.jpg"
     },
     {
       "titre": "Vice-Versa 2",
@@ -119,7 +29,17 @@
       "version": "VF",
       "duree": "",
       "tags": [],
-      "poster": "https://fr.web.img2.acsta.net/c_310_420/img/f5/4c/f54c3310f101fe8ae4bba9e566bca1b5.jpg"
+      "poster": "https://fr.web.img5.acsta.net/c_310_420/img/f5/4c/f54c3310f101fe8ae4bba9e566bca1b5.jpg"
+    },
+    {
+      "titre": "À bicyclette !",
+      "heure": "21h00",
+      "jour": "2025-03-11T00:00:00",
+      "cinema": "ABC",
+      "version": "VF",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img2.acsta.net/c_310_420/img/9c/f8/9cf8cf27a2706be4849760190dddd37b.jpg"
     },
     {
       "titre": "Dounia, le grand pays blanc",
@@ -159,7 +79,7 @@
       "version": "VO",
       "duree": "",
       "tags": [],
-      "poster": "https://fr.web.img6.acsta.net/c_310_420/img/e2/fe/e2fef695bb16493195f32c606ceaf275.jpg"
+      "poster": "https://fr.web.img4.acsta.net/c_310_420/img/e2/fe/e2fef695bb16493195f32c606ceaf275.jpg"
     },
     {
       "titre": "A Real Pain",
@@ -169,7 +89,7 @@
       "version": "VO",
       "duree": "",
       "tags": [],
-      "poster": "https://fr.web.img6.acsta.net/c_310_420/img/e2/fe/e2fef695bb16493195f32c606ceaf275.jpg"
+      "poster": "https://fr.web.img4.acsta.net/c_310_420/img/e2/fe/e2fef695bb16493195f32c606ceaf275.jpg"
     },
     {
       "titre": "Le Système Victoria",
@@ -179,7 +99,7 @@
       "version": "VF",
       "duree": "",
       "tags": [],
-      "poster": "https://fr.web.img3.acsta.net/c_310_420/img/e3/28/e328eca42d0a8d22649001a4df7d44f5.jpg"
+      "poster": "https://fr.web.img6.acsta.net/c_310_420/img/e3/28/e328eca42d0a8d22649001a4df7d44f5.jpg"
     },
     {
       "titre": "À bicyclette !",
@@ -189,7 +109,7 @@
       "version": "VF",
       "duree": "",
       "tags": [],
-      "poster": "https://fr.web.img5.acsta.net/c_310_420/img/9c/f8/9cf8cf27a2706be4849760190dddd37b.jpg"
+      "poster": "https://fr.web.img2.acsta.net/c_310_420/img/9c/f8/9cf8cf27a2706be4849760190dddd37b.jpg"
     },
     {
       "titre": "À bicyclette !",
@@ -199,7 +119,7 @@
       "version": "VF",
       "duree": "",
       "tags": [],
-      "poster": "https://fr.web.img5.acsta.net/c_310_420/img/9c/f8/9cf8cf27a2706be4849760190dddd37b.jpg"
+      "poster": "https://fr.web.img2.acsta.net/c_310_420/img/9c/f8/9cf8cf27a2706be4849760190dddd37b.jpg"
     },
     {
       "titre": "Mickey 17",
@@ -209,7 +129,7 @@
       "version": "VO",
       "duree": "",
       "tags": [],
-      "poster": "https://fr.web.img5.acsta.net/c_310_420/img/a5/5e/a55e6a3b1771606323178493aae5e262.jpg"
+      "poster": "https://fr.web.img4.acsta.net/c_310_420/o_club-allocine-2024-310x420.png_0_se/img/a5/5e/a55e6a3b1771606323178493aae5e262.jpg"
     },
     {
       "titre": "Mickey 17",
@@ -219,7 +139,7 @@
       "version": "VO",
       "duree": "",
       "tags": [],
-      "poster": "https://fr.web.img5.acsta.net/c_310_420/img/a5/5e/a55e6a3b1771606323178493aae5e262.jpg"
+      "poster": "https://fr.web.img4.acsta.net/c_310_420/o_club-allocine-2024-310x420.png_0_se/img/a5/5e/a55e6a3b1771606323178493aae5e262.jpg"
     },
     {
       "titre": "Mickey 17",
@@ -229,7 +149,7 @@
       "version": "VO",
       "duree": "",
       "tags": [],
-      "poster": "https://fr.web.img5.acsta.net/c_310_420/img/a5/5e/a55e6a3b1771606323178493aae5e262.jpg"
+      "poster": "https://fr.web.img4.acsta.net/c_310_420/o_club-allocine-2024-310x420.png_0_se/img/a5/5e/a55e6a3b1771606323178493aae5e262.jpg"
     },
     {
       "titre": "Dans la cuisine des Nguyen",
@@ -279,7 +199,7 @@
       "version": "VF",
       "duree": "",
       "tags": [],
-      "poster": "https://fr.web.img5.acsta.net/c_310_420/img/9c/f8/9cf8cf27a2706be4849760190dddd37b.jpg"
+      "poster": "https://fr.web.img2.acsta.net/c_310_420/img/9c/f8/9cf8cf27a2706be4849760190dddd37b.jpg"
     },
     {
       "titre": "À bicyclette !",
@@ -289,7 +209,7 @@
       "version": "VF",
       "duree": "",
       "tags": [],
-      "poster": "https://fr.web.img5.acsta.net/c_310_420/img/9c/f8/9cf8cf27a2706be4849760190dddd37b.jpg"
+      "poster": "https://fr.web.img2.acsta.net/c_310_420/img/9c/f8/9cf8cf27a2706be4849760190dddd37b.jpg"
     },
     {
       "titre": "Le Système Victoria",
@@ -299,7 +219,7 @@
       "version": "VF",
       "duree": "",
       "tags": [],
-      "poster": "https://fr.web.img3.acsta.net/c_310_420/img/e3/28/e328eca42d0a8d22649001a4df7d44f5.jpg"
+      "poster": "https://fr.web.img6.acsta.net/c_310_420/img/e3/28/e328eca42d0a8d22649001a4df7d44f5.jpg"
     },
     {
       "titre": "Mickey 17",
@@ -309,7 +229,7 @@
       "version": "VO",
       "duree": "",
       "tags": [],
-      "poster": "https://fr.web.img5.acsta.net/c_310_420/img/a5/5e/a55e6a3b1771606323178493aae5e262.jpg"
+      "poster": "https://fr.web.img4.acsta.net/c_310_420/o_club-allocine-2024-310x420.png_0_se/img/a5/5e/a55e6a3b1771606323178493aae5e262.jpg"
     },
     {
       "titre": "Mickey 17",
@@ -319,7 +239,7 @@
       "version": "VO",
       "duree": "",
       "tags": [],
-      "poster": "https://fr.web.img5.acsta.net/c_310_420/img/a5/5e/a55e6a3b1771606323178493aae5e262.jpg"
+      "poster": "https://fr.web.img4.acsta.net/c_310_420/o_club-allocine-2024-310x420.png_0_se/img/a5/5e/a55e6a3b1771606323178493aae5e262.jpg"
     },
     {
       "titre": "Mickey 17",
@@ -329,7 +249,7 @@
       "version": "VO",
       "duree": "",
       "tags": [],
-      "poster": "https://fr.web.img5.acsta.net/c_310_420/img/a5/5e/a55e6a3b1771606323178493aae5e262.jpg"
+      "poster": "https://fr.web.img4.acsta.net/c_310_420/o_club-allocine-2024-310x420.png_0_se/img/a5/5e/a55e6a3b1771606323178493aae5e262.jpg"
     },
     {
       "titre": "A Real Pain",
@@ -339,7 +259,7 @@
       "version": "VO",
       "duree": "",
       "tags": [],
-      "poster": "https://fr.web.img6.acsta.net/c_310_420/img/e2/fe/e2fef695bb16493195f32c606ceaf275.jpg"
+      "poster": "https://fr.web.img4.acsta.net/c_310_420/img/e2/fe/e2fef695bb16493195f32c606ceaf275.jpg"
     },
     {
       "titre": "Animale",
@@ -399,7 +319,7 @@
       "version": "VF",
       "duree": "",
       "tags": [],
-      "poster": "https://fr.web.img3.acsta.net/c_310_420/img/e3/28/e328eca42d0a8d22649001a4df7d44f5.jpg"
+      "poster": "https://fr.web.img6.acsta.net/c_310_420/img/e3/28/e328eca42d0a8d22649001a4df7d44f5.jpg"
     },
     {
       "titre": "Le Système Victoria",
@@ -409,7 +329,7 @@
       "version": "VF",
       "duree": "",
       "tags": [],
-      "poster": "https://fr.web.img3.acsta.net/c_310_420/img/e3/28/e328eca42d0a8d22649001a4df7d44f5.jpg"
+      "poster": "https://fr.web.img6.acsta.net/c_310_420/img/e3/28/e328eca42d0a8d22649001a4df7d44f5.jpg"
     },
     {
       "titre": "A Real Pain",
@@ -419,7 +339,7 @@
       "version": "VO",
       "duree": "",
       "tags": [],
-      "poster": "https://fr.web.img6.acsta.net/c_310_420/img/e2/fe/e2fef695bb16493195f32c606ceaf275.jpg"
+      "poster": "https://fr.web.img4.acsta.net/c_310_420/img/e2/fe/e2fef695bb16493195f32c606ceaf275.jpg"
     },
     {
       "titre": "A Real Pain",
@@ -429,7 +349,7 @@
       "version": "VO",
       "duree": "",
       "tags": [],
-      "poster": "https://fr.web.img6.acsta.net/c_310_420/img/e2/fe/e2fef695bb16493195f32c606ceaf275.jpg"
+      "poster": "https://fr.web.img4.acsta.net/c_310_420/img/e2/fe/e2fef695bb16493195f32c606ceaf275.jpg"
     },
     {
       "titre": "À bicyclette !",
@@ -439,7 +359,7 @@
       "version": "VF",
       "duree": "",
       "tags": [],
-      "poster": "https://fr.web.img5.acsta.net/c_310_420/img/9c/f8/9cf8cf27a2706be4849760190dddd37b.jpg"
+      "poster": "https://fr.web.img2.acsta.net/c_310_420/img/9c/f8/9cf8cf27a2706be4849760190dddd37b.jpg"
     },
     {
       "titre": "À bicyclette !",
@@ -449,7 +369,7 @@
       "version": "VF",
       "duree": "",
       "tags": [],
-      "poster": "https://fr.web.img5.acsta.net/c_310_420/img/9c/f8/9cf8cf27a2706be4849760190dddd37b.jpg"
+      "poster": "https://fr.web.img2.acsta.net/c_310_420/img/9c/f8/9cf8cf27a2706be4849760190dddd37b.jpg"
     },
     {
       "titre": "Mickey 17",
@@ -459,7 +379,7 @@
       "version": "VO",
       "duree": "",
       "tags": [],
-      "poster": "https://fr.web.img5.acsta.net/c_310_420/img/a5/5e/a55e6a3b1771606323178493aae5e262.jpg"
+      "poster": "https://fr.web.img4.acsta.net/c_310_420/o_club-allocine-2024-310x420.png_0_se/img/a5/5e/a55e6a3b1771606323178493aae5e262.jpg"
     },
     {
       "titre": "Mickey 17",
@@ -469,7 +389,7 @@
       "version": "VO",
       "duree": "",
       "tags": [],
-      "poster": "https://fr.web.img5.acsta.net/c_310_420/img/a5/5e/a55e6a3b1771606323178493aae5e262.jpg"
+      "poster": "https://fr.web.img4.acsta.net/c_310_420/o_club-allocine-2024-310x420.png_0_se/img/a5/5e/a55e6a3b1771606323178493aae5e262.jpg"
     },
     {
       "titre": "Mickey 17",
@@ -479,7 +399,7 @@
       "version": "VO",
       "duree": "",
       "tags": [],
-      "poster": "https://fr.web.img5.acsta.net/c_310_420/img/a5/5e/a55e6a3b1771606323178493aae5e262.jpg"
+      "poster": "https://fr.web.img4.acsta.net/c_310_420/o_club-allocine-2024-310x420.png_0_se/img/a5/5e/a55e6a3b1771606323178493aae5e262.jpg"
     },
     {
       "titre": "Dans la cuisine des Nguyen",
@@ -549,7 +469,7 @@
       "version": "VO",
       "duree": "",
       "tags": [],
-      "poster": "https://fr.web.img6.acsta.net/c_310_420/img/e2/fe/e2fef695bb16493195f32c606ceaf275.jpg"
+      "poster": "https://fr.web.img4.acsta.net/c_310_420/img/e2/fe/e2fef695bb16493195f32c606ceaf275.jpg"
     },
     {
       "titre": "A Real Pain",
@@ -559,7 +479,7 @@
       "version": "VO",
       "duree": "",
       "tags": [],
-      "poster": "https://fr.web.img6.acsta.net/c_310_420/img/e2/fe/e2fef695bb16493195f32c606ceaf275.jpg"
+      "poster": "https://fr.web.img4.acsta.net/c_310_420/img/e2/fe/e2fef695bb16493195f32c606ceaf275.jpg"
     },
     {
       "titre": "Mickey 17",
@@ -569,7 +489,7 @@
       "version": "VO",
       "duree": "",
       "tags": [],
-      "poster": "https://fr.web.img5.acsta.net/c_310_420/img/a5/5e/a55e6a3b1771606323178493aae5e262.jpg"
+      "poster": "https://fr.web.img4.acsta.net/c_310_420/o_club-allocine-2024-310x420.png_0_se/img/a5/5e/a55e6a3b1771606323178493aae5e262.jpg"
     },
     {
       "titre": "Mickey 17",
@@ -579,7 +499,7 @@
       "version": "VO",
       "duree": "",
       "tags": [],
-      "poster": "https://fr.web.img5.acsta.net/c_310_420/img/a5/5e/a55e6a3b1771606323178493aae5e262.jpg"
+      "poster": "https://fr.web.img4.acsta.net/c_310_420/o_club-allocine-2024-310x420.png_0_se/img/a5/5e/a55e6a3b1771606323178493aae5e262.jpg"
     },
     {
       "titre": "Mickey 17",
@@ -589,7 +509,7 @@
       "version": "VO",
       "duree": "",
       "tags": [],
-      "poster": "https://fr.web.img5.acsta.net/c_310_420/img/a5/5e/a55e6a3b1771606323178493aae5e262.jpg"
+      "poster": "https://fr.web.img4.acsta.net/c_310_420/o_club-allocine-2024-310x420.png_0_se/img/a5/5e/a55e6a3b1771606323178493aae5e262.jpg"
     },
     {
       "titre": "À bicyclette !",
@@ -599,7 +519,7 @@
       "version": "VF",
       "duree": "",
       "tags": [],
-      "poster": "https://fr.web.img5.acsta.net/c_310_420/img/9c/f8/9cf8cf27a2706be4849760190dddd37b.jpg"
+      "poster": "https://fr.web.img2.acsta.net/c_310_420/img/9c/f8/9cf8cf27a2706be4849760190dddd37b.jpg"
     },
     {
       "titre": "À bicyclette !",
@@ -609,7 +529,7 @@
       "version": "VF",
       "duree": "",
       "tags": [],
-      "poster": "https://fr.web.img5.acsta.net/c_310_420/img/9c/f8/9cf8cf27a2706be4849760190dddd37b.jpg"
+      "poster": "https://fr.web.img2.acsta.net/c_310_420/img/9c/f8/9cf8cf27a2706be4849760190dddd37b.jpg"
     },
     {
       "titre": "Le Système Victoria",
@@ -619,7 +539,7 @@
       "version": "VF",
       "duree": "",
       "tags": [],
-      "poster": "https://fr.web.img3.acsta.net/c_310_420/img/e3/28/e328eca42d0a8d22649001a4df7d44f5.jpg"
+      "poster": "https://fr.web.img6.acsta.net/c_310_420/img/e3/28/e328eca42d0a8d22649001a4df7d44f5.jpg"
     },
     {
       "titre": "Parthenope",
@@ -679,7 +599,7 @@
       "version": "VF",
       "duree": "",
       "tags": [],
-      "poster": "https://fr.web.img5.acsta.net/c_310_420/img/9c/f8/9cf8cf27a2706be4849760190dddd37b.jpg"
+      "poster": "https://fr.web.img2.acsta.net/c_310_420/img/9c/f8/9cf8cf27a2706be4849760190dddd37b.jpg"
     },
     {
       "titre": "À bicyclette !",
@@ -689,7 +609,7 @@
       "version": "VF",
       "duree": "",
       "tags": [],
-      "poster": "https://fr.web.img5.acsta.net/c_310_420/img/9c/f8/9cf8cf27a2706be4849760190dddd37b.jpg"
+      "poster": "https://fr.web.img2.acsta.net/c_310_420/img/9c/f8/9cf8cf27a2706be4849760190dddd37b.jpg"
     },
     {
       "titre": "Le Système Victoria",
@@ -699,7 +619,7 @@
       "version": "VF",
       "duree": "",
       "tags": [],
-      "poster": "https://fr.web.img3.acsta.net/c_310_420/img/e3/28/e328eca42d0a8d22649001a4df7d44f5.jpg"
+      "poster": "https://fr.web.img6.acsta.net/c_310_420/img/e3/28/e328eca42d0a8d22649001a4df7d44f5.jpg"
     },
     {
       "titre": "Le Système Victoria",
@@ -709,7 +629,7 @@
       "version": "VF",
       "duree": "",
       "tags": [],
-      "poster": "https://fr.web.img3.acsta.net/c_310_420/img/e3/28/e328eca42d0a8d22649001a4df7d44f5.jpg"
+      "poster": "https://fr.web.img6.acsta.net/c_310_420/img/e3/28/e328eca42d0a8d22649001a4df7d44f5.jpg"
     },
     {
       "titre": "Vingt dieux",
@@ -729,7 +649,7 @@
       "version": "VO",
       "duree": "",
       "tags": [],
-      "poster": "https://fr.web.img6.acsta.net/c_310_420/img/e2/fe/e2fef695bb16493195f32c606ceaf275.jpg"
+      "poster": "https://fr.web.img4.acsta.net/c_310_420/img/e2/fe/e2fef695bb16493195f32c606ceaf275.jpg"
     },
     {
       "titre": "A Real Pain",
@@ -739,7 +659,7 @@
       "version": "VO",
       "duree": "",
       "tags": [],
-      "poster": "https://fr.web.img6.acsta.net/c_310_420/img/e2/fe/e2fef695bb16493195f32c606ceaf275.jpg"
+      "poster": "https://fr.web.img4.acsta.net/c_310_420/img/e2/fe/e2fef695bb16493195f32c606ceaf275.jpg"
     },
     {
       "titre": "Mickey 17",
@@ -749,7 +669,7 @@
       "version": "VO",
       "duree": "",
       "tags": [],
-      "poster": "https://fr.web.img5.acsta.net/c_310_420/img/a5/5e/a55e6a3b1771606323178493aae5e262.jpg"
+      "poster": "https://fr.web.img4.acsta.net/c_310_420/o_club-allocine-2024-310x420.png_0_se/img/a5/5e/a55e6a3b1771606323178493aae5e262.jpg"
     },
     {
       "titre": "Mickey 17",
@@ -759,7 +679,7 @@
       "version": "VO",
       "duree": "",
       "tags": [],
-      "poster": "https://fr.web.img5.acsta.net/c_310_420/img/a5/5e/a55e6a3b1771606323178493aae5e262.jpg"
+      "poster": "https://fr.web.img4.acsta.net/c_310_420/o_club-allocine-2024-310x420.png_0_se/img/a5/5e/a55e6a3b1771606323178493aae5e262.jpg"
     },
     {
       "titre": "Mickey 17",
@@ -769,7 +689,7 @@
       "version": "VO",
       "duree": "",
       "tags": [],
-      "poster": "https://fr.web.img5.acsta.net/c_310_420/img/a5/5e/a55e6a3b1771606323178493aae5e262.jpg"
+      "poster": "https://fr.web.img4.acsta.net/c_310_420/o_club-allocine-2024-310x420.png_0_se/img/a5/5e/a55e6a3b1771606323178493aae5e262.jpg"
     },
     {
       "titre": "Dans la cuisine des Nguyen",
@@ -819,7 +739,7 @@
       "version": "VF",
       "duree": "",
       "tags": [],
-      "poster": "https://fr.web.img3.acsta.net/c_310_420/img/e3/28/e328eca42d0a8d22649001a4df7d44f5.jpg"
+      "poster": "https://fr.web.img6.acsta.net/c_310_420/img/e3/28/e328eca42d0a8d22649001a4df7d44f5.jpg"
     },
     {
       "titre": "Le Système Victoria",
@@ -829,7 +749,7 @@
       "version": "VF",
       "duree": "",
       "tags": [],
-      "poster": "https://fr.web.img3.acsta.net/c_310_420/img/e3/28/e328eca42d0a8d22649001a4df7d44f5.jpg"
+      "poster": "https://fr.web.img6.acsta.net/c_310_420/img/e3/28/e328eca42d0a8d22649001a4df7d44f5.jpg"
     },
     {
       "titre": "Dans la cuisine des Nguyen",
@@ -849,7 +769,7 @@
       "version": "VF",
       "duree": "",
       "tags": [],
-      "poster": "https://fr.web.img5.acsta.net/c_310_420/img/9c/f8/9cf8cf27a2706be4849760190dddd37b.jpg"
+      "poster": "https://fr.web.img2.acsta.net/c_310_420/img/9c/f8/9cf8cf27a2706be4849760190dddd37b.jpg"
     },
     {
       "titre": "À bicyclette !",
@@ -859,7 +779,7 @@
       "version": "VF",
       "duree": "",
       "tags": [],
-      "poster": "https://fr.web.img5.acsta.net/c_310_420/img/9c/f8/9cf8cf27a2706be4849760190dddd37b.jpg"
+      "poster": "https://fr.web.img2.acsta.net/c_310_420/img/9c/f8/9cf8cf27a2706be4849760190dddd37b.jpg"
     },
     {
       "titre": "Mickey 17",
@@ -869,7 +789,7 @@
       "version": "VO",
       "duree": "",
       "tags": [],
-      "poster": "https://fr.web.img5.acsta.net/c_310_420/img/a5/5e/a55e6a3b1771606323178493aae5e262.jpg"
+      "poster": "https://fr.web.img4.acsta.net/c_310_420/o_club-allocine-2024-310x420.png_0_se/img/a5/5e/a55e6a3b1771606323178493aae5e262.jpg"
     },
     {
       "titre": "Mickey 17",
@@ -879,7 +799,7 @@
       "version": "VO",
       "duree": "",
       "tags": [],
-      "poster": "https://fr.web.img5.acsta.net/c_310_420/img/a5/5e/a55e6a3b1771606323178493aae5e262.jpg"
+      "poster": "https://fr.web.img4.acsta.net/c_310_420/o_club-allocine-2024-310x420.png_0_se/img/a5/5e/a55e6a3b1771606323178493aae5e262.jpg"
     },
     {
       "titre": "Mickey 17",
@@ -889,7 +809,7 @@
       "version": "VO",
       "duree": "",
       "tags": [],
-      "poster": "https://fr.web.img5.acsta.net/c_310_420/img/a5/5e/a55e6a3b1771606323178493aae5e262.jpg"
+      "poster": "https://fr.web.img4.acsta.net/c_310_420/o_club-allocine-2024-310x420.png_0_se/img/a5/5e/a55e6a3b1771606323178493aae5e262.jpg"
     },
     {
       "titre": "A Real Pain",
@@ -899,7 +819,7 @@
       "version": "VO",
       "duree": "",
       "tags": [],
-      "poster": "https://fr.web.img6.acsta.net/c_310_420/img/e2/fe/e2fef695bb16493195f32c606ceaf275.jpg"
+      "poster": "https://fr.web.img4.acsta.net/c_310_420/img/e2/fe/e2fef695bb16493195f32c606ceaf275.jpg"
     },
     {
       "titre": "A Real Pain",
@@ -909,7 +829,7 @@
       "version": "VO",
       "duree": "",
       "tags": [],
-      "poster": "https://fr.web.img6.acsta.net/c_310_420/img/e2/fe/e2fef695bb16493195f32c606ceaf275.jpg"
+      "poster": "https://fr.web.img4.acsta.net/c_310_420/img/e2/fe/e2fef695bb16493195f32c606ceaf275.jpg"
     },
     {
       "titre": "Les Filles du Nil",
@@ -1014,6 +934,16 @@
     {
       "titre": "The Teacher",
       "heure": "20h30",
+      "jour": "2025-03-11T00:00:00",
+      "cinema": "American Cosmograph",
+      "version": "VO",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img4.acsta.net/c_310_420/commons/v9/common/empty/empty_portrait.png"
+    },
+    {
+      "titre": "The Teacher",
+      "heure": "22h45",
       "jour": "2025-03-11T00:00:00",
       "cinema": "American Cosmograph",
       "version": "VO",
@@ -1960,6 +1890,3166 @@
       "duree": "",
       "tags": [],
       "poster": "https://fr.web.img4.acsta.net/c_310_420/img/4b/2c/4b2c163864f89f251c119f737775d6e4.jpg"
+    },
+    {
+      "titre": "Black Dog",
+      "heure": "14h45",
+      "jour": "2025-03-11T00:00:00",
+      "cinema": "Utopia Borderouge",
+      "version": "VO",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img5.acsta.net/c_310_420/img/99/6c/996ca51e260f2071f314f5fa150611e1.jpg"
+    },
+    {
+      "titre": "Black Dog",
+      "heure": "20h30",
+      "jour": "2025-03-11T00:00:00",
+      "cinema": "Utopia Borderouge",
+      "version": "VO",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img5.acsta.net/c_310_420/img/99/6c/996ca51e260f2071f314f5fa150611e1.jpg"
+    },
+    {
+      "titre": "Le Mohican",
+      "heure": "11h40",
+      "jour": "2025-03-11T00:00:00",
+      "cinema": "Utopia Borderouge",
+      "version": "VF",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img5.acsta.net/c_310_420/img/72/ab/72abbc296e18a1e605ff6a891832fa9a.jpg"
+    },
+    {
+      "titre": "Emilia Pérez",
+      "heure": "12h05",
+      "jour": "2025-03-11T00:00:00",
+      "cinema": "Utopia Borderouge",
+      "version": "VO",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img3.acsta.net/c_310_420/img/bf/98/bf982c02ee39e172a259a3face755554.jpg"
+    },
+    {
+      "titre": "Vingt dieux",
+      "heure": "12h05",
+      "jour": "2025-03-11T00:00:00",
+      "cinema": "Utopia Borderouge",
+      "version": "VF",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img4.acsta.net/c_310_420/img/7e/0c/7e0c02a6ff88b09f1f75bf6aa1117975.jpg"
+    },
+    {
+      "titre": "Mon gâteau préféré",
+      "heure": "13h25",
+      "jour": "2025-03-11T00:00:00",
+      "cinema": "Utopia Borderouge",
+      "version": "VO",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img6.acsta.net/c_310_420/img/2a/29/2a297c63dfe1f721eafea530bdffde5c.jpg"
+    },
+    {
+      "titre": "La Pie voleuse",
+      "heure": "13h50",
+      "jour": "2025-03-11T00:00:00",
+      "cinema": "Utopia Borderouge",
+      "version": "VF",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img3.acsta.net/c_310_420/img/42/c6/42c6f777895d0e99eaf4ff97b45f9216.jpg"
+    },
+    {
+      "titre": "En fanfare",
+      "heure": "15h20",
+      "jour": "2025-03-11T00:00:00",
+      "cinema": "Utopia Borderouge",
+      "version": "VF",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img3.acsta.net/c_310_420/img/64/74/647422e028e4ec2074828047f69efa08.jpg"
+    },
+    {
+      "titre": "Personne n'y comprend rien",
+      "heure": "15h50",
+      "jour": "2025-03-11T00:00:00",
+      "cinema": "Utopia Borderouge",
+      "version": "VF",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img6.acsta.net/c_310_420/img/c1/7b/c17bfd4b1cab665f23352d13cfe2238d.jpg"
+    },
+    {
+      "titre": "Young Hearts",
+      "heure": "17h05",
+      "jour": "2025-03-11T00:00:00",
+      "cinema": "Utopia Borderouge",
+      "version": "VO",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img2.acsta.net/c_310_420/img/eb/fc/ebfc1e74ee0d37f041cf6daeafb1b7b0.jpg"
+    },
+    {
+      "titre": "Bonjour l’asile",
+      "heure": "17h20",
+      "jour": "2025-03-11T00:00:00",
+      "cinema": "Utopia Borderouge",
+      "version": "VF",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img6.acsta.net/c_310_420/img/e1/dc/e1dcf7edfcb78368c6a6103d19d91842.jpg"
+    },
+    {
+      "titre": "Un parfait inconnu",
+      "heure": "17h50",
+      "jour": "2025-03-11T00:00:00",
+      "cinema": "Utopia Borderouge",
+      "version": "VO",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img3.acsta.net/c_310_420/img/7b/09/7b09c04859a7716e5fc78882f2f4b530.jpg"
+    },
+    {
+      "titre": "The Brutalist",
+      "heure": "19h00",
+      "jour": "2025-03-11T00:00:00",
+      "cinema": "Utopia Borderouge",
+      "version": "VO",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img2.acsta.net/c_310_420/img/22/ab/22ab82f07f1f92122491ae6c19210277.jpg"
+    },
+    {
+      "titre": "Mulholland Drive",
+      "heure": "19h30",
+      "jour": "2025-03-11T00:00:00",
+      "cinema": "Utopia Borderouge",
+      "version": "VO",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img6.acsta.net/c_310_420/pictures/21/12/08/16/03/5133751.jpg"
+    },
+    {
+      "titre": "Berlin, été 42",
+      "heure": "14h10",
+      "jour": "2025-03-12T00:00:00",
+      "cinema": "Utopia Borderouge",
+      "version": "VO",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img6.acsta.net/c_310_420/img/d4/cc/d4ccc2f4930f684946d0d8ba4d0f157f.jpg"
+    },
+    {
+      "titre": "Berlin, été 42",
+      "heure": "20h30",
+      "jour": "2025-03-12T00:00:00",
+      "cinema": "Utopia Borderouge",
+      "version": "VO",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img6.acsta.net/c_310_420/img/d4/cc/d4ccc2f4930f684946d0d8ba4d0f157f.jpg"
+    },
+    {
+      "titre": "The Brutalist",
+      "heure": "11h45",
+      "jour": "2025-03-12T00:00:00",
+      "cinema": "Utopia Borderouge",
+      "version": "VO",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img2.acsta.net/c_310_420/img/22/ab/22ab82f07f1f92122491ae6c19210277.jpg"
+    },
+    {
+      "titre": "Black Dog",
+      "heure": "11h45",
+      "jour": "2025-03-12T00:00:00",
+      "cinema": "Utopia Borderouge",
+      "version": "VO",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img5.acsta.net/c_310_420/img/99/6c/996ca51e260f2071f314f5fa150611e1.jpg"
+    },
+    {
+      "titre": "Black Dog",
+      "heure": "20h15",
+      "jour": "2025-03-12T00:00:00",
+      "cinema": "Utopia Borderouge",
+      "version": "VO",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img5.acsta.net/c_310_420/img/99/6c/996ca51e260f2071f314f5fa150611e1.jpg"
+    },
+    {
+      "titre": "Elephant Man",
+      "heure": "11h45",
+      "jour": "2025-03-12T00:00:00",
+      "cinema": "Utopia Borderouge",
+      "version": "VO",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img4.acsta.net/c_310_420/pictures/20/02/21/16/48/4302324.jpg"
+    },
+    {
+      "titre": "Bonjour l’asile",
+      "heure": "13h50",
+      "jour": "2025-03-12T00:00:00",
+      "cinema": "Utopia Borderouge",
+      "version": "VF",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img6.acsta.net/c_310_420/img/e1/dc/e1dcf7edfcb78368c6a6103d19d91842.jpg"
+    },
+    {
+      "titre": "L’Attachement",
+      "heure": "15h40",
+      "jour": "2025-03-12T00:00:00",
+      "cinema": "Utopia Borderouge",
+      "version": "VF",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img3.acsta.net/c_310_420/img/83/a4/83a423a22c4438f3ecae29e227b2f6a9.jpg"
+    },
+    {
+      "titre": "Pattie et la colère de Poséidon",
+      "heure": "16h00",
+      "jour": "2025-03-12T00:00:00",
+      "cinema": "Utopia Borderouge",
+      "version": "VF",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img6.acsta.net/c_310_420/pictures/22/08/04/16/25/3175228.jpg"
+    },
+    {
+      "titre": "Le Mohican",
+      "heure": "16h30",
+      "jour": "2025-03-12T00:00:00",
+      "cinema": "Utopia Borderouge",
+      "version": "VF",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img5.acsta.net/c_310_420/img/72/ab/72abbc296e18a1e605ff6a891832fa9a.jpg"
+    },
+    {
+      "titre": "Maria",
+      "heure": "17h40",
+      "jour": "2025-03-12T00:00:00",
+      "cinema": "Utopia Borderouge",
+      "version": "VO",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img5.acsta.net/c_310_420/img/9f/3b/9f3b22aa6ece5208b801528245041e81.jpg"
+    },
+    {
+      "titre": "Le Choc des titans",
+      "heure": "18h00",
+      "jour": "2025-03-12T00:00:00",
+      "cinema": "Utopia Borderouge",
+      "version": "VF",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img6.acsta.net/c_310_420/medias/nmedia/18/70/88/43/19255647.jpg"
+    },
+    {
+      "titre": "From Ground Zero",
+      "heure": "18h15",
+      "jour": "2025-03-12T00:00:00",
+      "cinema": "Utopia Borderouge",
+      "version": "VO",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img5.acsta.net/c_310_420/img/94/c8/94c8a609c2d1f4f228a47f9df75af41c.jpg"
+    },
+    {
+      "titre": "Un parfait inconnu",
+      "heure": "20h00",
+      "jour": "2025-03-12T00:00:00",
+      "cinema": "Utopia Borderouge",
+      "version": "VO",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img3.acsta.net/c_310_420/img/7b/09/7b09c04859a7716e5fc78882f2f4b530.jpg"
+    },
+    {
+      "titre": "Berlin, été 42",
+      "heure": "20h15",
+      "jour": "2025-03-13T00:00:00",
+      "cinema": "Utopia Borderouge",
+      "version": "VO",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img6.acsta.net/c_310_420/img/d4/cc/d4ccc2f4930f684946d0d8ba4d0f157f.jpg"
+    },
+    {
+      "titre": "Maria",
+      "heure": "11h45",
+      "jour": "2025-03-13T00:00:00",
+      "cinema": "Utopia Borderouge",
+      "version": "VO",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img5.acsta.net/c_310_420/img/9f/3b/9f3b22aa6ece5208b801528245041e81.jpg"
+    },
+    {
+      "titre": "Le Mohican",
+      "heure": "12h05",
+      "jour": "2025-03-13T00:00:00",
+      "cinema": "Utopia Borderouge",
+      "version": "VF",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img5.acsta.net/c_310_420/img/72/ab/72abbc296e18a1e605ff6a891832fa9a.jpg"
+    },
+    {
+      "titre": "Une histoire vraie",
+      "heure": "12h05",
+      "jour": "2025-03-13T00:00:00",
+      "cinema": "Utopia Borderouge",
+      "version": "VO",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img6.acsta.net/c_310_420/pictures/24/01/30/09/26/4255555.jpg"
+    },
+    {
+      "titre": "Vingt dieux",
+      "heure": "13h50",
+      "jour": "2025-03-13T00:00:00",
+      "cinema": "Utopia Borderouge",
+      "version": "VO",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img4.acsta.net/c_310_420/img/7e/0c/7e0c02a6ff88b09f1f75bf6aa1117975.jpg"
+    },
+    {
+      "titre": "L’Attachement",
+      "heure": "14h15",
+      "jour": "2025-03-13T00:00:00",
+      "cinema": "Utopia Borderouge",
+      "version": "VF",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img3.acsta.net/c_310_420/img/83/a4/83a423a22c4438f3ecae29e227b2f6a9.jpg"
+    },
+    {
+      "titre": "From Ground Zero",
+      "heure": "14h15",
+      "jour": "2025-03-13T00:00:00",
+      "cinema": "Utopia Borderouge",
+      "version": "VO",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img5.acsta.net/c_310_420/img/94/c8/94c8a609c2d1f4f228a47f9df75af41c.jpg"
+    },
+    {
+      "titre": "Black Dog",
+      "heure": "15h40",
+      "jour": "2025-03-13T00:00:00",
+      "cinema": "Utopia Borderouge",
+      "version": "VO",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img5.acsta.net/c_310_420/img/99/6c/996ca51e260f2071f314f5fa150611e1.jpg"
+    },
+    {
+      "titre": "Personne n'y comprend rien",
+      "heure": "16h30",
+      "jour": "2025-03-13T00:00:00",
+      "cinema": "Utopia Borderouge",
+      "version": "VF",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img6.acsta.net/c_310_420/img/c1/7b/c17bfd4b1cab665f23352d13cfe2238d.jpg"
+    },
+    {
+      "titre": "Emilia Pérez",
+      "heure": "17h45",
+      "jour": "2025-03-13T00:00:00",
+      "cinema": "Utopia Borderouge",
+      "version": "VO",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img3.acsta.net/c_310_420/img/bf/98/bf982c02ee39e172a259a3face755554.jpg"
+    },
+    {
+      "titre": "Flow, le chat qui n’avait plus peur de l’eau",
+      "heure": "18h30",
+      "jour": "2025-03-13T00:00:00",
+      "cinema": "Utopia Borderouge",
+      "version": "VF",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img3.acsta.net/c_310_420/img/92/43/9243bd393aef7fc82dab92ca5bef16e5.jpg"
+    },
+    {
+      "titre": "Umui - Gardiens des Traditions",
+      "heure": "20h00",
+      "jour": "2025-03-13T00:00:00",
+      "cinema": "Utopia Borderouge",
+      "version": "VO",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img3.acsta.net/c_310_420/pictures/23/10/27/13/58/5616935.jpg"
+    },
+    {
+      "titre": "Bonjour l’asile",
+      "heure": "20h20",
+      "jour": "2025-03-13T00:00:00",
+      "cinema": "Utopia Borderouge",
+      "version": "VF",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img6.acsta.net/c_310_420/img/e1/dc/e1dcf7edfcb78368c6a6103d19d91842.jpg"
+    },
+    {
+      "titre": "Berlin, été 42",
+      "heure": "18h45",
+      "jour": "2025-03-14T00:00:00",
+      "cinema": "Utopia Borderouge",
+      "version": "VO",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img6.acsta.net/c_310_420/img/d4/cc/d4ccc2f4930f684946d0d8ba4d0f157f.jpg"
+    },
+    {
+      "titre": "Black Dog",
+      "heure": "12h05",
+      "jour": "2025-03-14T00:00:00",
+      "cinema": "Utopia Borderouge",
+      "version": "VO",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img5.acsta.net/c_310_420/img/99/6c/996ca51e260f2071f314f5fa150611e1.jpg"
+    },
+    {
+      "titre": "Black Dog",
+      "heure": "19h15",
+      "jour": "2025-03-14T00:00:00",
+      "cinema": "Utopia Borderouge",
+      "version": "VO",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img5.acsta.net/c_310_420/img/99/6c/996ca51e260f2071f314f5fa150611e1.jpg"
+    },
+    {
+      "titre": "Mon gâteau préféré",
+      "heure": "12h05",
+      "jour": "2025-03-14T00:00:00",
+      "cinema": "Utopia Borderouge",
+      "version": "VO",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img6.acsta.net/c_310_420/img/2a/29/2a297c63dfe1f721eafea530bdffde5c.jpg"
+    },
+    {
+      "titre": "La Pie voleuse",
+      "heure": "12h05",
+      "jour": "2025-03-14T00:00:00",
+      "cinema": "Utopia Borderouge",
+      "version": "VF",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img3.acsta.net/c_310_420/img/42/c6/42c6f777895d0e99eaf4ff97b45f9216.jpg"
+    },
+    {
+      "titre": "Bonjour l’asile",
+      "heure": "14h10",
+      "jour": "2025-03-14T00:00:00",
+      "cinema": "Utopia Borderouge",
+      "version": "VF",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img6.acsta.net/c_310_420/img/e1/dc/e1dcf7edfcb78368c6a6103d19d91842.jpg"
+    },
+    {
+      "titre": "Le Mohican",
+      "heure": "14h15",
+      "jour": "2025-03-14T00:00:00",
+      "cinema": "Utopia Borderouge",
+      "version": "VF",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img5.acsta.net/c_310_420/img/72/ab/72abbc296e18a1e605ff6a891832fa9a.jpg"
+    },
+    {
+      "titre": "The Brutalist",
+      "heure": "14h30",
+      "jour": "2025-03-14T00:00:00",
+      "cinema": "Utopia Borderouge",
+      "version": "VO",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img2.acsta.net/c_310_420/img/22/ab/22ab82f07f1f92122491ae6c19210277.jpg"
+    },
+    {
+      "titre": "En fanfare",
+      "heure": "17h00",
+      "jour": "2025-03-14T00:00:00",
+      "cinema": "Utopia Borderouge",
+      "version": "VF",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img3.acsta.net/c_310_420/img/64/74/647422e028e4ec2074828047f69efa08.jpg"
+    },
+    {
+      "titre": "Les Oubliés de la Belle Étoile",
+      "heure": "17h10",
+      "jour": "2025-03-14T00:00:00",
+      "cinema": "Utopia Borderouge",
+      "version": "VF",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img3.acsta.net/c_310_420/img/ca/f6/caf65c605c96fc0e2a6b1655cc1f88c9.jpg"
+    },
+    {
+      "titre": "L’Attachement",
+      "heure": "19h00",
+      "jour": "2025-03-14T00:00:00",
+      "cinema": "Utopia Borderouge",
+      "version": "VF",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img3.acsta.net/c_310_420/img/83/a4/83a423a22c4438f3ecae29e227b2f6a9.jpg"
+    },
+    {
+      "titre": "Un parfait inconnu",
+      "heure": "21h00",
+      "jour": "2025-03-14T00:00:00",
+      "cinema": "Utopia Borderouge",
+      "version": "VO",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img3.acsta.net/c_310_420/img/7b/09/7b09c04859a7716e5fc78882f2f4b530.jpg"
+    },
+    {
+      "titre": "Le Choc des titans",
+      "heure": "21h10",
+      "jour": "2025-03-14T00:00:00",
+      "cinema": "Utopia Borderouge",
+      "version": "VO",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img6.acsta.net/c_310_420/medias/nmedia/18/70/88/43/19255647.jpg"
+    },
+    {
+      "titre": "Blue Velvet",
+      "heure": "21h20",
+      "jour": "2025-03-14T00:00:00",
+      "cinema": "Utopia Borderouge",
+      "version": "VO",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img6.acsta.net/c_310_420/pictures/20/02/28/09/16/1963135.jpg"
+    },
+    {
+      "titre": "Berlin, été 42",
+      "heure": "18h55",
+      "jour": "2025-03-15T00:00:00",
+      "cinema": "Utopia Borderouge",
+      "version": "VO",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img6.acsta.net/c_310_420/img/d4/cc/d4ccc2f4930f684946d0d8ba4d0f157f.jpg"
+    },
+    {
+      "titre": "Personne n'y comprend rien",
+      "heure": "11h45",
+      "jour": "2025-03-15T00:00:00",
+      "cinema": "Utopia Borderouge",
+      "version": "VF",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img6.acsta.net/c_310_420/img/c1/7b/c17bfd4b1cab665f23352d13cfe2238d.jpg"
+    },
+    {
+      "titre": "From Ground Zero",
+      "heure": "11h45",
+      "jour": "2025-03-15T00:00:00",
+      "cinema": "Utopia Borderouge",
+      "version": "VO",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img5.acsta.net/c_310_420/img/94/c8/94c8a609c2d1f4f228a47f9df75af41c.jpg"
+    },
+    {
+      "titre": "Maria",
+      "heure": "12h00",
+      "jour": "2025-03-15T00:00:00",
+      "cinema": "Utopia Borderouge",
+      "version": "VO",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img5.acsta.net/c_310_420/img/9f/3b/9f3b22aa6ece5208b801528245041e81.jpg"
+    },
+    {
+      "titre": "Flow, le chat qui n’avait plus peur de l’eau",
+      "heure": "13h45",
+      "jour": "2025-03-15T00:00:00",
+      "cinema": "Utopia Borderouge",
+      "version": "VF",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img3.acsta.net/c_310_420/img/92/43/9243bd393aef7fc82dab92ca5bef16e5.jpg"
+    },
+    {
+      "titre": "Mon gâteau préféré",
+      "heure": "14h00",
+      "jour": "2025-03-15T00:00:00",
+      "cinema": "Utopia Borderouge",
+      "version": "VO",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img6.acsta.net/c_310_420/img/2a/29/2a297c63dfe1f721eafea530bdffde5c.jpg"
+    },
+    {
+      "titre": "Black Dog",
+      "heure": "14h30",
+      "jour": "2025-03-15T00:00:00",
+      "cinema": "Utopia Borderouge",
+      "version": "VO",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img5.acsta.net/c_310_420/img/99/6c/996ca51e260f2071f314f5fa150611e1.jpg"
+    },
+    {
+      "titre": "Black Dog",
+      "heure": "21h15",
+      "jour": "2025-03-15T00:00:00",
+      "cinema": "Utopia Borderouge",
+      "version": "VO",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img5.acsta.net/c_310_420/img/99/6c/996ca51e260f2071f314f5fa150611e1.jpg"
+    },
+    {
+      "titre": "The Brutalist",
+      "heure": "15h25",
+      "jour": "2025-03-15T00:00:00",
+      "cinema": "Utopia Borderouge",
+      "version": "VO",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img2.acsta.net/c_310_420/img/22/ab/22ab82f07f1f92122491ae6c19210277.jpg"
+    },
+    {
+      "titre": "Les Graines du figuier sauvage",
+      "heure": "16h00",
+      "jour": "2025-03-15T00:00:00",
+      "cinema": "Utopia Borderouge",
+      "version": "VO",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img2.acsta.net/c_310_420/img/38/1e/381e47f91ac66b215d8140e10f0eac44.jpg"
+    },
+    {
+      "titre": "Pattie et la colère de Poséidon",
+      "heure": "16h40",
+      "jour": "2025-03-15T00:00:00",
+      "cinema": "Utopia Borderouge",
+      "version": "VF",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img6.acsta.net/c_310_420/pictures/22/08/04/16/25/3175228.jpg"
+    },
+    {
+      "titre": "Bonjour l’asile",
+      "heure": "19h10",
+      "jour": "2025-03-15T00:00:00",
+      "cinema": "Utopia Borderouge",
+      "version": "VF",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img6.acsta.net/c_310_420/img/e1/dc/e1dcf7edfcb78368c6a6103d19d91842.jpg"
+    },
+    {
+      "titre": "L’Attachement",
+      "heure": "19h15",
+      "jour": "2025-03-15T00:00:00",
+      "cinema": "Utopia Borderouge",
+      "version": "VF",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img3.acsta.net/c_310_420/img/83/a4/83a423a22c4438f3ecae29e227b2f6a9.jpg"
+    },
+    {
+      "titre": "Un parfait inconnu",
+      "heure": "21h15",
+      "jour": "2025-03-15T00:00:00",
+      "cinema": "Utopia Borderouge",
+      "version": "VO",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img3.acsta.net/c_310_420/img/7b/09/7b09c04859a7716e5fc78882f2f4b530.jpg"
+    },
+    {
+      "titre": "Mulholland Drive",
+      "heure": "21h15",
+      "jour": "2025-03-15T00:00:00",
+      "cinema": "Utopia Borderouge",
+      "version": "VO",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img6.acsta.net/c_310_420/pictures/21/12/08/16/03/5133751.jpg"
+    },
+    {
+      "titre": "Berlin, été 42",
+      "heure": "11h45",
+      "jour": "2025-03-16T00:00:00",
+      "cinema": "Utopia Borderouge",
+      "version": "VO",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img6.acsta.net/c_310_420/img/d4/cc/d4ccc2f4930f684946d0d8ba4d0f157f.jpg"
+    },
+    {
+      "titre": "Berlin, été 42",
+      "heure": "17h50",
+      "jour": "2025-03-16T00:00:00",
+      "cinema": "Utopia Borderouge",
+      "version": "VO",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img6.acsta.net/c_310_420/img/d4/cc/d4ccc2f4930f684946d0d8ba4d0f157f.jpg"
+    },
+    {
+      "titre": "Black Dog",
+      "heure": "11h45",
+      "jour": "2025-03-16T00:00:00",
+      "cinema": "Utopia Borderouge",
+      "version": "VO",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img5.acsta.net/c_310_420/img/99/6c/996ca51e260f2071f314f5fa150611e1.jpg"
+    },
+    {
+      "titre": "Black Dog",
+      "heure": "17h40",
+      "jour": "2025-03-16T00:00:00",
+      "cinema": "Utopia Borderouge",
+      "version": "VO",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img5.acsta.net/c_310_420/img/99/6c/996ca51e260f2071f314f5fa150611e1.jpg"
+    },
+    {
+      "titre": "En fanfare",
+      "heure": "11h45",
+      "jour": "2025-03-16T00:00:00",
+      "cinema": "Utopia Borderouge",
+      "version": "VF",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img3.acsta.net/c_310_420/img/64/74/647422e028e4ec2074828047f69efa08.jpg"
+    },
+    {
+      "titre": "Un parfait inconnu",
+      "heure": "13h45",
+      "jour": "2025-03-16T00:00:00",
+      "cinema": "Utopia Borderouge",
+      "version": "VO",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img3.acsta.net/c_310_420/img/7b/09/7b09c04859a7716e5fc78882f2f4b530.jpg"
+    },
+    {
+      "titre": "Le Mohican",
+      "heure": "13h50",
+      "jour": "2025-03-16T00:00:00",
+      "cinema": "Utopia Borderouge",
+      "version": "VF",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img5.acsta.net/c_310_420/img/72/ab/72abbc296e18a1e605ff6a891832fa9a.jpg"
+    },
+    {
+      "titre": "Vingt dieux",
+      "heure": "14h05",
+      "jour": "2025-03-16T00:00:00",
+      "cinema": "Utopia Borderouge",
+      "version": "VO",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img4.acsta.net/c_310_420/img/7e/0c/7e0c02a6ff88b09f1f75bf6aa1117975.jpg"
+    },
+    {
+      "titre": "La Pie voleuse",
+      "heure": "15h40",
+      "jour": "2025-03-16T00:00:00",
+      "cinema": "Utopia Borderouge",
+      "version": "VF",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img3.acsta.net/c_310_420/img/42/c6/42c6f777895d0e99eaf4ff97b45f9216.jpg"
+    },
+    {
+      "titre": "Pattie et la colère de Poséidon",
+      "heure": "15h55",
+      "jour": "2025-03-16T00:00:00",
+      "cinema": "Utopia Borderouge",
+      "version": "VF",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img6.acsta.net/c_310_420/pictures/22/08/04/16/25/3175228.jpg"
+    },
+    {
+      "titre": "Bonjour l’asile",
+      "heure": "16h20",
+      "jour": "2025-03-16T00:00:00",
+      "cinema": "Utopia Borderouge",
+      "version": "VF",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img6.acsta.net/c_310_420/img/e1/dc/e1dcf7edfcb78368c6a6103d19d91842.jpg"
+    },
+    {
+      "titre": "L’Attachement",
+      "heure": "18h30",
+      "jour": "2025-03-16T00:00:00",
+      "cinema": "Utopia Borderouge",
+      "version": "VF",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img3.acsta.net/c_310_420/img/83/a4/83a423a22c4438f3ecae29e227b2f6a9.jpg"
+    },
+    {
+      "titre": "Le Comte de Monte-Cristo",
+      "heure": "19h45",
+      "jour": "2025-03-16T00:00:00",
+      "cinema": "Utopia Borderouge",
+      "version": "VF",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img6.acsta.net/c_310_420/o_club-allocine-2024-310x420.png_0_se/img/29/eb/29eb8341475fdb0b19b1d7b995b70e17.jpg"
+    },
+    {
+      "titre": "Emilia Pérez",
+      "heure": "20h15",
+      "jour": "2025-03-16T00:00:00",
+      "cinema": "Utopia Borderouge",
+      "version": "VO",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img3.acsta.net/c_310_420/img/bf/98/bf982c02ee39e172a259a3face755554.jpg"
+    },
+    {
+      "titre": "Sailor et Lula",
+      "heure": "20h30",
+      "jour": "2025-03-16T00:00:00",
+      "cinema": "Utopia Borderouge",
+      "version": "VO",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img6.acsta.net/c_310_420/medias/nmedia/18/35/51/06/18747736.jpg"
+    },
+    {
+      "titre": "Berlin, été 42",
+      "heure": "15h40",
+      "jour": "2025-03-17T00:00:00",
+      "cinema": "Utopia Borderouge",
+      "version": "VO",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img6.acsta.net/c_310_420/img/d4/cc/d4ccc2f4930f684946d0d8ba4d0f157f.jpg"
+    },
+    {
+      "titre": "Flow, le chat qui n’avait plus peur de l’eau",
+      "heure": "12h05",
+      "jour": "2025-03-17T00:00:00",
+      "cinema": "Utopia Borderouge",
+      "version": "VF",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img3.acsta.net/c_310_420/img/92/43/9243bd393aef7fc82dab92ca5bef16e5.jpg"
+    },
+    {
+      "titre": "Vingt dieux",
+      "heure": "12h05",
+      "jour": "2025-03-17T00:00:00",
+      "cinema": "Utopia Borderouge",
+      "version": "VO",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img4.acsta.net/c_310_420/img/7e/0c/7e0c02a6ff88b09f1f75bf6aa1117975.jpg"
+    },
+    {
+      "titre": "La Pie voleuse",
+      "heure": "12h05",
+      "jour": "2025-03-17T00:00:00",
+      "cinema": "Utopia Borderouge",
+      "version": "VF",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img3.acsta.net/c_310_420/img/42/c6/42c6f777895d0e99eaf4ff97b45f9216.jpg"
+    },
+    {
+      "titre": "La Pie voleuse",
+      "heure": "20h00",
+      "jour": "2025-03-17T00:00:00",
+      "cinema": "Utopia Borderouge",
+      "version": "VF",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img3.acsta.net/c_310_420/img/42/c6/42c6f777895d0e99eaf4ff97b45f9216.jpg"
+    },
+    {
+      "titre": "Mon gâteau préféré",
+      "heure": "13h45",
+      "jour": "2025-03-17T00:00:00",
+      "cinema": "Utopia Borderouge",
+      "version": "VO",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img6.acsta.net/c_310_420/img/2a/29/2a297c63dfe1f721eafea530bdffde5c.jpg"
+    },
+    {
+      "titre": "Maria",
+      "heure": "14h00",
+      "jour": "2025-03-17T00:00:00",
+      "cinema": "Utopia Borderouge",
+      "version": "VO",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img5.acsta.net/c_310_420/img/9f/3b/9f3b22aa6ece5208b801528245041e81.jpg"
+    },
+    {
+      "titre": "The Brutalist",
+      "heure": "14h10",
+      "jour": "2025-03-17T00:00:00",
+      "cinema": "Utopia Borderouge",
+      "version": "VO",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img2.acsta.net/c_310_420/img/22/ab/22ab82f07f1f92122491ae6c19210277.jpg"
+    },
+    {
+      "titre": "Le Mohican",
+      "heure": "16h20",
+      "jour": "2025-03-17T00:00:00",
+      "cinema": "Utopia Borderouge",
+      "version": "VF",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img5.acsta.net/c_310_420/img/72/ab/72abbc296e18a1e605ff6a891832fa9a.jpg"
+    },
+    {
+      "titre": "L’Attachement",
+      "heure": "18h00",
+      "jour": "2025-03-17T00:00:00",
+      "cinema": "Utopia Borderouge",
+      "version": "VF",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img3.acsta.net/c_310_420/img/83/a4/83a423a22c4438f3ecae29e227b2f6a9.jpg"
+    },
+    {
+      "titre": "Personne n'y comprend rien",
+      "heure": "18h00",
+      "jour": "2025-03-17T00:00:00",
+      "cinema": "Utopia Borderouge",
+      "version": "VF",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img6.acsta.net/c_310_420/img/c1/7b/c17bfd4b1cab665f23352d13cfe2238d.jpg"
+    },
+    {
+      "titre": "From Ground Zero",
+      "heure": "18h10",
+      "jour": "2025-03-17T00:00:00",
+      "cinema": "Utopia Borderouge",
+      "version": "VO",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img5.acsta.net/c_310_420/img/94/c8/94c8a609c2d1f4f228a47f9df75af41c.jpg"
+    },
+    {
+      "titre": "Bonjour l’asile",
+      "heure": "20h10",
+      "jour": "2025-03-17T00:00:00",
+      "cinema": "Utopia Borderouge",
+      "version": "VF",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img6.acsta.net/c_310_420/img/e1/dc/e1dcf7edfcb78368c6a6103d19d91842.jpg"
+    },
+    {
+      "titre": "Black Dog",
+      "heure": "20h20",
+      "jour": "2025-03-17T00:00:00",
+      "cinema": "Utopia Borderouge",
+      "version": "VO",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img5.acsta.net/c_310_420/img/99/6c/996ca51e260f2071f314f5fa150611e1.jpg"
+    },
+    {
+      "titre": "La Vie, en gros",
+      "heure": "14h00",
+      "jour": "2025-03-12T00:00:00",
+      "cinema": "Le cratère",
+      "version": "VO",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img6.acsta.net/c_310_420/img/a7/02/a702df5e0997a7285f8e518c8a62dcc4.jpg"
+    },
+    {
+      "titre": "Les Damnés",
+      "heure": "15h35",
+      "jour": "2025-03-12T00:00:00",
+      "cinema": "Le cratère",
+      "version": "VO",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img3.acsta.net/c_310_420/img/c5/5c/c55cf4231cc174326af07af4ff377546.jpg"
+    },
+    {
+      "titre": "La Mer au loin",
+      "heure": "17h20",
+      "jour": "2025-03-12T00:00:00",
+      "cinema": "Le cratère",
+      "version": "VO",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img4.acsta.net/c_310_420/img/29/0e/290eec4ec9e8708e7b1b03af3a452163.jpg"
+    },
+    {
+      "titre": "Les Graines du figuier sauvage",
+      "heure": "19h30",
+      "jour": "2025-03-12T00:00:00",
+      "cinema": "Le cratère",
+      "version": "VO",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img2.acsta.net/c_310_420/img/38/1e/381e47f91ac66b215d8140e10f0eac44.jpg"
+    },
+    {
+      "titre": "Jeunesse imaginaire",
+      "heure": "20h00",
+      "jour": "2025-03-13T00:00:00",
+      "cinema": "Le cratère",
+      "version": "VO",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img5.acsta.net/c_310_420/img/e0/11/e011866cfc88d8d1a7b468fc0deef330.jpg"
+    },
+    {
+      "titre": "Un monde violent",
+      "heure": "16h00",
+      "jour": "2025-03-13T00:00:00",
+      "cinema": "Le cratère",
+      "version": "VO",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img4.acsta.net/c_310_420/img/6f/f6/6ff64976e8a9224e9bb4e32f0b93da21.jpg"
+    },
+    {
+      "titre": "Un parfait inconnu",
+      "heure": "17h30",
+      "jour": "2025-03-13T00:00:00",
+      "cinema": "Le cratère",
+      "version": "VO",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img6.acsta.net/c_310_420/img/7b/09/7b09c04859a7716e5fc78882f2f4b530.jpg"
+    },
+    {
+      "titre": "From Ground Zero",
+      "heure": "17h00",
+      "jour": "2025-03-14T00:00:00",
+      "cinema": "Le cratère",
+      "version": "VO",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img5.acsta.net/c_310_420/img/94/c8/94c8a609c2d1f4f228a47f9df75af41c.jpg"
+    },
+    {
+      "titre": "La Peine",
+      "heure": "10h00",
+      "jour": "2025-03-15T00:00:00",
+      "cinema": "Le cratère",
+      "version": "VO",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img3.acsta.net/c_310_420/img/8f/e7/8fe744ea01663b33495bf5a54cdb7a8b.jpg"
+    },
+    {
+      "titre": "September & July",
+      "heure": "11h35",
+      "jour": "2025-03-15T00:00:00",
+      "cinema": "Le cratère",
+      "version": "VO",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img6.acsta.net/c_310_420/img/6e/15/6e15f23ef2b1c085e494afa0dbdf35b5.jpg"
+    },
+    {
+      "titre": "The Flats",
+      "heure": "13h20",
+      "jour": "2025-03-15T00:00:00",
+      "cinema": "Le cratère",
+      "version": "VO",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img6.acsta.net/c_310_420/img/2e/19/2e19477cac6bb2dbf738674149d6de97.jpg"
+    },
+    {
+      "titre": "La Vie, en gros",
+      "heure": "15h20",
+      "jour": "2025-03-15T00:00:00",
+      "cinema": "Le cratère",
+      "version": "VO",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img6.acsta.net/c_310_420/img/a7/02/a702df5e0997a7285f8e518c8a62dcc4.jpg"
+    },
+    {
+      "titre": "Les Damnés",
+      "heure": "16h50",
+      "jour": "2025-03-15T00:00:00",
+      "cinema": "Le cratère",
+      "version": "VO",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img3.acsta.net/c_310_420/img/c5/5c/c55cf4231cc174326af07af4ff377546.jpg"
+    },
+    {
+      "titre": "La Pampa",
+      "heure": "18h25",
+      "jour": "2025-03-15T00:00:00",
+      "cinema": "Le cratère",
+      "version": "VO",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img6.acsta.net/c_310_420/img/e8/eb/e8ebe822aceda3fc71ca06da2d73fa95.jpg"
+    },
+    {
+      "titre": "The Brutalist",
+      "heure": "20h15",
+      "jour": "2025-03-15T00:00:00",
+      "cinema": "Le cratère",
+      "version": "VO",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img5.acsta.net/c_310_420/img/22/ab/22ab82f07f1f92122491ae6c19210277.jpg"
+    },
+    {
+      "titre": "Jeunesse imaginaire",
+      "heure": "10h00",
+      "jour": "2025-03-16T00:00:00",
+      "cinema": "Le cratère",
+      "version": "VO",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img5.acsta.net/c_310_420/img/e0/11/e011866cfc88d8d1a7b468fc0deef330.jpg"
+    },
+    {
+      "titre": "The Flats",
+      "heure": "11h30",
+      "jour": "2025-03-16T00:00:00",
+      "cinema": "Le cratère",
+      "version": "VO",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img6.acsta.net/c_310_420/img/2e/19/2e19477cac6bb2dbf738674149d6de97.jpg"
+    },
+    {
+      "titre": "Flow, le chat qui n’avait plus peur de l’eau",
+      "heure": "13h30",
+      "jour": "2025-03-16T00:00:00",
+      "cinema": "Le cratère",
+      "version": "VO",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img3.acsta.net/c_310_420/img/92/43/9243bd393aef7fc82dab92ca5bef16e5.jpg"
+    },
+    {
+      "titre": "Prima la vita",
+      "heure": "15h00",
+      "jour": "2025-03-16T00:00:00",
+      "cinema": "Le cratère",
+      "version": "VO",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img6.acsta.net/c_310_420/img/a8/c8/a8c89e4ef25dafa5e73b341033e79fe6.jpg"
+    },
+    {
+      "titre": "La Pampa",
+      "heure": "16h55",
+      "jour": "2025-03-16T00:00:00",
+      "cinema": "Le cratère",
+      "version": "VO",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img6.acsta.net/c_310_420/img/e8/eb/e8ebe822aceda3fc71ca06da2d73fa95.jpg"
+    },
+    {
+      "titre": "Un parfait inconnu",
+      "heure": "18h45",
+      "jour": "2025-03-16T00:00:00",
+      "cinema": "Le cratère",
+      "version": "VO",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img6.acsta.net/c_310_420/img/7b/09/7b09c04859a7716e5fc78882f2f4b530.jpg"
+    },
+    {
+      "titre": "La Peine",
+      "heure": "21h15",
+      "jour": "2025-03-16T00:00:00",
+      "cinema": "Le cratère",
+      "version": "VO",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img3.acsta.net/c_310_420/img/8f/e7/8fe744ea01663b33495bf5a54cdb7a8b.jpg"
+    },
+    {
+      "titre": "From Ground Zero",
+      "heure": "16h00",
+      "jour": "2025-03-17T00:00:00",
+      "cinema": "Le cratère",
+      "version": "VO",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img5.acsta.net/c_310_420/img/94/c8/94c8a609c2d1f4f228a47f9df75af41c.jpg"
+    },
+    {
+      "titre": "Les Damnés",
+      "heure": "18h00",
+      "jour": "2025-03-17T00:00:00",
+      "cinema": "Le cratère",
+      "version": "VO",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img3.acsta.net/c_310_420/img/c5/5c/c55cf4231cc174326af07af4ff377546.jpg"
+    },
+    {
+      "titre": "The Flats",
+      "heure": "19h35",
+      "jour": "2025-03-17T00:00:00",
+      "cinema": "Le cratère",
+      "version": "VO",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img6.acsta.net/c_310_420/img/2e/19/2e19477cac6bb2dbf738674149d6de97.jpg"
+    },
+    {
+      "titre": "The Insider",
+      "heure": "20h30",
+      "jour": "2025-03-11T00:00:00",
+      "cinema": "UGC Montaudran",
+      "version": "VO",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img4.acsta.net/c_120_160/img/90/14/901424b912ee290f826dba3af9b7ce70.jpg"
+    },
+    {
+      "titre": "Le Secret de Khéops",
+      "heure": "16h00",
+      "jour": "2025-03-11T00:00:00",
+      "cinema": "UGC Montaudran",
+      "version": "VF",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img5.acsta.net/c_310_420/img/04/1f/041f29d5b1fd64f8b826af3b491621e2.jpg"
+    },
+    {
+      "titre": "Le Secret de Khéops",
+      "heure": "13h50",
+      "jour": "2025-03-11T00:00:00",
+      "cinema": "UGC Montaudran",
+      "version": "VF",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img5.acsta.net/c_310_420/img/04/1f/041f29d5b1fd64f8b826af3b491621e2.jpg"
+    },
+    {
+      "titre": "Le Secret de Khéops",
+      "heure": "20h45",
+      "jour": "2025-03-11T00:00:00",
+      "cinema": "UGC Montaudran",
+      "version": "VF",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img5.acsta.net/c_310_420/img/04/1f/041f29d5b1fd64f8b826af3b491621e2.jpg"
+    },
+    {
+      "titre": "Mickey 17",
+      "heure": "17h45",
+      "jour": "2025-03-11T00:00:00",
+      "cinema": "UGC Montaudran",
+      "version": "VF",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img5.acsta.net/c_310_420/img/a5/5e/a55e6a3b1771606323178493aae5e262.jpg"
+    },
+    {
+      "titre": "Mickey 17",
+      "heure": "20h40",
+      "jour": "2025-03-11T00:00:00",
+      "cinema": "UGC Montaudran",
+      "version": "VF",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img5.acsta.net/c_310_420/img/a5/5e/a55e6a3b1771606323178493aae5e262.jpg"
+    },
+    {
+      "titre": "Mickey 17",
+      "heure": "14h30",
+      "jour": "2025-03-11T00:00:00",
+      "cinema": "UGC Montaudran",
+      "version": "VO",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img5.acsta.net/c_310_420/img/a5/5e/a55e6a3b1771606323178493aae5e262.jpg"
+    },
+    {
+      "titre": "Mickey 17",
+      "heure": "17h30",
+      "jour": "2025-03-11T00:00:00",
+      "cinema": "UGC Montaudran",
+      "version": "VO",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img5.acsta.net/c_310_420/img/a5/5e/a55e6a3b1771606323178493aae5e262.jpg"
+    },
+    {
+      "titre": "Mickey 17",
+      "heure": "20h30",
+      "jour": "2025-03-11T00:00:00",
+      "cinema": "UGC Montaudran",
+      "version": "VO",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img5.acsta.net/c_310_420/img/a5/5e/a55e6a3b1771606323178493aae5e262.jpg"
+    },
+    {
+      "titre": "Bridget Jones : folle de lui",
+      "heure": "13h30",
+      "jour": "2025-03-11T00:00:00",
+      "cinema": "UGC Montaudran",
+      "version": "VF",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img5.acsta.net/c_310_420/img/a9/28/a9285e78d0a6d8ea9451c6e7efffcbd3.jpg"
+    },
+    {
+      "titre": "Bridget Jones : folle de lui",
+      "heure": "18h10",
+      "jour": "2025-03-11T00:00:00",
+      "cinema": "UGC Montaudran",
+      "version": "VO",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img5.acsta.net/c_310_420/img/a9/28/a9285e78d0a6d8ea9451c6e7efffcbd3.jpg"
+    },
+    {
+      "titre": "Bridget Jones : folle de lui",
+      "heure": "20h40",
+      "jour": "2025-03-11T00:00:00",
+      "cinema": "UGC Montaudran",
+      "version": "VO",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img5.acsta.net/c_310_420/img/a9/28/a9285e78d0a6d8ea9451c6e7efffcbd3.jpg"
+    },
+    {
+      "titre": "À bicyclette !",
+      "heure": "13h45",
+      "jour": "2025-03-11T00:00:00",
+      "cinema": "UGC Montaudran",
+      "version": "VF",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img5.acsta.net/c_310_420/img/9c/f8/9cf8cf27a2706be4849760190dddd37b.jpg"
+    },
+    {
+      "titre": "À bicyclette !",
+      "heure": "15h45",
+      "jour": "2025-03-11T00:00:00",
+      "cinema": "UGC Montaudran",
+      "version": "VF",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img5.acsta.net/c_310_420/img/9c/f8/9cf8cf27a2706be4849760190dddd37b.jpg"
+    },
+    {
+      "titre": "À bicyclette !",
+      "heure": "18h30",
+      "jour": "2025-03-11T00:00:00",
+      "cinema": "UGC Montaudran",
+      "version": "VF",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img5.acsta.net/c_310_420/img/9c/f8/9cf8cf27a2706be4849760190dddd37b.jpg"
+    },
+    {
+      "titre": "Un parfait inconnu",
+      "heure": "14h00",
+      "jour": "2025-03-11T00:00:00",
+      "cinema": "UGC Montaudran",
+      "version": "VO",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img3.acsta.net/c_310_420/img/7b/09/7b09c04859a7716e5fc78882f2f4b530.jpg"
+    },
+    {
+      "titre": "La Vie devant moi",
+      "heure": "14h00",
+      "jour": "2025-03-11T00:00:00",
+      "cinema": "UGC Montaudran",
+      "version": "VF",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img6.acsta.net/c_310_420/img/af/10/af1099ea1c5bf399ba4587afd4683474.jpg"
+    },
+    {
+      "titre": "La Vie devant moi",
+      "heure": "16h15",
+      "jour": "2025-03-11T00:00:00",
+      "cinema": "UGC Montaudran",
+      "version": "VF",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img6.acsta.net/c_310_420/img/af/10/af1099ea1c5bf399ba4587afd4683474.jpg"
+    },
+    {
+      "titre": "Captain America: Brave New World",
+      "heure": "14h15",
+      "jour": "2025-03-11T00:00:00",
+      "cinema": "UGC Montaudran",
+      "version": "VF",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img3.acsta.net/c_310_420/img/92/55/9255d9aeb17004f6a622cc47e573777e.jpg"
+    },
+    {
+      "titre": "Captain America: Brave New World",
+      "heure": "20h00",
+      "jour": "2025-03-11T00:00:00",
+      "cinema": "UGC Montaudran",
+      "version": "VF",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img3.acsta.net/c_310_420/img/92/55/9255d9aeb17004f6a622cc47e573777e.jpg"
+    },
+    {
+      "titre": "Captain America: Brave New World",
+      "heure": "17h20",
+      "jour": "2025-03-11T00:00:00",
+      "cinema": "UGC Montaudran",
+      "version": "VO",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img3.acsta.net/c_310_420/img/92/55/9255d9aeb17004f6a622cc47e573777e.jpg"
+    },
+    {
+      "titre": "God Save the Tuche",
+      "heure": "16h15",
+      "jour": "2025-03-11T00:00:00",
+      "cinema": "UGC Montaudran",
+      "version": "VF",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img5.acsta.net/c_310_420/img/e1/22/e12277d75be8466492265681d0327c11.jpg"
+    },
+    {
+      "titre": "God Save the Tuche",
+      "heure": "18h30",
+      "jour": "2025-03-11T00:00:00",
+      "cinema": "UGC Montaudran",
+      "version": "VF",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img5.acsta.net/c_310_420/img/e1/22/e12277d75be8466492265681d0327c11.jpg"
+    },
+    {
+      "titre": "En fanfare",
+      "heure": "18h15",
+      "jour": "2025-03-11T00:00:00",
+      "cinema": "UGC Montaudran",
+      "version": "VF",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img3.acsta.net/c_310_420/img/64/74/647422e028e4ec2074828047f69efa08.jpg"
+    },
+    {
+      "titre": "Emilia Pérez",
+      "heure": "20h40",
+      "jour": "2025-03-11T00:00:00",
+      "cinema": "UGC Montaudran",
+      "version": "VO",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img3.acsta.net/c_310_420/img/bf/98/bf982c02ee39e172a259a3face755554.jpg"
+    },
+    {
+      "titre": "The Insider",
+      "heure": "14h00",
+      "jour": "2025-03-12T00:00:00",
+      "cinema": "UGC Montaudran",
+      "version": "VF",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img4.acsta.net/c_120_160/img/90/14/901424b912ee290f826dba3af9b7ce70.jpg"
+    },
+    {
+      "titre": "The Insider",
+      "heure": "16h15",
+      "jour": "2025-03-12T00:00:00",
+      "cinema": "UGC Montaudran",
+      "version": "VO",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img4.acsta.net/c_120_160/img/90/14/901424b912ee290f826dba3af9b7ce70.jpg"
+    },
+    {
+      "titre": "The Insider",
+      "heure": "18h30",
+      "jour": "2025-03-12T00:00:00",
+      "cinema": "UGC Montaudran",
+      "version": "VO",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img4.acsta.net/c_120_160/img/90/14/901424b912ee290f826dba3af9b7ce70.jpg"
+    },
+    {
+      "titre": "The Insider",
+      "heure": "20h45",
+      "jour": "2025-03-12T00:00:00",
+      "cinema": "UGC Montaudran",
+      "version": "VO",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img4.acsta.net/c_120_160/img/90/14/901424b912ee290f826dba3af9b7ce70.jpg"
+    },
+    {
+      "titre": "On ira",
+      "heure": "14h00",
+      "jour": "2025-03-12T00:00:00",
+      "cinema": "UGC Montaudran",
+      "version": "VF",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img3.acsta.net/c_310_420/img/4e/64/4e644edc4b90cae39ea31727a29cdb09.jpg"
+    },
+    {
+      "titre": "On ira",
+      "heure": "16h15",
+      "jour": "2025-03-12T00:00:00",
+      "cinema": "UGC Montaudran",
+      "version": "VF",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img3.acsta.net/c_310_420/img/4e/64/4e644edc4b90cae39ea31727a29cdb09.jpg"
+    },
+    {
+      "titre": "On ira",
+      "heure": "18h30",
+      "jour": "2025-03-12T00:00:00",
+      "cinema": "UGC Montaudran",
+      "version": "VF",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img3.acsta.net/c_310_420/img/4e/64/4e644edc4b90cae39ea31727a29cdb09.jpg"
+    },
+    {
+      "titre": "On ira",
+      "heure": "20h45",
+      "jour": "2025-03-12T00:00:00",
+      "cinema": "UGC Montaudran",
+      "version": "VF",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img3.acsta.net/c_310_420/img/4e/64/4e644edc4b90cae39ea31727a29cdb09.jpg"
+    },
+    {
+      "titre": "Vaiana 2",
+      "heure": "13h40",
+      "jour": "2025-03-12T00:00:00",
+      "cinema": "UGC Montaudran",
+      "version": "VF",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img4.acsta.net/c_310_420/img/9e/c9/9ec9a076d8516b78e1923dd76806f13e.jpg"
+    },
+    {
+      "titre": "Le Secret de Khéops",
+      "heure": "14h00",
+      "jour": "2025-03-12T00:00:00",
+      "cinema": "UGC Montaudran",
+      "version": "VF",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img5.acsta.net/c_310_420/img/04/1f/041f29d5b1fd64f8b826af3b491621e2.jpg"
+    },
+    {
+      "titre": "Le Secret de Khéops",
+      "heure": "16h30",
+      "jour": "2025-03-12T00:00:00",
+      "cinema": "UGC Montaudran",
+      "version": "VF",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img5.acsta.net/c_310_420/img/04/1f/041f29d5b1fd64f8b826af3b491621e2.jpg"
+    },
+    {
+      "titre": "Paddington au Pérou",
+      "heure": "14h00",
+      "jour": "2025-03-12T00:00:00",
+      "cinema": "UGC Montaudran",
+      "version": "VF",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img5.acsta.net/c_310_420/img/3d/88/3d888f3f864049f77bc99b83f246312d.jpg"
+    },
+    {
+      "titre": "Paddington au Pérou",
+      "heure": "16h15",
+      "jour": "2025-03-12T00:00:00",
+      "cinema": "UGC Montaudran",
+      "version": "VF",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img5.acsta.net/c_310_420/img/3d/88/3d888f3f864049f77bc99b83f246312d.jpg"
+    },
+    {
+      "titre": "Une nuit au zoo",
+      "heure": "14h00",
+      "jour": "2025-03-12T00:00:00",
+      "cinema": "UGC Montaudran",
+      "version": "VF",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img5.acsta.net/c_310_420/img/b4/64/b4641e64e7317bec7286462fe922635f.jpg"
+    },
+    {
+      "titre": "Mickey 17",
+      "heure": "17h45",
+      "jour": "2025-03-12T00:00:00",
+      "cinema": "UGC Montaudran",
+      "version": "VF",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img5.acsta.net/c_310_420/img/a5/5e/a55e6a3b1771606323178493aae5e262.jpg"
+    },
+    {
+      "titre": "Mickey 17",
+      "heure": "20h40",
+      "jour": "2025-03-12T00:00:00",
+      "cinema": "UGC Montaudran",
+      "version": "VF",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img5.acsta.net/c_310_420/img/a5/5e/a55e6a3b1771606323178493aae5e262.jpg"
+    },
+    {
+      "titre": "Mickey 17",
+      "heure": "14h30",
+      "jour": "2025-03-12T00:00:00",
+      "cinema": "UGC Montaudran",
+      "version": "VO",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img5.acsta.net/c_310_420/img/a5/5e/a55e6a3b1771606323178493aae5e262.jpg"
+    },
+    {
+      "titre": "Mickey 17",
+      "heure": "17h30",
+      "jour": "2025-03-12T00:00:00",
+      "cinema": "UGC Montaudran",
+      "version": "VO",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img5.acsta.net/c_310_420/img/a5/5e/a55e6a3b1771606323178493aae5e262.jpg"
+    },
+    {
+      "titre": "Mickey 17",
+      "heure": "19h00",
+      "jour": "2025-03-12T00:00:00",
+      "cinema": "UGC Montaudran",
+      "version": "VO",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img5.acsta.net/c_310_420/img/a5/5e/a55e6a3b1771606323178493aae5e262.jpg"
+    },
+    {
+      "titre": "Mickey 17",
+      "heure": "20h30",
+      "jour": "2025-03-12T00:00:00",
+      "cinema": "UGC Montaudran",
+      "version": "VO",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img5.acsta.net/c_310_420/img/a5/5e/a55e6a3b1771606323178493aae5e262.jpg"
+    },
+    {
+      "titre": "À bicyclette !",
+      "heure": "15h45",
+      "jour": "2025-03-12T00:00:00",
+      "cinema": "UGC Montaudran",
+      "version": "VF",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img5.acsta.net/c_310_420/img/9c/f8/9cf8cf27a2706be4849760190dddd37b.jpg"
+    },
+    {
+      "titre": "À bicyclette !",
+      "heure": "18h30",
+      "jour": "2025-03-12T00:00:00",
+      "cinema": "UGC Montaudran",
+      "version": "VF",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img5.acsta.net/c_310_420/img/9c/f8/9cf8cf27a2706be4849760190dddd37b.jpg"
+    },
+    {
+      "titre": "God Save the Tuche",
+      "heure": "16h10",
+      "jour": "2025-03-12T00:00:00",
+      "cinema": "UGC Montaudran",
+      "version": "VF",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img5.acsta.net/c_310_420/img/e1/22/e12277d75be8466492265681d0327c11.jpg"
+    },
+    {
+      "titre": "Bridget Jones : folle de lui",
+      "heure": "18h10",
+      "jour": "2025-03-12T00:00:00",
+      "cinema": "UGC Montaudran",
+      "version": "VO",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img5.acsta.net/c_310_420/img/a9/28/a9285e78d0a6d8ea9451c6e7efffcbd3.jpg"
+    },
+    {
+      "titre": "Un parfait inconnu",
+      "heure": "20h30",
+      "jour": "2025-03-12T00:00:00",
+      "cinema": "UGC Montaudran",
+      "version": "VO",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img3.acsta.net/c_310_420/img/7b/09/7b09c04859a7716e5fc78882f2f4b530.jpg"
+    },
+    {
+      "titre": "Anora",
+      "heure": "20h40",
+      "jour": "2025-03-12T00:00:00",
+      "cinema": "UGC Montaudran",
+      "version": "VO",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img3.acsta.net/c_310_420/o_club-allocine-2024-310x420.png_0_se/img/57/f5/57f59edffeefc86a6b21da2053df244f.jpg"
+    },
+    {
+      "titre": "The Insider",
+      "heure": "14h00",
+      "jour": "2025-03-13T00:00:00",
+      "cinema": "UGC Montaudran",
+      "version": "VF",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img4.acsta.net/c_120_160/img/90/14/901424b912ee290f826dba3af9b7ce70.jpg"
+    },
+    {
+      "titre": "The Insider",
+      "heure": "16h15",
+      "jour": "2025-03-13T00:00:00",
+      "cinema": "UGC Montaudran",
+      "version": "VO",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img4.acsta.net/c_120_160/img/90/14/901424b912ee290f826dba3af9b7ce70.jpg"
+    },
+    {
+      "titre": "The Insider",
+      "heure": "18h30",
+      "jour": "2025-03-13T00:00:00",
+      "cinema": "UGC Montaudran",
+      "version": "VO",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img4.acsta.net/c_120_160/img/90/14/901424b912ee290f826dba3af9b7ce70.jpg"
+    },
+    {
+      "titre": "The Insider",
+      "heure": "20h45",
+      "jour": "2025-03-13T00:00:00",
+      "cinema": "UGC Montaudran",
+      "version": "VO",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img4.acsta.net/c_120_160/img/90/14/901424b912ee290f826dba3af9b7ce70.jpg"
+    },
+    {
+      "titre": "On ira",
+      "heure": "14h00",
+      "jour": "2025-03-13T00:00:00",
+      "cinema": "UGC Montaudran",
+      "version": "VF",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img3.acsta.net/c_310_420/img/4e/64/4e644edc4b90cae39ea31727a29cdb09.jpg"
+    },
+    {
+      "titre": "On ira",
+      "heure": "16h15",
+      "jour": "2025-03-13T00:00:00",
+      "cinema": "UGC Montaudran",
+      "version": "VF",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img3.acsta.net/c_310_420/img/4e/64/4e644edc4b90cae39ea31727a29cdb09.jpg"
+    },
+    {
+      "titre": "On ira",
+      "heure": "18h30",
+      "jour": "2025-03-13T00:00:00",
+      "cinema": "UGC Montaudran",
+      "version": "VF",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img3.acsta.net/c_310_420/img/4e/64/4e644edc4b90cae39ea31727a29cdb09.jpg"
+    },
+    {
+      "titre": "On ira",
+      "heure": "20h45",
+      "jour": "2025-03-13T00:00:00",
+      "cinema": "UGC Montaudran",
+      "version": "VF",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img3.acsta.net/c_310_420/img/4e/64/4e644edc4b90cae39ea31727a29cdb09.jpg"
+    },
+    {
+      "titre": "Captain America: Brave New World",
+      "heure": "13h40",
+      "jour": "2025-03-13T00:00:00",
+      "cinema": "UGC Montaudran",
+      "version": "VF",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img3.acsta.net/c_310_420/img/92/55/9255d9aeb17004f6a622cc47e573777e.jpg"
+    },
+    {
+      "titre": "À bicyclette !",
+      "heure": "13h45",
+      "jour": "2025-03-13T00:00:00",
+      "cinema": "UGC Montaudran",
+      "version": "VF",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img5.acsta.net/c_310_420/img/9c/f8/9cf8cf27a2706be4849760190dddd37b.jpg"
+    },
+    {
+      "titre": "À bicyclette !",
+      "heure": "15h45",
+      "jour": "2025-03-13T00:00:00",
+      "cinema": "UGC Montaudran",
+      "version": "VF",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img5.acsta.net/c_310_420/img/9c/f8/9cf8cf27a2706be4849760190dddd37b.jpg"
+    },
+    {
+      "titre": "À bicyclette !",
+      "heure": "18h30",
+      "jour": "2025-03-13T00:00:00",
+      "cinema": "UGC Montaudran",
+      "version": "VF",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img5.acsta.net/c_310_420/img/9c/f8/9cf8cf27a2706be4849760190dddd37b.jpg"
+    },
+    {
+      "titre": "Bridget Jones : folle de lui",
+      "heure": "13h45",
+      "jour": "2025-03-13T00:00:00",
+      "cinema": "UGC Montaudran",
+      "version": "VO",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img5.acsta.net/c_310_420/img/a9/28/a9285e78d0a6d8ea9451c6e7efffcbd3.jpg"
+    },
+    {
+      "titre": "Le Secret de Khéops",
+      "heure": "14h00",
+      "jour": "2025-03-13T00:00:00",
+      "cinema": "UGC Montaudran",
+      "version": "VF",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img5.acsta.net/c_310_420/img/04/1f/041f29d5b1fd64f8b826af3b491621e2.jpg"
+    },
+    {
+      "titre": "Le Secret de Khéops",
+      "heure": "16h30",
+      "jour": "2025-03-13T00:00:00",
+      "cinema": "UGC Montaudran",
+      "version": "VF",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img5.acsta.net/c_310_420/img/04/1f/041f29d5b1fd64f8b826af3b491621e2.jpg"
+    },
+    {
+      "titre": "Mickey 17",
+      "heure": "17h45",
+      "jour": "2025-03-13T00:00:00",
+      "cinema": "UGC Montaudran",
+      "version": "VF",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img5.acsta.net/c_310_420/img/a5/5e/a55e6a3b1771606323178493aae5e262.jpg"
+    },
+    {
+      "titre": "Mickey 17",
+      "heure": "20h40",
+      "jour": "2025-03-13T00:00:00",
+      "cinema": "UGC Montaudran",
+      "version": "VF",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img5.acsta.net/c_310_420/img/a5/5e/a55e6a3b1771606323178493aae5e262.jpg"
+    },
+    {
+      "titre": "Mickey 17",
+      "heure": "14h30",
+      "jour": "2025-03-13T00:00:00",
+      "cinema": "UGC Montaudran",
+      "version": "VO",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img5.acsta.net/c_310_420/img/a5/5e/a55e6a3b1771606323178493aae5e262.jpg"
+    },
+    {
+      "titre": "Mickey 17",
+      "heure": "17h30",
+      "jour": "2025-03-13T00:00:00",
+      "cinema": "UGC Montaudran",
+      "version": "VO",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img5.acsta.net/c_310_420/img/a5/5e/a55e6a3b1771606323178493aae5e262.jpg"
+    },
+    {
+      "titre": "Mickey 17",
+      "heure": "19h00",
+      "jour": "2025-03-13T00:00:00",
+      "cinema": "UGC Montaudran",
+      "version": "VO",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img5.acsta.net/c_310_420/img/a5/5e/a55e6a3b1771606323178493aae5e262.jpg"
+    },
+    {
+      "titre": "Mickey 17",
+      "heure": "20h30",
+      "jour": "2025-03-13T00:00:00",
+      "cinema": "UGC Montaudran",
+      "version": "VO",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img5.acsta.net/c_310_420/img/a5/5e/a55e6a3b1771606323178493aae5e262.jpg"
+    },
+    {
+      "titre": "God Save the Tuche",
+      "heure": "16h10",
+      "jour": "2025-03-13T00:00:00",
+      "cinema": "UGC Montaudran",
+      "version": "VF",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img5.acsta.net/c_310_420/img/e1/22/e12277d75be8466492265681d0327c11.jpg"
+    },
+    {
+      "titre": "En fanfare",
+      "heure": "16h15",
+      "jour": "2025-03-13T00:00:00",
+      "cinema": "UGC Montaudran",
+      "version": "VF",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img3.acsta.net/c_310_420/img/64/74/647422e028e4ec2074828047f69efa08.jpg"
+    },
+    {
+      "titre": "Anora",
+      "heure": "20h40",
+      "jour": "2025-03-13T00:00:00",
+      "cinema": "UGC Montaudran",
+      "version": "VO",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img3.acsta.net/c_310_420/o_club-allocine-2024-310x420.png_0_se/img/57/f5/57f59edffeefc86a6b21da2053df244f.jpg"
+    },
+    {
+      "titre": "On ira",
+      "heure": "20h05",
+      "jour": "2025-03-14T00:00:00",
+      "cinema": "UGC Montaudran",
+      "version": "VF",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img3.acsta.net/c_310_420/img/4e/64/4e644edc4b90cae39ea31727a29cdb09.jpg"
+    },
+    {
+      "titre": "On ira",
+      "heure": "13h50",
+      "jour": "2025-03-14T00:00:00",
+      "cinema": "UGC Montaudran",
+      "version": "VF",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img3.acsta.net/c_310_420/img/4e/64/4e644edc4b90cae39ea31727a29cdb09.jpg"
+    },
+    {
+      "titre": "On ira",
+      "heure": "15h55",
+      "jour": "2025-03-14T00:00:00",
+      "cinema": "UGC Montaudran",
+      "version": "VF",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img3.acsta.net/c_310_420/img/4e/64/4e644edc4b90cae39ea31727a29cdb09.jpg"
+    },
+    {
+      "titre": "On ira",
+      "heure": "18h00",
+      "jour": "2025-03-14T00:00:00",
+      "cinema": "UGC Montaudran",
+      "version": "VF",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img3.acsta.net/c_310_420/img/4e/64/4e644edc4b90cae39ea31727a29cdb09.jpg"
+    },
+    {
+      "titre": "On ira",
+      "heure": "22h10",
+      "jour": "2025-03-14T00:00:00",
+      "cinema": "UGC Montaudran",
+      "version": "VF",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img3.acsta.net/c_310_420/img/4e/64/4e644edc4b90cae39ea31727a29cdb09.jpg"
+    },
+    {
+      "titre": "The Insider",
+      "heure": "14h00",
+      "jour": "2025-03-14T00:00:00",
+      "cinema": "UGC Montaudran",
+      "version": "VF",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img4.acsta.net/c_120_160/img/90/14/901424b912ee290f826dba3af9b7ce70.jpg"
+    },
+    {
+      "titre": "The Insider",
+      "heure": "16h00",
+      "jour": "2025-03-14T00:00:00",
+      "cinema": "UGC Montaudran",
+      "version": "VO",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img4.acsta.net/c_120_160/img/90/14/901424b912ee290f826dba3af9b7ce70.jpg"
+    },
+    {
+      "titre": "The Insider",
+      "heure": "18h00",
+      "jour": "2025-03-14T00:00:00",
+      "cinema": "UGC Montaudran",
+      "version": "VO",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img4.acsta.net/c_120_160/img/90/14/901424b912ee290f826dba3af9b7ce70.jpg"
+    },
+    {
+      "titre": "The Insider",
+      "heure": "20h10",
+      "jour": "2025-03-14T00:00:00",
+      "cinema": "UGC Montaudran",
+      "version": "VO",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img4.acsta.net/c_120_160/img/90/14/901424b912ee290f826dba3af9b7ce70.jpg"
+    },
+    {
+      "titre": "The Insider",
+      "heure": "22h15",
+      "jour": "2025-03-14T00:00:00",
+      "cinema": "UGC Montaudran",
+      "version": "VO",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img4.acsta.net/c_120_160/img/90/14/901424b912ee290f826dba3af9b7ce70.jpg"
+    },
+    {
+      "titre": "Captain America: Brave New World",
+      "heure": "13h40",
+      "jour": "2025-03-14T00:00:00",
+      "cinema": "UGC Montaudran",
+      "version": "VF",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img3.acsta.net/c_310_420/img/92/55/9255d9aeb17004f6a622cc47e573777e.jpg"
+    },
+    {
+      "titre": "À bicyclette !",
+      "heure": "13h45",
+      "jour": "2025-03-14T00:00:00",
+      "cinema": "UGC Montaudran",
+      "version": "VF",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img5.acsta.net/c_310_420/img/9c/f8/9cf8cf27a2706be4849760190dddd37b.jpg"
+    },
+    {
+      "titre": "À bicyclette !",
+      "heure": "15h45",
+      "jour": "2025-03-14T00:00:00",
+      "cinema": "UGC Montaudran",
+      "version": "VF",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img5.acsta.net/c_310_420/img/9c/f8/9cf8cf27a2706be4849760190dddd37b.jpg"
+    },
+    {
+      "titre": "À bicyclette !",
+      "heure": "18h30",
+      "jour": "2025-03-14T00:00:00",
+      "cinema": "UGC Montaudran",
+      "version": "VF",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img5.acsta.net/c_310_420/img/9c/f8/9cf8cf27a2706be4849760190dddd37b.jpg"
+    },
+    {
+      "titre": "Bridget Jones : folle de lui",
+      "heure": "13h45",
+      "jour": "2025-03-14T00:00:00",
+      "cinema": "UGC Montaudran",
+      "version": "VO",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img5.acsta.net/c_310_420/img/a9/28/a9285e78d0a6d8ea9451c6e7efffcbd3.jpg"
+    },
+    {
+      "titre": "Bridget Jones : folle de lui",
+      "heure": "18h10",
+      "jour": "2025-03-14T00:00:00",
+      "cinema": "UGC Montaudran",
+      "version": "VO",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img5.acsta.net/c_310_420/img/a9/28/a9285e78d0a6d8ea9451c6e7efffcbd3.jpg"
+    },
+    {
+      "titre": "Le Secret de Khéops",
+      "heure": "14h00",
+      "jour": "2025-03-14T00:00:00",
+      "cinema": "UGC Montaudran",
+      "version": "VF",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img5.acsta.net/c_310_420/img/04/1f/041f29d5b1fd64f8b826af3b491621e2.jpg"
+    },
+    {
+      "titre": "Le Secret de Khéops",
+      "heure": "16h30",
+      "jour": "2025-03-14T00:00:00",
+      "cinema": "UGC Montaudran",
+      "version": "VF",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img5.acsta.net/c_310_420/img/04/1f/041f29d5b1fd64f8b826af3b491621e2.jpg"
+    },
+    {
+      "titre": "Mickey 17",
+      "heure": "17h45",
+      "jour": "2025-03-14T00:00:00",
+      "cinema": "UGC Montaudran",
+      "version": "VF",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img5.acsta.net/c_310_420/img/a5/5e/a55e6a3b1771606323178493aae5e262.jpg"
+    },
+    {
+      "titre": "Mickey 17",
+      "heure": "20h40",
+      "jour": "2025-03-14T00:00:00",
+      "cinema": "UGC Montaudran",
+      "version": "VF",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img5.acsta.net/c_310_420/img/a5/5e/a55e6a3b1771606323178493aae5e262.jpg"
+    },
+    {
+      "titre": "Mickey 17",
+      "heure": "14h30",
+      "jour": "2025-03-14T00:00:00",
+      "cinema": "UGC Montaudran",
+      "version": "VO",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img5.acsta.net/c_310_420/img/a5/5e/a55e6a3b1771606323178493aae5e262.jpg"
+    },
+    {
+      "titre": "Mickey 17",
+      "heure": "17h30",
+      "jour": "2025-03-14T00:00:00",
+      "cinema": "UGC Montaudran",
+      "version": "VO",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img5.acsta.net/c_310_420/img/a5/5e/a55e6a3b1771606323178493aae5e262.jpg"
+    },
+    {
+      "titre": "Mickey 17",
+      "heure": "19h00",
+      "jour": "2025-03-14T00:00:00",
+      "cinema": "UGC Montaudran",
+      "version": "VO",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img5.acsta.net/c_310_420/img/a5/5e/a55e6a3b1771606323178493aae5e262.jpg"
+    },
+    {
+      "titre": "Mickey 17",
+      "heure": "20h30",
+      "jour": "2025-03-14T00:00:00",
+      "cinema": "UGC Montaudran",
+      "version": "VO",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img5.acsta.net/c_310_420/img/a5/5e/a55e6a3b1771606323178493aae5e262.jpg"
+    },
+    {
+      "titre": "Mickey 17",
+      "heure": "21h45",
+      "jour": "2025-03-14T00:00:00",
+      "cinema": "UGC Montaudran",
+      "version": "VO",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img5.acsta.net/c_310_420/img/a5/5e/a55e6a3b1771606323178493aae5e262.jpg"
+    },
+    {
+      "titre": "God Save the Tuche",
+      "heure": "16h10",
+      "jour": "2025-03-14T00:00:00",
+      "cinema": "UGC Montaudran",
+      "version": "VF",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img5.acsta.net/c_310_420/img/e1/22/e12277d75be8466492265681d0327c11.jpg"
+    },
+    {
+      "titre": "En fanfare",
+      "heure": "16h15",
+      "jour": "2025-03-14T00:00:00",
+      "cinema": "UGC Montaudran",
+      "version": "VF",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img3.acsta.net/c_310_420/img/64/74/647422e028e4ec2074828047f69efa08.jpg"
+    },
+    {
+      "titre": "Un parfait inconnu",
+      "heure": "20h30",
+      "jour": "2025-03-14T00:00:00",
+      "cinema": "UGC Montaudran",
+      "version": "VO",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img3.acsta.net/c_310_420/img/7b/09/7b09c04859a7716e5fc78882f2f4b530.jpg"
+    },
+    {
+      "titre": "Anora",
+      "heure": "20h40",
+      "jour": "2025-03-14T00:00:00",
+      "cinema": "UGC Montaudran",
+      "version": "VO",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img3.acsta.net/c_310_420/o_club-allocine-2024-310x420.png_0_se/img/57/f5/57f59edffeefc86a6b21da2053df244f.jpg"
+    },
+    {
+      "titre": "On ira",
+      "heure": "13h50",
+      "jour": "2025-03-15T00:00:00",
+      "cinema": "UGC Montaudran",
+      "version": "VF",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img3.acsta.net/c_310_420/img/4e/64/4e644edc4b90cae39ea31727a29cdb09.jpg"
+    },
+    {
+      "titre": "On ira",
+      "heure": "15h55",
+      "jour": "2025-03-15T00:00:00",
+      "cinema": "UGC Montaudran",
+      "version": "VF",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img3.acsta.net/c_310_420/img/4e/64/4e644edc4b90cae39ea31727a29cdb09.jpg"
+    },
+    {
+      "titre": "On ira",
+      "heure": "18h00",
+      "jour": "2025-03-15T00:00:00",
+      "cinema": "UGC Montaudran",
+      "version": "VF",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img3.acsta.net/c_310_420/img/4e/64/4e644edc4b90cae39ea31727a29cdb09.jpg"
+    },
+    {
+      "titre": "On ira",
+      "heure": "20h05",
+      "jour": "2025-03-15T00:00:00",
+      "cinema": "UGC Montaudran",
+      "version": "VF",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img3.acsta.net/c_310_420/img/4e/64/4e644edc4b90cae39ea31727a29cdb09.jpg"
+    },
+    {
+      "titre": "On ira",
+      "heure": "22h10",
+      "jour": "2025-03-15T00:00:00",
+      "cinema": "UGC Montaudran",
+      "version": "VF",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img3.acsta.net/c_310_420/img/4e/64/4e644edc4b90cae39ea31727a29cdb09.jpg"
+    },
+    {
+      "titre": "The Insider",
+      "heure": "14h00",
+      "jour": "2025-03-15T00:00:00",
+      "cinema": "UGC Montaudran",
+      "version": "VF",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img4.acsta.net/c_120_160/img/90/14/901424b912ee290f826dba3af9b7ce70.jpg"
+    },
+    {
+      "titre": "The Insider",
+      "heure": "16h00",
+      "jour": "2025-03-15T00:00:00",
+      "cinema": "UGC Montaudran",
+      "version": "VO",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img4.acsta.net/c_120_160/img/90/14/901424b912ee290f826dba3af9b7ce70.jpg"
+    },
+    {
+      "titre": "The Insider",
+      "heure": "18h00",
+      "jour": "2025-03-15T00:00:00",
+      "cinema": "UGC Montaudran",
+      "version": "VO",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img4.acsta.net/c_120_160/img/90/14/901424b912ee290f826dba3af9b7ce70.jpg"
+    },
+    {
+      "titre": "The Insider",
+      "heure": "20h10",
+      "jour": "2025-03-15T00:00:00",
+      "cinema": "UGC Montaudran",
+      "version": "VO",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img4.acsta.net/c_120_160/img/90/14/901424b912ee290f826dba3af9b7ce70.jpg"
+    },
+    {
+      "titre": "The Insider",
+      "heure": "22h15",
+      "jour": "2025-03-15T00:00:00",
+      "cinema": "UGC Montaudran",
+      "version": "VO",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img4.acsta.net/c_120_160/img/90/14/901424b912ee290f826dba3af9b7ce70.jpg"
+    },
+    {
+      "titre": "Vaiana 2",
+      "heure": "13h40",
+      "jour": "2025-03-15T00:00:00",
+      "cinema": "UGC Montaudran",
+      "version": "VF",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img4.acsta.net/c_310_420/img/9e/c9/9ec9a076d8516b78e1923dd76806f13e.jpg"
+    },
+    {
+      "titre": "Le Secret de Khéops",
+      "heure": "14h00",
+      "jour": "2025-03-15T00:00:00",
+      "cinema": "UGC Montaudran",
+      "version": "VF",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img5.acsta.net/c_310_420/img/04/1f/041f29d5b1fd64f8b826af3b491621e2.jpg"
+    },
+    {
+      "titre": "Le Secret de Khéops",
+      "heure": "16h30",
+      "jour": "2025-03-15T00:00:00",
+      "cinema": "UGC Montaudran",
+      "version": "VF",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img5.acsta.net/c_310_420/img/04/1f/041f29d5b1fd64f8b826af3b491621e2.jpg"
+    },
+    {
+      "titre": "Paddington au Pérou",
+      "heure": "14h00",
+      "jour": "2025-03-15T00:00:00",
+      "cinema": "UGC Montaudran",
+      "version": "VF",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img5.acsta.net/c_310_420/img/3d/88/3d888f3f864049f77bc99b83f246312d.jpg"
+    },
+    {
+      "titre": "Paddington au Pérou",
+      "heure": "16h15",
+      "jour": "2025-03-15T00:00:00",
+      "cinema": "UGC Montaudran",
+      "version": "VF",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img5.acsta.net/c_310_420/img/3d/88/3d888f3f864049f77bc99b83f246312d.jpg"
+    },
+    {
+      "titre": "Une nuit au zoo",
+      "heure": "14h00",
+      "jour": "2025-03-15T00:00:00",
+      "cinema": "UGC Montaudran",
+      "version": "VF",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img5.acsta.net/c_310_420/img/b4/64/b4641e64e7317bec7286462fe922635f.jpg"
+    },
+    {
+      "titre": "Mickey 17",
+      "heure": "17h45",
+      "jour": "2025-03-15T00:00:00",
+      "cinema": "UGC Montaudran",
+      "version": "VF",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img5.acsta.net/c_310_420/img/a5/5e/a55e6a3b1771606323178493aae5e262.jpg"
+    },
+    {
+      "titre": "Mickey 17",
+      "heure": "20h40",
+      "jour": "2025-03-15T00:00:00",
+      "cinema": "UGC Montaudran",
+      "version": "VF",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img5.acsta.net/c_310_420/img/a5/5e/a55e6a3b1771606323178493aae5e262.jpg"
+    },
+    {
+      "titre": "Mickey 17",
+      "heure": "14h30",
+      "jour": "2025-03-15T00:00:00",
+      "cinema": "UGC Montaudran",
+      "version": "VO",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img5.acsta.net/c_310_420/img/a5/5e/a55e6a3b1771606323178493aae5e262.jpg"
+    },
+    {
+      "titre": "Mickey 17",
+      "heure": "17h30",
+      "jour": "2025-03-15T00:00:00",
+      "cinema": "UGC Montaudran",
+      "version": "VO",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img5.acsta.net/c_310_420/img/a5/5e/a55e6a3b1771606323178493aae5e262.jpg"
+    },
+    {
+      "titre": "Mickey 17",
+      "heure": "19h00",
+      "jour": "2025-03-15T00:00:00",
+      "cinema": "UGC Montaudran",
+      "version": "VO",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img5.acsta.net/c_310_420/img/a5/5e/a55e6a3b1771606323178493aae5e262.jpg"
+    },
+    {
+      "titre": "Mickey 17",
+      "heure": "20h30",
+      "jour": "2025-03-15T00:00:00",
+      "cinema": "UGC Montaudran",
+      "version": "VO",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img5.acsta.net/c_310_420/img/a5/5e/a55e6a3b1771606323178493aae5e262.jpg"
+    },
+    {
+      "titre": "Mickey 17",
+      "heure": "21h45",
+      "jour": "2025-03-15T00:00:00",
+      "cinema": "UGC Montaudran",
+      "version": "VO",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img5.acsta.net/c_310_420/img/a5/5e/a55e6a3b1771606323178493aae5e262.jpg"
+    },
+    {
+      "titre": "À bicyclette !",
+      "heure": "15h45",
+      "jour": "2025-03-15T00:00:00",
+      "cinema": "UGC Montaudran",
+      "version": "VF",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img5.acsta.net/c_310_420/img/9c/f8/9cf8cf27a2706be4849760190dddd37b.jpg"
+    },
+    {
+      "titre": "À bicyclette !",
+      "heure": "18h30",
+      "jour": "2025-03-15T00:00:00",
+      "cinema": "UGC Montaudran",
+      "version": "VF",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img5.acsta.net/c_310_420/img/9c/f8/9cf8cf27a2706be4849760190dddd37b.jpg"
+    },
+    {
+      "titre": "God Save the Tuche",
+      "heure": "16h10",
+      "jour": "2025-03-15T00:00:00",
+      "cinema": "UGC Montaudran",
+      "version": "VF",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img5.acsta.net/c_310_420/img/e1/22/e12277d75be8466492265681d0327c11.jpg"
+    },
+    {
+      "titre": "Bridget Jones : folle de lui",
+      "heure": "18h10",
+      "jour": "2025-03-15T00:00:00",
+      "cinema": "UGC Montaudran",
+      "version": "VO",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img5.acsta.net/c_310_420/img/a9/28/a9285e78d0a6d8ea9451c6e7efffcbd3.jpg"
+    },
+    {
+      "titre": "Un parfait inconnu",
+      "heure": "20h30",
+      "jour": "2025-03-15T00:00:00",
+      "cinema": "UGC Montaudran",
+      "version": "VO",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img3.acsta.net/c_310_420/img/7b/09/7b09c04859a7716e5fc78882f2f4b530.jpg"
+    },
+    {
+      "titre": "Anora",
+      "heure": "20h40",
+      "jour": "2025-03-15T00:00:00",
+      "cinema": "UGC Montaudran",
+      "version": "VO",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img3.acsta.net/c_310_420/o_club-allocine-2024-310x420.png_0_se/img/57/f5/57f59edffeefc86a6b21da2053df244f.jpg"
+    },
+    {
+      "titre": "Ma Mère, Dieu et Sylvie Vartan",
+      "heure": "18h10",
+      "jour": "2025-03-16T00:00:00",
+      "cinema": "UGC Montaudran",
+      "version": "VF",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img5.acsta.net/c_310_420/img/67/96/679692192682dfa81dc8296e92a4cbf5.jpg"
+    },
+    {
+      "titre": "On ira",
+      "heure": "11h00",
+      "jour": "2025-03-16T00:00:00",
+      "cinema": "UGC Montaudran",
+      "version": "VF",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img3.acsta.net/c_310_420/img/4e/64/4e644edc4b90cae39ea31727a29cdb09.jpg"
+    },
+    {
+      "titre": "On ira",
+      "heure": "14h00",
+      "jour": "2025-03-16T00:00:00",
+      "cinema": "UGC Montaudran",
+      "version": "VF",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img3.acsta.net/c_310_420/img/4e/64/4e644edc4b90cae39ea31727a29cdb09.jpg"
+    },
+    {
+      "titre": "On ira",
+      "heure": "16h15",
+      "jour": "2025-03-16T00:00:00",
+      "cinema": "UGC Montaudran",
+      "version": "VF",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img3.acsta.net/c_310_420/img/4e/64/4e644edc4b90cae39ea31727a29cdb09.jpg"
+    },
+    {
+      "titre": "On ira",
+      "heure": "18h30",
+      "jour": "2025-03-16T00:00:00",
+      "cinema": "UGC Montaudran",
+      "version": "VF",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img3.acsta.net/c_310_420/img/4e/64/4e644edc4b90cae39ea31727a29cdb09.jpg"
+    },
+    {
+      "titre": "On ira",
+      "heure": "20h45",
+      "jour": "2025-03-16T00:00:00",
+      "cinema": "UGC Montaudran",
+      "version": "VF",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img3.acsta.net/c_310_420/img/4e/64/4e644edc4b90cae39ea31727a29cdb09.jpg"
+    },
+    {
+      "titre": "The Insider",
+      "heure": "11h10",
+      "jour": "2025-03-16T00:00:00",
+      "cinema": "UGC Montaudran",
+      "version": "VF",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img4.acsta.net/c_120_160/img/90/14/901424b912ee290f826dba3af9b7ce70.jpg"
+    },
+    {
+      "titre": "The Insider",
+      "heure": "14h00",
+      "jour": "2025-03-16T00:00:00",
+      "cinema": "UGC Montaudran",
+      "version": "VF",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img4.acsta.net/c_120_160/img/90/14/901424b912ee290f826dba3af9b7ce70.jpg"
+    },
+    {
+      "titre": "The Insider",
+      "heure": "16h15",
+      "jour": "2025-03-16T00:00:00",
+      "cinema": "UGC Montaudran",
+      "version": "VO",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img4.acsta.net/c_120_160/img/90/14/901424b912ee290f826dba3af9b7ce70.jpg"
+    },
+    {
+      "titre": "The Insider",
+      "heure": "18h30",
+      "jour": "2025-03-16T00:00:00",
+      "cinema": "UGC Montaudran",
+      "version": "VO",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img4.acsta.net/c_120_160/img/90/14/901424b912ee290f826dba3af9b7ce70.jpg"
+    },
+    {
+      "titre": "The Insider",
+      "heure": "20h45",
+      "jour": "2025-03-16T00:00:00",
+      "cinema": "UGC Montaudran",
+      "version": "VO",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img4.acsta.net/c_120_160/img/90/14/901424b912ee290f826dba3af9b7ce70.jpg"
+    },
+    {
+      "titre": "Mufasa : Le Roi Lion",
+      "heure": "10h30",
+      "jour": "2025-03-16T00:00:00",
+      "cinema": "UGC Montaudran",
+      "version": "VF",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img6.acsta.net/c_310_420/img/f5/f2/f5f2447c4246e42eb3e69040605d7cf1.jpg"
+    },
+    {
+      "titre": "Paddington au Pérou",
+      "heure": "10h40",
+      "jour": "2025-03-16T00:00:00",
+      "cinema": "UGC Montaudran",
+      "version": "VF",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img5.acsta.net/c_310_420/img/3d/88/3d888f3f864049f77bc99b83f246312d.jpg"
+    },
+    {
+      "titre": "Paddington au Pérou",
+      "heure": "14h00",
+      "jour": "2025-03-16T00:00:00",
+      "cinema": "UGC Montaudran",
+      "version": "VF",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img5.acsta.net/c_310_420/img/3d/88/3d888f3f864049f77bc99b83f246312d.jpg"
+    },
+    {
+      "titre": "Paddington au Pérou",
+      "heure": "16h15",
+      "jour": "2025-03-16T00:00:00",
+      "cinema": "UGC Montaudran",
+      "version": "VF",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img5.acsta.net/c_310_420/img/3d/88/3d888f3f864049f77bc99b83f246312d.jpg"
+    },
+    {
+      "titre": "Le Secret de Khéops",
+      "heure": "10h50",
+      "jour": "2025-03-16T00:00:00",
+      "cinema": "UGC Montaudran",
+      "version": "VF",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img5.acsta.net/c_310_420/img/04/1f/041f29d5b1fd64f8b826af3b491621e2.jpg"
+    },
+    {
+      "titre": "Le Secret de Khéops",
+      "heure": "14h00",
+      "jour": "2025-03-16T00:00:00",
+      "cinema": "UGC Montaudran",
+      "version": "VF",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img5.acsta.net/c_310_420/img/04/1f/041f29d5b1fd64f8b826af3b491621e2.jpg"
+    },
+    {
+      "titre": "Le Secret de Khéops",
+      "heure": "16h30",
+      "jour": "2025-03-16T00:00:00",
+      "cinema": "UGC Montaudran",
+      "version": "VF",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img5.acsta.net/c_310_420/img/04/1f/041f29d5b1fd64f8b826af3b491621e2.jpg"
+    },
+    {
+      "titre": "Mickey 17",
+      "heure": "17h45",
+      "jour": "2025-03-16T00:00:00",
+      "cinema": "UGC Montaudran",
+      "version": "VF",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img5.acsta.net/c_310_420/img/a5/5e/a55e6a3b1771606323178493aae5e262.jpg"
+    },
+    {
+      "titre": "Mickey 17",
+      "heure": "20h40",
+      "jour": "2025-03-16T00:00:00",
+      "cinema": "UGC Montaudran",
+      "version": "VF",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img5.acsta.net/c_310_420/img/a5/5e/a55e6a3b1771606323178493aae5e262.jpg"
+    },
+    {
+      "titre": "Mickey 17",
+      "heure": "11h00",
+      "jour": "2025-03-16T00:00:00",
+      "cinema": "UGC Montaudran",
+      "version": "VO",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img5.acsta.net/c_310_420/img/a5/5e/a55e6a3b1771606323178493aae5e262.jpg"
+    },
+    {
+      "titre": "Mickey 17",
+      "heure": "14h30",
+      "jour": "2025-03-16T00:00:00",
+      "cinema": "UGC Montaudran",
+      "version": "VO",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img5.acsta.net/c_310_420/img/a5/5e/a55e6a3b1771606323178493aae5e262.jpg"
+    },
+    {
+      "titre": "Mickey 17",
+      "heure": "17h30",
+      "jour": "2025-03-16T00:00:00",
+      "cinema": "UGC Montaudran",
+      "version": "VO",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img5.acsta.net/c_310_420/img/a5/5e/a55e6a3b1771606323178493aae5e262.jpg"
+    },
+    {
+      "titre": "Mickey 17",
+      "heure": "19h00",
+      "jour": "2025-03-16T00:00:00",
+      "cinema": "UGC Montaudran",
+      "version": "VO",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img5.acsta.net/c_310_420/img/a5/5e/a55e6a3b1771606323178493aae5e262.jpg"
+    },
+    {
+      "titre": "Mickey 17",
+      "heure": "20h30",
+      "jour": "2025-03-16T00:00:00",
+      "cinema": "UGC Montaudran",
+      "version": "VO",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img5.acsta.net/c_310_420/img/a5/5e/a55e6a3b1771606323178493aae5e262.jpg"
+    },
+    {
+      "titre": "Pocahontas, une légende indienne",
+      "heure": "11h00",
+      "jour": "2025-03-16T00:00:00",
+      "cinema": "UGC Montaudran",
+      "version": "VF",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img2.acsta.net/c_310_420/pictures/17/07/10/16/07/137739.jpg"
+    },
+    {
+      "titre": "Vaiana 2",
+      "heure": "13h40",
+      "jour": "2025-03-16T00:00:00",
+      "cinema": "UGC Montaudran",
+      "version": "VF",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img4.acsta.net/c_310_420/img/9e/c9/9ec9a076d8516b78e1923dd76806f13e.jpg"
+    },
+    {
+      "titre": "Une nuit au zoo",
+      "heure": "14h00",
+      "jour": "2025-03-16T00:00:00",
+      "cinema": "UGC Montaudran",
+      "version": "VF",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img5.acsta.net/c_310_420/img/b4/64/b4641e64e7317bec7286462fe922635f.jpg"
+    },
+    {
+      "titre": "À bicyclette !",
+      "heure": "15h45",
+      "jour": "2025-03-16T00:00:00",
+      "cinema": "UGC Montaudran",
+      "version": "VF",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img5.acsta.net/c_310_420/img/9c/f8/9cf8cf27a2706be4849760190dddd37b.jpg"
+    },
+    {
+      "titre": "À bicyclette !",
+      "heure": "18h30",
+      "jour": "2025-03-16T00:00:00",
+      "cinema": "UGC Montaudran",
+      "version": "VF",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img5.acsta.net/c_310_420/img/9c/f8/9cf8cf27a2706be4849760190dddd37b.jpg"
+    },
+    {
+      "titre": "God Save the Tuche",
+      "heure": "16h10",
+      "jour": "2025-03-16T00:00:00",
+      "cinema": "UGC Montaudran",
+      "version": "VF",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img5.acsta.net/c_310_420/img/e1/22/e12277d75be8466492265681d0327c11.jpg"
+    },
+    {
+      "titre": "Un parfait inconnu",
+      "heure": "20h30",
+      "jour": "2025-03-16T00:00:00",
+      "cinema": "UGC Montaudran",
+      "version": "VO",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img3.acsta.net/c_310_420/img/7b/09/7b09c04859a7716e5fc78882f2f4b530.jpg"
+    },
+    {
+      "titre": "Anora",
+      "heure": "20h40",
+      "jour": "2025-03-16T00:00:00",
+      "cinema": "UGC Montaudran",
+      "version": "VO",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img3.acsta.net/c_310_420/o_club-allocine-2024-310x420.png_0_se/img/57/f5/57f59edffeefc86a6b21da2053df244f.jpg"
+    },
+    {
+      "titre": "The Insider",
+      "heure": "14h00",
+      "jour": "2025-03-17T00:00:00",
+      "cinema": "UGC Montaudran",
+      "version": "VF",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img4.acsta.net/c_120_160/img/90/14/901424b912ee290f826dba3af9b7ce70.jpg"
+    },
+    {
+      "titre": "The Insider",
+      "heure": "16h15",
+      "jour": "2025-03-17T00:00:00",
+      "cinema": "UGC Montaudran",
+      "version": "VO",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img4.acsta.net/c_120_160/img/90/14/901424b912ee290f826dba3af9b7ce70.jpg"
+    },
+    {
+      "titre": "The Insider",
+      "heure": "18h30",
+      "jour": "2025-03-17T00:00:00",
+      "cinema": "UGC Montaudran",
+      "version": "VO",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img4.acsta.net/c_120_160/img/90/14/901424b912ee290f826dba3af9b7ce70.jpg"
+    },
+    {
+      "titre": "The Insider",
+      "heure": "20h45",
+      "jour": "2025-03-17T00:00:00",
+      "cinema": "UGC Montaudran",
+      "version": "VO",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img4.acsta.net/c_120_160/img/90/14/901424b912ee290f826dba3af9b7ce70.jpg"
+    },
+    {
+      "titre": "On ira",
+      "heure": "14h00",
+      "jour": "2025-03-17T00:00:00",
+      "cinema": "UGC Montaudran",
+      "version": "VF",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img3.acsta.net/c_310_420/img/4e/64/4e644edc4b90cae39ea31727a29cdb09.jpg"
+    },
+    {
+      "titre": "On ira",
+      "heure": "16h15",
+      "jour": "2025-03-17T00:00:00",
+      "cinema": "UGC Montaudran",
+      "version": "VF",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img3.acsta.net/c_310_420/img/4e/64/4e644edc4b90cae39ea31727a29cdb09.jpg"
+    },
+    {
+      "titre": "On ira",
+      "heure": "18h30",
+      "jour": "2025-03-17T00:00:00",
+      "cinema": "UGC Montaudran",
+      "version": "VF",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img3.acsta.net/c_310_420/img/4e/64/4e644edc4b90cae39ea31727a29cdb09.jpg"
+    },
+    {
+      "titre": "On ira",
+      "heure": "20h45",
+      "jour": "2025-03-17T00:00:00",
+      "cinema": "UGC Montaudran",
+      "version": "VF",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img3.acsta.net/c_310_420/img/4e/64/4e644edc4b90cae39ea31727a29cdb09.jpg"
+    },
+    {
+      "titre": "Captain America: Brave New World",
+      "heure": "13h40",
+      "jour": "2025-03-17T00:00:00",
+      "cinema": "UGC Montaudran",
+      "version": "VF",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img3.acsta.net/c_310_420/img/92/55/9255d9aeb17004f6a622cc47e573777e.jpg"
+    },
+    {
+      "titre": "À bicyclette !",
+      "heure": "13h45",
+      "jour": "2025-03-17T00:00:00",
+      "cinema": "UGC Montaudran",
+      "version": "VF",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img5.acsta.net/c_310_420/img/9c/f8/9cf8cf27a2706be4849760190dddd37b.jpg"
+    },
+    {
+      "titre": "À bicyclette !",
+      "heure": "15h45",
+      "jour": "2025-03-17T00:00:00",
+      "cinema": "UGC Montaudran",
+      "version": "VF",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img5.acsta.net/c_310_420/img/9c/f8/9cf8cf27a2706be4849760190dddd37b.jpg"
+    },
+    {
+      "titre": "À bicyclette !",
+      "heure": "18h30",
+      "jour": "2025-03-17T00:00:00",
+      "cinema": "UGC Montaudran",
+      "version": "VF",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img5.acsta.net/c_310_420/img/9c/f8/9cf8cf27a2706be4849760190dddd37b.jpg"
+    },
+    {
+      "titre": "Bridget Jones : folle de lui",
+      "heure": "13h45",
+      "jour": "2025-03-17T00:00:00",
+      "cinema": "UGC Montaudran",
+      "version": "VO",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img5.acsta.net/c_310_420/img/a9/28/a9285e78d0a6d8ea9451c6e7efffcbd3.jpg"
+    },
+    {
+      "titre": "Bridget Jones : folle de lui",
+      "heure": "18h10",
+      "jour": "2025-03-17T00:00:00",
+      "cinema": "UGC Montaudran",
+      "version": "VO",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img5.acsta.net/c_310_420/img/a9/28/a9285e78d0a6d8ea9451c6e7efffcbd3.jpg"
+    },
+    {
+      "titre": "Le Secret de Khéops",
+      "heure": "14h00",
+      "jour": "2025-03-17T00:00:00",
+      "cinema": "UGC Montaudran",
+      "version": "VF",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img5.acsta.net/c_310_420/img/04/1f/041f29d5b1fd64f8b826af3b491621e2.jpg"
+    },
+    {
+      "titre": "Le Secret de Khéops",
+      "heure": "16h30",
+      "jour": "2025-03-17T00:00:00",
+      "cinema": "UGC Montaudran",
+      "version": "VF",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img5.acsta.net/c_310_420/img/04/1f/041f29d5b1fd64f8b826af3b491621e2.jpg"
+    },
+    {
+      "titre": "Mickey 17",
+      "heure": "17h45",
+      "jour": "2025-03-17T00:00:00",
+      "cinema": "UGC Montaudran",
+      "version": "VF",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img5.acsta.net/c_310_420/img/a5/5e/a55e6a3b1771606323178493aae5e262.jpg"
+    },
+    {
+      "titre": "Mickey 17",
+      "heure": "20h40",
+      "jour": "2025-03-17T00:00:00",
+      "cinema": "UGC Montaudran",
+      "version": "VF",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img5.acsta.net/c_310_420/img/a5/5e/a55e6a3b1771606323178493aae5e262.jpg"
+    },
+    {
+      "titre": "Mickey 17",
+      "heure": "14h30",
+      "jour": "2025-03-17T00:00:00",
+      "cinema": "UGC Montaudran",
+      "version": "VO",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img5.acsta.net/c_310_420/img/a5/5e/a55e6a3b1771606323178493aae5e262.jpg"
+    },
+    {
+      "titre": "Mickey 17",
+      "heure": "17h30",
+      "jour": "2025-03-17T00:00:00",
+      "cinema": "UGC Montaudran",
+      "version": "VO",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img5.acsta.net/c_310_420/img/a5/5e/a55e6a3b1771606323178493aae5e262.jpg"
+    },
+    {
+      "titre": "Mickey 17",
+      "heure": "19h00",
+      "jour": "2025-03-17T00:00:00",
+      "cinema": "UGC Montaudran",
+      "version": "VO",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img5.acsta.net/c_310_420/img/a5/5e/a55e6a3b1771606323178493aae5e262.jpg"
+    },
+    {
+      "titre": "Mickey 17",
+      "heure": "20h30",
+      "jour": "2025-03-17T00:00:00",
+      "cinema": "UGC Montaudran",
+      "version": "VO",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img5.acsta.net/c_310_420/img/a5/5e/a55e6a3b1771606323178493aae5e262.jpg"
+    },
+    {
+      "titre": "God Save the Tuche",
+      "heure": "16h10",
+      "jour": "2025-03-17T00:00:00",
+      "cinema": "UGC Montaudran",
+      "version": "VF",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img5.acsta.net/c_310_420/img/e1/22/e12277d75be8466492265681d0327c11.jpg"
+    },
+    {
+      "titre": "En fanfare",
+      "heure": "16h15",
+      "jour": "2025-03-17T00:00:00",
+      "cinema": "UGC Montaudran",
+      "version": "VF",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img3.acsta.net/c_310_420/img/64/74/647422e028e4ec2074828047f69efa08.jpg"
+    },
+    {
+      "titre": "Un parfait inconnu",
+      "heure": "20h30",
+      "jour": "2025-03-17T00:00:00",
+      "cinema": "UGC Montaudran",
+      "version": "VO",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img3.acsta.net/c_310_420/img/7b/09/7b09c04859a7716e5fc78882f2f4b530.jpg"
+    },
+    {
+      "titre": "Anora",
+      "heure": "20h40",
+      "jour": "2025-03-17T00:00:00",
+      "cinema": "UGC Montaudran",
+      "version": "VO",
+      "duree": "",
+      "tags": [],
+      "poster": "https://fr.web.img3.acsta.net/c_310_420/o_club-allocine-2024-310x420.png_0_se/img/57/f5/57f59edffeefc86a6b21da2053df244f.jpg"
     }
   ]
 }

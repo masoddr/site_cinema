@@ -6,6 +6,7 @@ import requests
 from bs4 import BeautifulSoup
 import urllib.parse
 import unicodedata
+from ..constants.cinemas import CINEMAS
 
 try:
     from allocineAPI.allocineAPI import allocineAPI
@@ -22,16 +23,7 @@ logger = logging.getLogger(__name__)
 
 class AllocineScraper(BaseScraper):
     def __init__(self):
-        self.cinemas = {
-            'ABC': {
-                'id': 'P0071',  # Mis à jour avec le bon ID
-                'name': 'ABC'
-            },
-            'AMERICAN_COSMOGRAPH': {
-                'id': 'P0235',
-                'name': 'American Cosmograph'
-            }
-        }
+        self.cinemas = CINEMAS
         self.api = allocineAPI()
         self.base_url = "https://www.allocine.fr"
         self.headers = {
@@ -248,13 +240,26 @@ class AllocineScraper(BaseScraper):
         try:
             seances = []
             for cinema_id, cinema_info in self.cinemas.items():
+                logger.info(f"Récupération des séances pour {cinema_info['name']} (ID: {cinema_info['id']})")
                 cinema_seances = self.get_seances_cinema(
                     cinema_info['id'], 
                     cinema_info['name']
                 )
+                logger.info(f"Nombre de séances trouvées pour {cinema_info['name']}: {len(cinema_seances)}")
+                
+                if len(cinema_seances) == 0:
+                    logger.warning(f"⚠️ Aucune séance trouvée pour {cinema_info['name']} - Vérifiez l'ID: {cinema_info['id']}")
+                
                 for seance in cinema_seances:
                     seance['titre'] = self.clean_title(seance['titre'])
                 seances.extend(cinema_seances)
+            
+            # Résumé final
+            logger.info("Résumé des séances par cinéma:")
+            for cinema_info in self.cinemas.values():
+                cinema_count = len([s for s in seances if s['cinema'] == cinema_info['name']])
+                logger.info(f"{cinema_info['name']}: {cinema_count} séances")
+            
             return seances
         except Exception as e:
             logger.error(f"Erreur lors de la récupération des séances: {e}")
