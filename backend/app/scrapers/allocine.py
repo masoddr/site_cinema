@@ -43,57 +43,74 @@ class AllocineScraper(BaseScraper):
             # Encoder le titre pour l'URL
             encoded_title = urllib.parse.quote(movie_title)
             
-            # Utiliser l'API de recherche d'Allociné
-            search_url = f"{self.base_url}/recherche/1/?q={encoded_title}"
+            # Essayer d'abord la recherche via l'API
+            search_url = f"https://www.allocine.fr/rechercher/movie?q={encoded_title}"
             response = requests.get(search_url, headers=self.headers)
             
-            # Log pour debug
             logger.debug(f"URL de recherche: {search_url}")
             logger.debug(f"Status code: {response.status_code}")
             
             soup = BeautifulSoup(response.text, 'html.parser')
             
-            # Chercher l'image dans différents sélecteurs possibles
+            # Essayer plusieurs sélecteurs pour trouver l'affiche
             poster_selectors = [
-                'img.thumbnail-img',
                 '.thumbnail-img',
                 '.entity-card-img img',
                 '.mdl-card__media img',
-                '.card-entity-list img'
+                '.card-entity-list img',
+                '.meta-title-thumbnail img',
+                '.thumbnail img',
+                'figure.thumbnail img',
+                '.movie-card-poster img'
             ]
             
+            # Essayer chaque sélecteur jusqu'à trouver une affiche
             for selector in poster_selectors:
-                poster_img = soup.select_one(selector)
-                if poster_img:
-                    # Log pour debug
-                    logger.debug(f"Trouvé avec le sélecteur: {selector}")
-                    logger.debug(f"Attributs de l'image: {poster_img.attrs}")
-                    
-                    # Essayer différents attributs pour l'URL
-                    poster_url = (
-                        poster_img.get('data-src') or
-                        poster_img.get('src') or
-                        poster_img.get('content')
-                    )
-                    
-                    if poster_url:
-                        # Convertir en haute qualité si possible
-                        poster_url = poster_url.replace('c_160_213', 'c_310_420')
-                        poster_url = poster_url.replace('r_160_213', 'r_310_420')
+                poster_elements = soup.select(selector)
+                for poster_img in poster_elements:
+                    # Vérifier si le titre du film correspond approximativement
+                    alt_text = poster_img.get('alt', '').lower()
+                    if movie_title.lower() in alt_text:
+                        # Essayer différents attributs pour l'URL
+                        poster_url = (
+                            poster_img.get('data-src') or
+                            poster_img.get('src') or
+                            poster_img.get('content')
+                        )
                         
-                        # S'assurer que l'URL est absolue
-                        if not poster_url.startswith('http'):
-                            poster_url = f"https:{poster_url}"
-                        
-                        logger.info(f"Affiche trouvée pour '{movie_title}': {poster_url}")
-                        return {'poster': poster_url}
+                        if poster_url:
+                            # Convertir en haute qualité si possible
+                            poster_url = poster_url.replace('c_160_213', 'c_310_420')
+                            poster_url = poster_url.replace('r_160_213', 'r_310_420')
+                            
+                            # S'assurer que l'URL est absolue
+                            if not poster_url.startswith('http'):
+                                poster_url = f"https:{poster_url}"
+                            
+                            logger.info(f"Affiche trouvée pour '{movie_title}': {poster_url}")
+                            return {'poster': poster_url}
             
+            # Si aucune affiche n'est trouvée, essayer une recherche plus générale
+            fallback_url = f"https://www.allocine.fr/film/fichefilm_gen_cfilm={movie_title}.html"
+            response = requests.get(fallback_url, headers=self.headers)
+            soup = BeautifulSoup(response.text, 'html.parser')
+            
+            poster_img = soup.select_one('.poster-img')
+            if poster_img:
+                poster_url = poster_img.get('src')
+                if poster_url:
+                    if not poster_url.startswith('http'):
+                        poster_url = f"https:{poster_url}"
+                    logger.info(f"Affiche trouvée (fallback) pour '{movie_title}': {poster_url}")
+                    return {'poster': poster_url}
+            
+            # Si toujours rien trouvé, utiliser une image par défaut
             logger.warning(f"Aucune affiche trouvée pour '{movie_title}'")
-            return {'poster': ''}
+            return {'poster': 'https://www.allocine.fr/skin/img/placeholder/poster.jpg'}
             
         except Exception as e:
             logger.error(f"Erreur lors de la récupération des détails du film '{movie_title}': {e}")
-            return {'poster': ''}
+            return {'poster': 'https://www.allocine.fr/skin/img/placeholder/poster.jpg'}
 
     def get_movie_poster_from_cinema_page(self, movie_title, cinema_id):
         """Récupère l'affiche d'un film depuis la page du cinéma"""
@@ -194,6 +211,16 @@ class AllocineScraper(BaseScraper):
                             logger.error(f"Format d'horaire invalide {horaire}: {e}")
                 
             logger.info(f"Nombre total de séances trouvées : {len(all_seances)}")
+
+            # Ajouter après la boucle de récupération des séances
+            missing_posters = set()
+            for seance in all_seances:
+                if not seance['poster']:
+                    missing_posters.add(seance['titre'])
+
+            if missing_posters:
+                logger.warning(f"Films sans affiche pour {cinema_name}: {', '.join(missing_posters)}")
+
             return all_seances
             
         except Exception as e:
