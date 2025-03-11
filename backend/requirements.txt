@@ -1,6 +1,6 @@
 # Framework web
 Flask==3.0.2
-flask-cors==4.0.0
+flask-cors==4.0.2
 
 # Base de données
 psycopg2-binary==2.9.9
@@ -9,8 +9,8 @@ Flask-SQLAlchemy==3.1.1
 
 # Scraping
 beautifulsoup4==4.12.3
-requests==2.31.0
-scrapy==2.11.1
+requests==2.32.2
+scrapy==2.11.2
 
 # Tests
 pytest==8.0.2
