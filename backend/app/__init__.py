@@ -1,26 +1,37 @@
 from flask import Flask
+from flask_sqlalchemy import SQLAlchemy
 from flask_cors import CORS
-from .config import Config
-from app.models import db
+import os
+from dotenv import load_dotenv
 
-def create_app(config_class=Config):
+load_dotenv()
+
+db = SQLAlchemy()
+
+def create_app():
     app = Flask(__name__)
-    app.config.from_object(config_class)
     
-    # Initialisation des extensions
-    CORS(app)
+    # Configuration
+    app.config['SQLALCHEMY_DATABASE_URI'] = os.getenv('DATABASE_URL', 'sqlite:///test.db')
+    app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
+    
+    # Configuration CORS simplifiée pour le développement
+    CORS(app, resources={
+        r"/*": {
+            "origins": "*",
+            "methods": ["GET", "POST", "OPTIONS"],
+            "allow_headers": ["Content-Type"]
+        }
+    })
+    
     db.init_app(app)
     
-    # Création des tables au démarrage
-    with app.app_context():
-        db.create_all()
+    # Importer et enregistrer les routes
+    from app.routes import api
+    app.register_blueprint(api, url_prefix='/api')
     
-    # Ici nous importerons plus tard nos routes
-    from app.routes import main
-    app.register_blueprint(main)
+    # Ne pas créer la base de données pour le moment
+    # with app.app_context():
+    #     db.create_all()
     
-    @app.route('/health')
-    def health_check():
-        return {'status': 'ok'}, 200
-        
     return app

@@ -46,7 +46,7 @@ const SeancesViewer = ({ seances }) => {
         {Object.values(seancesByFilm).map(film => (
           <div key={film.titre} className="film-card">
             <h3>{film.titre}</h3>
-            <p className="duree">{film.duree}</p>
+            {film.duree && <p className="duree">{film.duree}</p>}
             <div className="seances-par-cinema">
               {Object.entries(
                 film.seances.reduce((acc, s) => {
@@ -60,9 +60,7 @@ const SeancesViewer = ({ seances }) => {
                   <div className="horaires">
                     {seances.map((s, i) => (
                       <span key={i} className="seance">
-                        {s.heure}
-                        <small>{s.version}</small>
-                        <small>salle {s.salle}</small>
+                        {s.heure} - {s.version}
                       </span>
                     ))}
                   </div>

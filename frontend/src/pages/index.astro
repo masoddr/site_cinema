@@ -1,36 +1,46 @@
 ---
-// Importer directement les fichiers JSON
-import acSeances from '../../public/american_cosmograph_seances.json';
-import abcSeances from '../../public/abc_seances.json';
+import SeancesViewer from '../components/SeancesViewer';
+
+// Récupérer les séances depuis l'API
+let seances = [];
+try {
+  const response = await fetch('http://localhost:5000/api/seances', {
+    headers: {
+      'Accept': 'application/json'
+    }
+  });
+  
+  if (!response.ok) {
+    throw new Error(`HTTP error! status: ${response.status}`);
+  }
+  
+  const contentType = response.headers.get('content-type');
+  if (!contentType || !contentType.includes('application/json')) {
+    throw new TypeError("La réponse n'est pas du JSON!");
+  }
+  
+  seances = await response.json();
+  console.log('Séances récupérées:', seances);
+  
+} catch (error) {
+  console.error('Erreur lors de la récupération des séances:', error);
+  console.error('Message:', error.message);
+}
 
 // Normaliser les titres (tout en minuscules)
 const normalizeTitle = (title) => title.toLowerCase().trim();
 
-// Ajouter le titre normalisé à chaque séance pour la comparaison
-const acSeancesNormalized = acSeances.map(s => ({
+// Ajouter le titre normalisé à chaque séance
+const seancesNormalized = seances.map(s => ({
   ...s,
   titreNormalise: normalizeTitle(s.titre)
 }));
 
-const abcSeancesNormalized = abcSeances.map(s => ({
-  ...s,
-  titreNormalise: normalizeTitle(s.titre)
-}));
-
-// Trouver les films programmés dans les deux cinémas
-const titresAC = new Set(acSeancesNormalized.map(s => s.titreNormalise));
-const titresABC = new Set(abcSeancesNormalized.map(s => s.titreNormalise));
-const filmsDansLesDeux = [...titresAC].filter(titre => titresABC.has(titre));
-
-console.log("Films programmés dans les deux cinémas:", filmsDansLesDeux);
-
-// Combiner et trier les séances
-const allSeances = [...acSeancesNormalized, ...abcSeancesNormalized].sort((a, b) => 
+// Trier les séances
+const sortedSeances = seancesNormalized.sort((a, b) => 
   new Date(a.jour) - new Date(b.jour) || 
   a.heure.localeCompare(b.heure)
 );
-
-import SeancesViewer from '../components/SeancesViewer';
 ---
 
 <html lang="fr">
@@ -41,7 +51,7 @@ import SeancesViewer from '../components/SeancesViewer';
   </head>
   <body>
     <main>
-      <SeancesViewer client:load seances={allSeances} />
+      <SeancesViewer client:load seances={sortedSeances} />
     </main>
   </body>
 </html> 

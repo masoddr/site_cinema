@@ -1,13 +1,13 @@
 from flask import jsonify
 from app.models.cinema import Cinema
-from . import main
+from app.routes import api
 
-@main.route('/cinemas')
+@api.route('/cinemas', methods=['GET'])
 def get_cinemas():
     cinemas = Cinema.query.all()
-    return jsonify([{
-        'id': c.id,
-        'nom': c.nom,
-        'adresse': c.adresse,
-        'site_web': c.site_web
-    } for c in cinemas]) 
+    return jsonify([cinema.to_dict() for cinema in cinemas])
+
+@api.route('/cinema/<int:id>', methods=['GET'])
+def get_cinema(id):
+    cinema = Cinema.query.get_or_404(id)
+    return jsonify(cinema.to_dict()) 

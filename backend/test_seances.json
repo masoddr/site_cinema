@@ -1,0 +1,592 @@
+[
+  {
+    "titre": "Sebastian",
+    "heure": "20h00",
+    "jour": "2025-03-11T00:00:00",
+    "cinema": "ABC",
+    "salle": "",
+    "version": "VO",
+    "duree": "",
+    "tags": []
+  },
+  {
+    "titre": "Anora",
+    "heure": "10h40",
+    "jour": "2025-03-11T00:00:00",
+    "cinema": "ABC",
+    "salle": "",
+    "version": "VO",
+    "duree": "",
+    "tags": []
+  },
+  {
+    "titre": "Anora",
+    "heure": "21h40",
+    "jour": "2025-03-11T00:00:00",
+    "cinema": "ABC",
+    "salle": "",
+    "version": "VO",
+    "duree": "",
+    "tags": []
+  },
+  {
+    "titre": "Mickey 17",
+    "heure": "18h35",
+    "jour": "2025-03-11T00:00:00",
+    "cinema": "ABC",
+    "salle": "",
+    "version": "VF",
+    "duree": "",
+    "tags": []
+  },
+  {
+    "titre": "Mickey 17",
+    "heure": "21h35",
+    "jour": "2025-03-11T00:00:00",
+    "cinema": "ABC",
+    "salle": "",
+    "version": "VF",
+    "duree": "",
+    "tags": []
+  },
+  {
+    "titre": "Mickey 17",
+    "heure": "10h45",
+    "jour": "2025-03-11T00:00:00",
+    "cinema": "ABC",
+    "salle": "",
+    "version": "VO",
+    "duree": "",
+    "tags": []
+  },
+  {
+    "titre": "Mickey 17",
+    "heure": "13h40",
+    "jour": "2025-03-11T00:00:00",
+    "cinema": "ABC",
+    "salle": "",
+    "version": "VO",
+    "duree": "",
+    "tags": []
+  },
+  {
+    "titre": "Mickey 17",
+    "heure": "16h30",
+    "jour": "2025-03-11T00:00:00",
+    "cinema": "ABC",
+    "salle": "",
+    "version": "VO",
+    "duree": "",
+    "tags": []
+  },
+  {
+    "titre": "Mickey 17",
+    "heure": "19h20",
+    "jour": "2025-03-11T00:00:00",
+    "cinema": "ABC",
+    "salle": "",
+    "version": "VO",
+    "duree": "",
+    "tags": []
+  },
+  {
+    "titre": "Emilia PÃ©rez",
+    "heure": "10h40",
+    "jour": "2025-03-11T00:00:00",
+    "cinema": "ABC",
+    "salle": "",
+    "version": "VO",
+    "duree": "",
+    "tags": []
+  },
+  {
+    "titre": "Emilia PÃ©rez",
+    "heure": "21h30",
+    "jour": "2025-03-11T00:00:00",
+    "cinema": "ABC",
+    "salle": "",
+    "version": "VO",
+    "duree": "",
+    "tags": []
+  },
+  {
+    "titre": "Captain America: Brave New World",
+    "heure": "10h40",
+    "jour": "2025-03-11T00:00:00",
+    "cinema": "ABC",
+    "salle": "",
+    "version": "VF",
+    "duree": "",
+    "tags": []
+  },
+  {
+    "titre": "Captain America: Brave New World",
+    "heure": "15h55",
+    "jour": "2025-03-11T00:00:00",
+    "cinema": "ABC",
+    "salle": "",
+    "version": "VF",
+    "duree": "",
+    "tags": []
+  },
+  {
+    "titre": "Captain America: Brave New World",
+    "heure": "16h45",
+    "jour": "2025-03-11T00:00:00",
+    "cinema": "ABC",
+    "salle": "",
+    "version": "VF",
+    "duree": "",
+    "tags": []
+  },
+  {
+    "titre": "Captain America: Brave New World",
+    "heure": "21h25",
+    "jour": "2025-03-11T00:00:00",
+    "cinema": "ABC",
+    "salle": "",
+    "version": "VF",
+    "duree": "",
+    "tags": []
+  },
+  {
+    "titre": "Captain America: Brave New World",
+    "heure": "14h10",
+    "jour": "2025-03-11T00:00:00",
+    "cinema": "ABC",
+    "salle": "",
+    "version": "VO",
+    "duree": "",
+    "tags": []
+  },
+  {
+    "titre": "Dis-moi juste que tu m'aimes",
+    "heure": "10h50",
+    "jour": "2025-03-11T00:00:00",
+    "cinema": "ABC",
+    "salle": "",
+    "version": "VF",
+    "duree": "",
+    "tags": []
+  },
+  {
+    "titre": "Dis-moi juste que tu m'aimes",
+    "heure": "14h15",
+    "jour": "2025-03-11T00:00:00",
+    "cinema": "ABC",
+    "salle": "",
+    "version": "VF",
+    "duree": "",
+    "tags": []
+  },
+  {
+    "titre": "God Save the Tuche",
+    "heure": "10h55",
+    "jour": "2025-03-11T00:00:00",
+    "cinema": "ABC",
+    "salle": "",
+    "version": "VF",
+    "duree": "",
+    "tags": []
+  },
+  {
+    "titre": "God Save the Tuche",
+    "heure": "13h45",
+    "jour": "2025-03-11T00:00:00",
+    "cinema": "ABC",
+    "salle": "",
+    "version": "VF",
+    "duree": "",
+    "tags": []
+  },
+  {
+    "titre": "God Save the Tuche",
+    "heure": "15h55",
+    "jour": "2025-03-11T00:00:00",
+    "cinema": "ABC",
+    "salle": "",
+    "version": "VF",
+    "duree": "",
+    "tags": []
+  },
+  {
+    "titre": "God Save the Tuche",
+    "heure": "20h15",
+    "jour": "2025-03-11T00:00:00",
+    "cinema": "ABC",
+    "salle": "",
+    "version": "VF",
+    "duree": "",
+    "tags": []
+  },
+  {
+    "titre": "God Save the Tuche",
+    "heure": "21h55",
+    "jour": "2025-03-11T00:00:00",
+    "cinema": "ABC",
+    "salle": "",
+    "version": "VF",
+    "duree": "",
+    "tags": []
+  },
+  {
+    "titre": "LâAttachement",
+    "heure": "11h10",
+    "jour": "2025-03-11T00:00:00",
+    "cinema": "ABC",
+    "salle": "",
+    "version": "VF",
+    "duree": "",
+    "tags": []
+  },
+  {
+    "titre": "LâAttachement",
+    "heure": "13h40",
+    "jour": "2025-03-11T00:00:00",
+    "cinema": "ABC",
+    "salle": "",
+    "version": "VF",
+    "duree": "",
+    "tags": []
+  },
+  {
+    "titre": "LâAttachement",
+    "heure": "16h40",
+    "jour": "2025-03-11T00:00:00",
+    "cinema": "ABC",
+    "salle": "",
+    "version": "VF",
+    "duree": "",
+    "tags": []
+  },
+  {
+    "titre": "LâAttachement",
+    "heure": "19h20",
+    "jour": "2025-03-11T00:00:00",
+    "cinema": "ABC",
+    "salle": "",
+    "version": "VF",
+    "duree": "",
+    "tags": []
+  },
+  {
+    "titre": "Ã bicyclette !",
+    "heure": "11h15",
+    "jour": "2025-03-11T00:00:00",
+    "cinema": "ABC",
+    "salle": "",
+    "version": "VF",
+    "duree": "",
+    "tags": []
+  },
+  {
+    "titre": "Ã bicyclette !",
+    "heure": "13h30",
+    "jour": "2025-03-11T00:00:00",
+    "cinema": "ABC",
+    "salle": "",
+    "version": "VF",
+    "duree": "",
+    "tags": []
+  },
+  {
+    "titre": "Ã bicyclette !",
+    "heure": "15h35",
+    "jour": "2025-03-11T00:00:00",
+    "cinema": "ABC",
+    "salle": "",
+    "version": "VF",
+    "duree": "",
+    "tags": []
+  },
+  {
+    "titre": "Ã bicyclette !",
+    "heure": "17h45",
+    "jour": "2025-03-11T00:00:00",
+    "cinema": "ABC",
+    "salle": "",
+    "version": "VF",
+    "duree": "",
+    "tags": []
+  },
+  {
+    "titre": "Ã bicyclette !",
+    "heure": "19h50",
+    "jour": "2025-03-11T00:00:00",
+    "cinema": "ABC",
+    "salle": "",
+    "version": "VF",
+    "duree": "",
+    "tags": []
+  },
+  {
+    "titre": "Ã bicyclette !",
+    "heure": "22h20",
+    "jour": "2025-03-11T00:00:00",
+    "cinema": "ABC",
+    "salle": "",
+    "version": "VF",
+    "duree": "",
+    "tags": []
+  },
+  {
+    "titre": "A Real Pain",
+    "heure": "16h10",
+    "jour": "2025-03-11T00:00:00",
+    "cinema": "ABC",
+    "salle": "",
+    "version": "VF",
+    "duree": "",
+    "tags": []
+  },
+  {
+    "titre": "A Real Pain",
+    "heure": "11h15",
+    "jour": "2025-03-11T00:00:00",
+    "cinema": "ABC",
+    "salle": "",
+    "version": "VO",
+    "duree": "",
+    "tags": []
+  },
+  {
+    "titre": "A Real Pain",
+    "heure": "14h05",
+    "jour": "2025-03-11T00:00:00",
+    "cinema": "ABC",
+    "salle": "",
+    "version": "VO",
+    "duree": "",
+    "tags": []
+  },
+  {
+    "titre": "A Real Pain",
+    "heure": "18h15",
+    "jour": "2025-03-11T00:00:00",
+    "cinema": "ABC",
+    "salle": "",
+    "version": "VO",
+    "duree": "",
+    "tags": []
+  },
+  {
+    "titre": "A Real Pain",
+    "heure": "22h10",
+    "jour": "2025-03-11T00:00:00",
+    "cinema": "ABC",
+    "salle": "",
+    "version": "VO",
+    "duree": "",
+    "tags": []
+  },
+  {
+    "titre": "Paddington au PÃ©rou",
+    "heure": "13h40",
+    "jour": "2025-03-11T00:00:00",
+    "cinema": "ABC",
+    "salle": "",
+    "version": "VF",
+    "duree": "",
+    "tags": []
+  },
+  {
+    "titre": "Paddington au PÃ©rou",
+    "heure": "13h55",
+    "jour": "2025-03-11T00:00:00",
+    "cinema": "ABC",
+    "salle": "",
+    "version": "VF",
+    "duree": "",
+    "tags": []
+  },
+  {
+    "titre": "Paddington au PÃ©rou",
+    "heure": "16h20",
+    "jour": "2025-03-11T00:00:00",
+    "cinema": "ABC",
+    "salle": "",
+    "version": "VF",
+    "duree": "",
+    "tags": []
+  },
+  {
+    "titre": "Bridget Jones : folle de lui",
+    "heure": "13h45",
+    "jour": "2025-03-11T00:00:00",
+    "cinema": "ABC",
+    "salle": "",
+    "version": "VO",
+    "duree": "",
+    "tags": []
+  },
+  {
+    "titre": "Bridget Jones : folle de lui",
+    "heure": "19h00",
+    "jour": "2025-03-11T00:00:00",
+    "cinema": "ABC",
+    "salle": "",
+    "version": "VO",
+    "duree": "",
+    "tags": []
+  },
+  {
+    "titre": "The Brutalist",
+    "heure": "16h05",
+    "jour": "2025-03-11T00:00:00",
+    "cinema": "ABC",
+    "salle": "",
+    "version": "VO",
+    "duree": "",
+    "tags": []
+  },
+  {
+    "titre": "The Brutalist",
+    "heure": "20h15",
+    "jour": "2025-03-11T00:00:00",
+    "cinema": "ABC",
+    "salle": "",
+    "version": "VO",
+    "duree": "",
+    "tags": []
+  },
+  {
+    "titre": "Mercato",
+    "heure": "16h25",
+    "jour": "2025-03-11T00:00:00",
+    "cinema": "ABC",
+    "salle": "",
+    "version": "VF",
+    "duree": "",
+    "tags": []
+  },
+  {
+    "titre": "Mercato",
+    "heure": "18h55",
+    "jour": "2025-03-11T00:00:00",
+    "cinema": "ABC",
+    "salle": "",
+    "version": "VF",
+    "duree": "",
+    "tags": []
+  },
+  {
+    "titre": "Les Filles du Nil",
+    "heure": "19h00",
+    "jour": "2025-03-11T00:00:00",
+    "cinema": "American Cosmograph",
+    "salle": "",
+    "version": "VO",
+    "duree": "",
+    "tags": []
+  },
+  {
+    "titre": "Black Dog",
+    "heure": "21h00",
+    "jour": "2025-03-11T00:00:00",
+    "cinema": "American Cosmograph",
+    "salle": "",
+    "version": "VO",
+    "duree": "",
+    "tags": []
+  },
+  {
+    "titre": "YÅkai - le monde des esprits",
+    "heure": "13h50",
+    "jour": "2025-03-11T00:00:00",
+    "cinema": "American Cosmograph",
+    "salle": "",
+    "version": "VO",
+    "duree": "",
+    "tags": []
+  },
+  {
+    "titre": "The Brutalist",
+    "heure": "14h00",
+    "jour": "2025-03-11T00:00:00",
+    "cinema": "American Cosmograph",
+    "salle": "",
+    "version": "VO",
+    "duree": "",
+    "tags": []
+  },
+  {
+    "titre": "Cronos",
+    "heure": "14h20",
+    "jour": "2025-03-11T00:00:00",
+    "cinema": "American Cosmograph",
+    "salle": "",
+    "version": "VO",
+    "duree": "",
+    "tags": []
+  },
+  {
+    "titre": "When the Light Breaks",
+    "heure": "15h45",
+    "jour": "2025-03-11T00:00:00",
+    "cinema": "American Cosmograph",
+    "salle": "",
+    "version": "VO",
+    "duree": "",
+    "tags": []
+  },
+  {
+    "titre": "Je suis toujours lÃ ",
+    "heure": "16h20",
+    "jour": "2025-03-11T00:00:00",
+    "cinema": "American Cosmograph",
+    "salle": "",
+    "version": "VO",
+    "duree": "",
+    "tags": []
+  },
+  {
+    "titre": "Le Mohican",
+    "heure": "17h30",
+    "jour": "2025-03-11T00:00:00",
+    "cinema": "American Cosmograph",
+    "salle": "",
+    "version": "VO",
+    "duree": "",
+    "tags": []
+  },
+  {
+    "titre": "LâAttachement",
+    "heure": "18h00",
+    "jour": "2025-03-11T00:00:00",
+    "cinema": "American Cosmograph",
+    "salle": "",
+    "version": "VO",
+    "duree": "",
+    "tags": []
+  },
+  {
+    "titre": "LâÃnigme VelÃ¡zquez",
+    "heure": "19h20",
+    "jour": "2025-03-11T00:00:00",
+    "cinema": "American Cosmograph",
+    "salle": "",
+    "version": "VO",
+    "duree": "",
+    "tags": []
+  },
+  {
+    "titre": "The Teacher",
+    "heure": "20h30",
+    "jour": "2025-03-11T00:00:00",
+    "cinema": "American Cosmograph",
+    "salle": "",
+    "version": "VO",
+    "duree": "",
+    "tags": []
+  },
+  {
+    "titre": "Strip-tease intÃ©gral",
+    "heure": "21h10",
+    "jour": "2025-03-11T00:00:00",
+    "cinema": "American Cosmograph",
+    "salle": "",
+    "version": "VO",
+    "duree": "",
+    "tags": []
+  }
+]
