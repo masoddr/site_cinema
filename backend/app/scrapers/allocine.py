@@ -23,7 +23,7 @@ class AllocineScraper(BaseScraper):
     def __init__(self):
         self.cinemas = {
             'ABC': {
-                'id': 'P0012',  # Peut-être que ces IDs ne sont plus valides ?
+                'id': 'P0071',  # Mis à jour avec le bon ID
                 'name': 'ABC'
             },
             'AMERICAN_COSMOGRAPH': {
@@ -131,18 +131,16 @@ class AllocineScraper(BaseScraper):
         logger.info(f"Récupération des séances pour {cinema_name}")
         
         try:
+            # Utiliser la date du jour au lieu d'une date future
             today = date.today().strftime("%Y-%m-%d")
             logger.info(f"Requête API pour {cinema_name} (ID: {cinema_id}) à la date {today}")
             
             seances_data = self.api.get_showtime(cinema_id, today)
             
-            # Log de la réponse API complète pour voir la structure
-            logger.info(f"Structure de la réponse API pour un film :\n{json.dumps(seances_data[0] if seances_data else {}, indent=2)}")
-            
             if not seances_data:
                 logger.error(f"Aucune donnée retournée par l'API pour {cinema_name}")
                 return []
-
+            
             seances = []
             
             for movie in seances_data:

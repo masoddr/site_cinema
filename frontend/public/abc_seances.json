@@ -10,26 +10,6 @@
     "poster": ""
   },
   {
-    "titre": "Anora",
-    "heure": "10h40",
-    "jour": "2025-03-11T00:00:00",
-    "cinema": "ABC",
-    "version": "VO",
-    "duree": "",
-    "tags": [],
-    "poster": "https://fr.web.img4.acsta.net/c_310_420/img/57/f5/57f59edffeefc86a6b21da2053df244f.jpg"
-  },
-  {
-    "titre": "Anora",
-    "heure": "21h40",
-    "jour": "2025-03-11T00:00:00",
-    "cinema": "ABC",
-    "version": "VO",
-    "duree": "",
-    "tags": [],
-    "poster": "https://fr.web.img4.acsta.net/c_310_420/img/57/f5/57f59edffeefc86a6b21da2053df244f.jpg"
-  },
-  {
     "titre": "Mickey 17",
     "heure": "18h35",
     "jour": "2025-03-11T00:00:00",
@@ -45,16 +25,6 @@
     "jour": "2025-03-11T00:00:00",
     "cinema": "ABC",
     "version": "VF",
-    "duree": "",
-    "tags": [],
-    "poster": "https://fr.web.img5.acsta.net/c_310_420/img/a5/5e/a55e6a3b1771606323178493aae5e262.jpg"
-  },
-  {
-    "titre": "Mickey 17",
-    "heure": "10h45",
-    "jour": "2025-03-11T00:00:00",
-    "cinema": "ABC",
-    "version": "VO",
     "duree": "",
     "tags": [],
     "poster": "https://fr.web.img5.acsta.net/c_310_420/img/a5/5e/a55e6a3b1771606323178493aae5e262.jpg"
@@ -90,194 +60,14 @@
     "poster": "https://fr.web.img5.acsta.net/c_310_420/img/a5/5e/a55e6a3b1771606323178493aae5e262.jpg"
   },
   {
-    "titre": "Emilia Pérez",
-    "heure": "10h40",
+    "titre": "Anora",
+    "heure": "21h40",
     "jour": "2025-03-11T00:00:00",
     "cinema": "ABC",
     "version": "VO",
     "duree": "",
     "tags": [],
-    "poster": "https://fr.web.img3.acsta.net/c_310_420/img/bf/98/bf982c02ee39e172a259a3face755554.jpg"
-  },
-  {
-    "titre": "Emilia Pérez",
-    "heure": "21h30",
-    "jour": "2025-03-11T00:00:00",
-    "cinema": "ABC",
-    "version": "VO",
-    "duree": "",
-    "tags": [],
-    "poster": "https://fr.web.img3.acsta.net/c_310_420/img/bf/98/bf982c02ee39e172a259a3face755554.jpg"
-  },
-  {
-    "titre": "Captain America: Brave New World",
-    "heure": "10h40",
-    "jour": "2025-03-11T00:00:00",
-    "cinema": "ABC",
-    "version": "VF",
-    "duree": "",
-    "tags": [],
-    "poster": "https://fr.web.img3.acsta.net/c_310_420/img/92/55/9255d9aeb17004f6a622cc47e573777e.jpg"
-  },
-  {
-    "titre": "Captain America: Brave New World",
-    "heure": "15h55",
-    "jour": "2025-03-11T00:00:00",
-    "cinema": "ABC",
-    "version": "VF",
-    "duree": "",
-    "tags": [],
-    "poster": "https://fr.web.img3.acsta.net/c_310_420/img/92/55/9255d9aeb17004f6a622cc47e573777e.jpg"
-  },
-  {
-    "titre": "Captain America: Brave New World",
-    "heure": "16h45",
-    "jour": "2025-03-11T00:00:00",
-    "cinema": "ABC",
-    "version": "VF",
-    "duree": "",
-    "tags": [],
-    "poster": "https://fr.web.img3.acsta.net/c_310_420/img/92/55/9255d9aeb17004f6a622cc47e573777e.jpg"
-  },
-  {
-    "titre": "Captain America: Brave New World",
-    "heure": "21h25",
-    "jour": "2025-03-11T00:00:00",
-    "cinema": "ABC",
-    "version": "VF",
-    "duree": "",
-    "tags": [],
-    "poster": "https://fr.web.img3.acsta.net/c_310_420/img/92/55/9255d9aeb17004f6a622cc47e573777e.jpg"
-  },
-  {
-    "titre": "Captain America: Brave New World",
-    "heure": "14h10",
-    "jour": "2025-03-11T00:00:00",
-    "cinema": "ABC",
-    "version": "VO",
-    "duree": "",
-    "tags": [],
-    "poster": "https://fr.web.img3.acsta.net/c_310_420/img/92/55/9255d9aeb17004f6a622cc47e573777e.jpg"
-  },
-  {
-    "titre": "Dis-moi juste que tu m'aimes",
-    "heure": "10h50",
-    "jour": "2025-03-11T00:00:00",
-    "cinema": "ABC",
-    "version": "VF",
-    "duree": "",
-    "tags": [],
-    "poster": "https://fr.web.img2.acsta.net/c_310_420/img/42/cd/42cdd3681d50bd26b297b68445a68dfc.jpg"
-  },
-  {
-    "titre": "Dis-moi juste que tu m'aimes",
-    "heure": "14h15",
-    "jour": "2025-03-11T00:00:00",
-    "cinema": "ABC",
-    "version": "VF",
-    "duree": "",
-    "tags": [],
-    "poster": "https://fr.web.img2.acsta.net/c_310_420/img/42/cd/42cdd3681d50bd26b297b68445a68dfc.jpg"
-  },
-  {
-    "titre": "God Save the Tuche",
-    "heure": "10h55",
-    "jour": "2025-03-11T00:00:00",
-    "cinema": "ABC",
-    "version": "VF",
-    "duree": "",
-    "tags": [],
-    "poster": "https://fr.web.img5.acsta.net/c_310_420/img/e1/22/e12277d75be8466492265681d0327c11.jpg"
-  },
-  {
-    "titre": "God Save the Tuche",
-    "heure": "13h45",
-    "jour": "2025-03-11T00:00:00",
-    "cinema": "ABC",
-    "version": "VF",
-    "duree": "",
-    "tags": [],
-    "poster": "https://fr.web.img5.acsta.net/c_310_420/img/e1/22/e12277d75be8466492265681d0327c11.jpg"
-  },
-  {
-    "titre": "God Save the Tuche",
-    "heure": "15h55",
-    "jour": "2025-03-11T00:00:00",
-    "cinema": "ABC",
-    "version": "VF",
-    "duree": "",
-    "tags": [],
-    "poster": "https://fr.web.img5.acsta.net/c_310_420/img/e1/22/e12277d75be8466492265681d0327c11.jpg"
-  },
-  {
-    "titre": "God Save the Tuche",
-    "heure": "20h15",
-    "jour": "2025-03-11T00:00:00",
-    "cinema": "ABC",
-    "version": "VF",
-    "duree": "",
-    "tags": [],
-    "poster": "https://fr.web.img5.acsta.net/c_310_420/img/e1/22/e12277d75be8466492265681d0327c11.jpg"
-  },
-  {
-    "titre": "God Save the Tuche",
-    "heure": "21h55",
-    "jour": "2025-03-11T00:00:00",
-    "cinema": "ABC",
-    "version": "VF",
-    "duree": "",
-    "tags": [],
-    "poster": "https://fr.web.img5.acsta.net/c_310_420/img/e1/22/e12277d75be8466492265681d0327c11.jpg"
-  },
-  {
-    "titre": "L’Attachement",
-    "heure": "11h10",
-    "jour": "2025-03-11T00:00:00",
-    "cinema": "ABC",
-    "version": "VF",
-    "duree": "",
-    "tags": [],
-    "poster": "https://fr.web.img6.acsta.net/c_310_420/img/83/a4/83a423a22c4438f3ecae29e227b2f6a9.jpg"
-  },
-  {
-    "titre": "L’Attachement",
-    "heure": "13h40",
-    "jour": "2025-03-11T00:00:00",
-    "cinema": "ABC",
-    "version": "VF",
-    "duree": "",
-    "tags": [],
-    "poster": "https://fr.web.img6.acsta.net/c_310_420/img/83/a4/83a423a22c4438f3ecae29e227b2f6a9.jpg"
-  },
-  {
-    "titre": "L’Attachement",
-    "heure": "16h40",
-    "jour": "2025-03-11T00:00:00",
-    "cinema": "ABC",
-    "version": "VF",
-    "duree": "",
-    "tags": [],
-    "poster": "https://fr.web.img6.acsta.net/c_310_420/img/83/a4/83a423a22c4438f3ecae29e227b2f6a9.jpg"
-  },
-  {
-    "titre": "L’Attachement",
-    "heure": "19h20",
-    "jour": "2025-03-11T00:00:00",
-    "cinema": "ABC",
-    "version": "VF",
-    "duree": "",
-    "tags": [],
-    "poster": "https://fr.web.img6.acsta.net/c_310_420/img/83/a4/83a423a22c4438f3ecae29e227b2f6a9.jpg"
-  },
-  {
-    "titre": "À bicyclette !",
-    "heure": "11h15",
-    "jour": "2025-03-11T00:00:00",
-    "cinema": "ABC",
-    "version": "VF",
-    "duree": "",
-    "tags": [],
-    "poster": "https://fr.web.img5.acsta.net/c_310_420/img/9c/f8/9cf8cf27a2706be4849760190dddd37b.jpg"
+    "poster": "https://fr.web.img4.acsta.net/c_310_420/img/57/f5/57f59edffeefc86a6b21da2053df244f.jpg"
   },
   {
     "titre": "À bicyclette !",
@@ -330,54 +120,34 @@
     "poster": "https://fr.web.img5.acsta.net/c_310_420/img/9c/f8/9cf8cf27a2706be4849760190dddd37b.jpg"
   },
   {
-    "titre": "A Real Pain",
-    "heure": "16h10",
+    "titre": "L’Attachement",
+    "heure": "13h40",
     "jour": "2025-03-11T00:00:00",
     "cinema": "ABC",
     "version": "VF",
     "duree": "",
     "tags": [],
-    "poster": "https://fr.web.img6.acsta.net/c_310_420/img/e2/fe/e2fef695bb16493195f32c606ceaf275.jpg"
+    "poster": "https://fr.web.img6.acsta.net/c_310_420/img/83/a4/83a423a22c4438f3ecae29e227b2f6a9.jpg"
   },
   {
-    "titre": "A Real Pain",
-    "heure": "11h15",
+    "titre": "L’Attachement",
+    "heure": "16h40",
     "jour": "2025-03-11T00:00:00",
     "cinema": "ABC",
-    "version": "VO",
+    "version": "VF",
     "duree": "",
     "tags": [],
-    "poster": "https://fr.web.img6.acsta.net/c_310_420/img/e2/fe/e2fef695bb16493195f32c606ceaf275.jpg"
+    "poster": "https://fr.web.img6.acsta.net/c_310_420/img/83/a4/83a423a22c4438f3ecae29e227b2f6a9.jpg"
   },
   {
-    "titre": "A Real Pain",
-    "heure": "14h05",
+    "titre": "L’Attachement",
+    "heure": "19h20",
     "jour": "2025-03-11T00:00:00",
     "cinema": "ABC",
-    "version": "VO",
+    "version": "VF",
     "duree": "",
     "tags": [],
-    "poster": "https://fr.web.img6.acsta.net/c_310_420/img/e2/fe/e2fef695bb16493195f32c606ceaf275.jpg"
-  },
-  {
-    "titre": "A Real Pain",
-    "heure": "18h15",
-    "jour": "2025-03-11T00:00:00",
-    "cinema": "ABC",
-    "version": "VO",
-    "duree": "",
-    "tags": [],
-    "poster": "https://fr.web.img6.acsta.net/c_310_420/img/e2/fe/e2fef695bb16493195f32c606ceaf275.jpg"
-  },
-  {
-    "titre": "A Real Pain",
-    "heure": "22h10",
-    "jour": "2025-03-11T00:00:00",
-    "cinema": "ABC",
-    "version": "VO",
-    "duree": "",
-    "tags": [],
-    "poster": "https://fr.web.img6.acsta.net/c_310_420/img/e2/fe/e2fef695bb16493195f32c606ceaf275.jpg"
+    "poster": "https://fr.web.img6.acsta.net/c_310_420/img/83/a4/83a423a22c4438f3ecae29e227b2f6a9.jpg"
   },
   {
     "titre": "Paddington au Pérou",
@@ -430,6 +200,136 @@
     "poster": "https://fr.web.img5.acsta.net/c_310_420/img/a9/28/a9285e78d0a6d8ea9451c6e7efffcbd3.jpg"
   },
   {
+    "titre": "God Save the Tuche",
+    "heure": "13h45",
+    "jour": "2025-03-11T00:00:00",
+    "cinema": "ABC",
+    "version": "VF",
+    "duree": "",
+    "tags": [],
+    "poster": "https://fr.web.img5.acsta.net/c_310_420/img/e1/22/e12277d75be8466492265681d0327c11.jpg"
+  },
+  {
+    "titre": "God Save the Tuche",
+    "heure": "15h55",
+    "jour": "2025-03-11T00:00:00",
+    "cinema": "ABC",
+    "version": "VF",
+    "duree": "",
+    "tags": [],
+    "poster": "https://fr.web.img5.acsta.net/c_310_420/img/e1/22/e12277d75be8466492265681d0327c11.jpg"
+  },
+  {
+    "titre": "God Save the Tuche",
+    "heure": "20h15",
+    "jour": "2025-03-11T00:00:00",
+    "cinema": "ABC",
+    "version": "VF",
+    "duree": "",
+    "tags": [],
+    "poster": "https://fr.web.img5.acsta.net/c_310_420/img/e1/22/e12277d75be8466492265681d0327c11.jpg"
+  },
+  {
+    "titre": "God Save the Tuche",
+    "heure": "21h55",
+    "jour": "2025-03-11T00:00:00",
+    "cinema": "ABC",
+    "version": "VF",
+    "duree": "",
+    "tags": [],
+    "poster": "https://fr.web.img5.acsta.net/c_310_420/img/e1/22/e12277d75be8466492265681d0327c11.jpg"
+  },
+  {
+    "titre": "A Real Pain",
+    "heure": "16h10",
+    "jour": "2025-03-11T00:00:00",
+    "cinema": "ABC",
+    "version": "VF",
+    "duree": "",
+    "tags": [],
+    "poster": "https://fr.web.img6.acsta.net/c_310_420/img/e2/fe/e2fef695bb16493195f32c606ceaf275.jpg"
+  },
+  {
+    "titre": "A Real Pain",
+    "heure": "14h05",
+    "jour": "2025-03-11T00:00:00",
+    "cinema": "ABC",
+    "version": "VO",
+    "duree": "",
+    "tags": [],
+    "poster": "https://fr.web.img6.acsta.net/c_310_420/img/e2/fe/e2fef695bb16493195f32c606ceaf275.jpg"
+  },
+  {
+    "titre": "A Real Pain",
+    "heure": "18h15",
+    "jour": "2025-03-11T00:00:00",
+    "cinema": "ABC",
+    "version": "VO",
+    "duree": "",
+    "tags": [],
+    "poster": "https://fr.web.img6.acsta.net/c_310_420/img/e2/fe/e2fef695bb16493195f32c606ceaf275.jpg"
+  },
+  {
+    "titre": "A Real Pain",
+    "heure": "22h10",
+    "jour": "2025-03-11T00:00:00",
+    "cinema": "ABC",
+    "version": "VO",
+    "duree": "",
+    "tags": [],
+    "poster": "https://fr.web.img6.acsta.net/c_310_420/img/e2/fe/e2fef695bb16493195f32c606ceaf275.jpg"
+  },
+  {
+    "titre": "Captain America: Brave New World",
+    "heure": "15h55",
+    "jour": "2025-03-11T00:00:00",
+    "cinema": "ABC",
+    "version": "VF",
+    "duree": "",
+    "tags": [],
+    "poster": "https://fr.web.img3.acsta.net/c_310_420/img/92/55/9255d9aeb17004f6a622cc47e573777e.jpg"
+  },
+  {
+    "titre": "Captain America: Brave New World",
+    "heure": "16h45",
+    "jour": "2025-03-11T00:00:00",
+    "cinema": "ABC",
+    "version": "VF",
+    "duree": "",
+    "tags": [],
+    "poster": "https://fr.web.img3.acsta.net/c_310_420/img/92/55/9255d9aeb17004f6a622cc47e573777e.jpg"
+  },
+  {
+    "titre": "Captain America: Brave New World",
+    "heure": "21h25",
+    "jour": "2025-03-11T00:00:00",
+    "cinema": "ABC",
+    "version": "VF",
+    "duree": "",
+    "tags": [],
+    "poster": "https://fr.web.img3.acsta.net/c_310_420/img/92/55/9255d9aeb17004f6a622cc47e573777e.jpg"
+  },
+  {
+    "titre": "Captain America: Brave New World",
+    "heure": "14h10",
+    "jour": "2025-03-11T00:00:00",
+    "cinema": "ABC",
+    "version": "VO",
+    "duree": "",
+    "tags": [],
+    "poster": "https://fr.web.img3.acsta.net/c_310_420/img/92/55/9255d9aeb17004f6a622cc47e573777e.jpg"
+  },
+  {
+    "titre": "Dis-moi juste que tu m'aimes",
+    "heure": "14h15",
+    "jour": "2025-03-11T00:00:00",
+    "cinema": "ABC",
+    "version": "VF",
+    "duree": "",
+    "tags": [],
+    "poster": "https://fr.web.img2.acsta.net/c_310_420/img/42/cd/42cdd3681d50bd26b297b68445a68dfc.jpg"
+  },
+  {
     "titre": "The Brutalist",
     "heure": "16h05",
     "jour": "2025-03-11T00:00:00",
@@ -468,5 +368,15 @@
     "duree": "",
     "tags": [],
     "poster": "https://fr.web.img6.acsta.net/c_310_420/img/6d/d2/6dd27c0509edb48b13cc65d51915a1fe.jpg"
+  },
+  {
+    "titre": "Emilia Pérez",
+    "heure": "21h30",
+    "jour": "2025-03-11T00:00:00",
+    "cinema": "ABC",
+    "version": "VO",
+    "duree": "",
+    "tags": [],
+    "poster": "https://fr.web.img3.acsta.net/c_310_420/img/bf/98/bf982c02ee39e172a259a3face755554.jpg"
   }
 ]
