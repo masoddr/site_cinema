@@ -1,17 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+.env
+.env.*
+!.env.example
+
+# Node
+node_modules/
+dist/
+.astro/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Docker
+.docker/
+
+# Database
+*.sqlite3
+postgres_data/
+
+# Logs
+*.log
+logs/
+
 # Fichiers système
 .DS_Store
 Thumbs.db
 
 # Node.js
-node_modules/
 npm-debug.log
 yarn-debug.log
 yarn-error.log
-
-# Environnement
-.env
-.env.local
-.env.*.local
 
 # Fichiers de build
 /dist
