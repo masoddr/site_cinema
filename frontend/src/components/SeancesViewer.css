@@ -217,8 +217,11 @@ html, body {
 
 .films-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-  gap: 2rem;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 1.5rem;
+  width: 100%;
+  max-width: 2000px;
+  margin: 0 auto;
 }
 
 .film-card {
@@ -234,6 +237,8 @@ html, body {
   min-height: 300px;
   position: relative;
   transition: all 0.3s ease;
+  width: 100%;
+  min-width: 0;
 }
 
 .film-card:hover {
@@ -305,11 +310,15 @@ html, body {
 
 .cinema-seances {
   margin-top: 8px;
+  transition: all 0.3s ease;
+}
+
+.cinema-seances:hover {
+  transform: translateX(4px);
 }
 
 .cinema-seances h4 {
-  margin: 0 0 5px 0;
-  font-size: 0.9em;
+  margin: 0 0 8px 0;
 }
 
 .horaires {
@@ -320,22 +329,15 @@ html, body {
 }
 
 .seance {
-  background: rgba(255, 255, 255, 0.15);
-  backdrop-filter: blur(4px);
-  -webkit-backdrop-filter: blur(4px);
-  border: 1px solid rgba(255, 255, 255, 0.2);
-  color: white;
-  padding: 0.5rem 1rem;
-  border-radius: 8px;
-  font-size: 0.8em;
-  display: inline-flex;
-  flex-direction: column;
-  align-items: center;
-  transition: all 0.3s ease;
+  padding: 4px 8px;
+  margin: 0 4px;
+  border-radius: 4px;
+  display: inline-block;
+  transition: all 0.2s ease;
 }
 
 .seance:hover {
-  background: rgba(255, 255, 255, 0.25);
+  transform: scale(1.05);
 }
 
 .seance small {
@@ -348,27 +350,55 @@ html, body {
 @media (max-width: 1400px) {
   .films-grid {
     grid-template-columns: repeat(4, 1fr);
+    gap: 1.2rem;
   }
 }
 
 @media (max-width: 1100px) {
   .films-grid {
     grid-template-columns: repeat(3, 1fr);
-  }
-}
-
-@media (max-width: 800px) {
-  .films-grid {
-    grid-template-columns: repeat(2, 1fr);
     gap: 1rem;
-    padding: 1rem;
   }
 }
 
+/* Maintenir 3 colonnes même sur mobile */
+@media (max-width: 768px) {
+  .films-grid {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0.8rem;
+    padding: 0.5rem;
+  }
+
+  /* Ajuster la taille des éléments pour le mobile */
+  .film-card {
+    min-height: 250px; /* Réduire la hauteur minimale */
+  }
+
+  .film-info {
+    padding: 0.8rem;
+    font-size: 0.8rem;
+  }
+
+  .film-info h3 {
+    font-size: 1rem;
+  }
+
+  .badge {
+    font-size: 0.7rem;
+    padding: 0.1rem 0.3rem;
+  }
+
+  .seance {
+    padding: 4px 6px;
+    font-size: 0.8rem;
+  }
+}
+
+/* Uniquement pour les très petits écrans */
 @media (max-width: 480px) {
   .films-grid {
-    gap: 0.8rem;
-    padding: 0.8rem;
+    grid-template-columns: repeat(2, 1fr); /* 2 colonnes sur très petits écrans */
+    gap: 0.6rem;
   }
 }
 
@@ -934,10 +964,326 @@ input:checked + .slider:before {
 /* Ajustements responsive */
 @media (max-width: 768px) {
   .seances-viewer {
-    padding: 1rem;
+    padding: 0.5rem;
+    width: 100%;
+    box-sizing: border-box;
   }
   
   .main-content {
-    padding: 0 1rem;
+    padding: 0 0.5rem;
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: 180px; /* Ajusté pour la navbar en colonne */
+  }
+
+  .top-navbar {
+    padding: 0.8rem;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.8rem;
+    height: auto;
+    width: calc(100% - 2rem);
+    box-sizing: border-box;
+  }
+
+  .nav-left, .nav-center, .nav-right {
+    width: 100%;
+    justify-content: center;
+    padding: 0;
+  }
+
+  .home-link,
+  .filter-toggle {
+    width: 100%;
+    max-width: 280px;
+    padding: 0.6rem 1rem;
+    font-size: 0.9rem;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+  .filter-dropdown {
+    width: 90%;
+    left: 5%;
+    transform: none;
+    max-height: 60vh;
+  }
+
+  .date-selector {
+    padding: 0.8rem;
+    width: 100%;
+    box-sizing: border-box;
+    justify-content: flex-start;
+    gap: 0.5rem;
+    margin: 0.5rem 0;
+  }
+
+  .date-selector button {
+    min-width: 75px;
+    padding: 0.6rem 0.8rem;
+    font-size: 0.85rem;
+  }
+
+  .films-grid {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    padding: 0;
+    width: 100%;
+  }
+
+  .film-card {
+    margin: 0;
+    width: 100%;
+    max-width: none;
+  }
+}
+
+/* Ajustements pour très petits écrans */
+@media (max-width: 380px) {
+  .seances-viewer {
+    padding: 0.3rem;
+  }
+
+  .top-navbar {
+    padding: 0.6rem;
+  }
+
+  .home-link,
+  .filter-toggle {
+    padding: 0.5rem 0.8rem;
+    font-size: 0.85rem;
+    gap: 0.4rem;
+  }
+
+  .date-selector {
+    padding: 0.5rem;
+  }
+
+  .date-selector button {
+    min-width: 70px;
+    padding: 0.4rem 0.6rem;
+    font-size: 0.8rem;
+  }
+}
+
+/* Ajustements pour la hauteur en mode paysage mobile */
+@media (max-height: 600px) and (orientation: landscape) {
+  .top-navbar {
+    position: relative;
+    margin-bottom: 1rem;
+  }
+
+  .main-content {
+    margin-top: 1rem;
+  }
+
+  .filter-dropdown {
+    max-height: 40vh;
+  }
+}
+
+/* Ajustements pour tablettes */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .films-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .film-card {
+    max-width: none;
+  }
+}
+
+/* Styles pour la barre de recherche */
+.search-bar {
+  position: relative;
+  margin-right: 1rem;
+}
+
+.search-input {
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 20px;
+  padding: 0.8rem 2.5rem 0.8rem 1.2rem;
+  color: white;
+  font-size: 0.9rem;
+  width: 250px;
+  transition: all 0.3s ease;
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+}
+
+.search-input::placeholder {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.search-input:focus {
+  outline: none;
+  background: rgba(255, 255, 255, 0.15);
+  border-color: rgba(255, 255, 255, 0.3);
+  width: 300px;
+}
+
+.clear-search {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 1.2rem;
+  cursor: pointer;
+  padding: 0;
+  width: 24px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  transition: all 0.2s ease;
+}
+
+.clear-search:hover {
+  color: white;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+/* Ajustements pour le mode sombre */
+.dark-mode .search-input {
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.dark-mode .search-input:focus {
+  background: rgba(0, 0, 0, 0.4);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .nav-center {
+    flex-direction: column;
+    width: 100%;
+    gap: 0.8rem;
+  }
+
+  .search-bar {
+    width: 100%;
+    margin-right: 0;
+  }
+
+  .search-input {
+    width: 100%;
+  }
+
+  .search-input:focus {
+    width: 100%;
+  }
+}
+
+/* Styles pour les boutons de filtrage rapide */
+.quick-filters {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+  width: 100%;
+}
+
+.quick-filter-btn {
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 20px;
+  padding: 0.8rem 1.5rem;
+  color: white;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  flex: 1;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Style spécial pour le bouton "Un film dans moins d'1h" */
+.quick-filter-btn:first-child {
+  background: linear-gradient(45deg, #8B5CF6, #6366F1);
+  border: none;
+  font-weight: bold;
+  font-size: 1rem;
+  padding: 1rem 2rem;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 15px rgba(99, 102, 241, 0.3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.quick-filter-btn:first-child::after {
+  content: '🍿';
+  font-size: 1.2em;
+  animation: bounce 1s infinite;
+}
+
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-4px);
+  }
+}
+
+.quick-filter-btn:first-child:hover {
+  transform: translateY(-2px);
+  background: linear-gradient(45deg, #7C3AED, #4F46E5);
+  box-shadow: 0 6px 20px rgba(99, 102, 241, 0.4);
+}
+
+/* Style pour le bouton actif */
+.quick-filter-btn.active {
+  background: linear-gradient(45deg, #3B82F6, #2563EB);
+  border: none;
+  box-shadow: 0 0 20px rgba(59, 130, 246, 0.5);
+}
+
+.quick-filter-btn.active::after {
+  content: '🎬';
+  animation: spin 1s infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* Ajustements responsive */
+@media (max-width: 768px) {
+  .quick-filter-btn:first-child {
+    font-size: 0.9rem;
+    padding: 0.8rem 1.2rem;
+  }
+  
+  .quick-filter-btn:first-child::after {
+    font-size: 1em;
+  }
+}
+
+.seance.next-hour {
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+  100% {
+    transform: scale(1);
   }
 } 

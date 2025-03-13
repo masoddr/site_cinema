@@ -11,8 +11,24 @@ const SeancesViewer = ({ seances }) => {
   const [isDarkMode, setIsDarkMode] = useState(false);
   const [showFilters, setShowFilters] = useState(false);
   const filterRef = React.useRef(null); // Référence pour le menu de filtrage
+  const [searchTerm, setSearchTerm] = useState('');
+  const [showNextHour, setShowNextHour] = useState(false);
 
   const cinemas = [...new Set(seances.map(s => s.cinema))];
+
+  // Ajouter un objet pour définir les couleurs des cinémas avec des couleurs plus vives
+  const cinemaColors = {
+    'Le Palace': '#FF0000', // Rouge vif
+    'Cinéma Lumière': '#00FF00', // Vert vif
+    'Ciné Paradiso': '#0000FF', // Bleu vif
+    'Mégarama': '#FFD700', // Or
+    'UGC': '#FF00FF' // Magenta
+  };
+
+  // Fonction pour obtenir une couleur par défaut si le cinéma n'est pas dans la liste
+  const getCinemaColor = (cinema) => {
+    return cinemaColors[cinema] || '#888888';
+  };
 
   React.useEffect(() => {
     setSelectedCinemas(new Set(cinemas));
@@ -48,8 +64,27 @@ const SeancesViewer = ({ seances }) => {
     };
   }, []);
 
+  // Fonction pour vérifier si une séance est dans l'heure qui suit
+  const isWithinNextHour = (heure) => {
+    const now = new Date();
+    const [hours, minutes] = heure.split(':').map(Number);
+    const seanceTime = new Date(now);
+    seanceTime.setHours(hours, minutes, 0);
+    
+    const diffMs = seanceTime - now;
+    const diffMinutes = diffMs / (1000 * 60);
+    
+    return diffMinutes > 0 && diffMinutes <= 60;
+  };
+
+  // Modifier seancesByFilm pour inclure le filtrage par heure
   const seancesByFilm = seances.reduce((acc, seance) => {
-    if (seance.jour.split('T')[0] === selectedDate && selectedCinemas.has(seance.cinema)) {
+    if (
+      seance.jour.split('T')[0] === selectedDate && 
+      selectedCinemas.has(seance.cinema) &&
+      seance.titre.toLowerCase().includes(searchTerm.toLowerCase()) &&
+      (!showNextHour || isWithinNextHour(seance.heure))
+    ) {
       if (!acc[seance.titre]) {
         acc[seance.titre] = {
           titre: seance.titre,
@@ -84,6 +119,38 @@ const SeancesViewer = ({ seances }) => {
           </a>
         </div>
         <div className="nav-center">
+          <div className="quick-filters">
+            <button 
+              className={`quick-filter-btn ${showNextHour ? 'active' : ''}`}
+              onClick={() => setShowNextHour(true)}
+            >
+              🕐 Un film dans moins d'1h !
+            </button>
+            <button 
+              className="quick-filter-btn"
+              onClick={() => setShowNextHour(false)}
+            >
+              Toutes les séances
+            </button>
+          </div>
+          <div className="search-bar">
+            <input
+              type="text"
+              placeholder="Rechercher un film..."
+              value={searchTerm}
+              onChange={(e) => setSearchTerm(e.target.value)}
+              className="search-input"
+            />
+            {searchTerm && (
+              <button 
+                className="clear-search"
+                onClick={() => setSearchTerm('')}
+                title="Effacer la recherche"
+              >
+                ×
+              </button>
+            )}
+          </div>
           <div className="cinema-filters" ref={filterRef}>
             <button 
               className="filter-toggle"
@@ -107,7 +174,10 @@ const SeancesViewer = ({ seances }) => {
         </div>
         <div className="nav-right">
           <div className="theme-toggle">
-            <label className="switch">
+            <label 
+              className="switch"
+              title={isDarkMode ? "Passer en mode clair" : "Passer en mode sombre"}
+            >
               <input
                 type="checkbox"
                 checked={isDarkMode}
@@ -184,11 +254,41 @@ const SeancesViewer = ({ seances }) => {
                         return acc;
                       }, {})
                     ).map(([cinema, seances]) => (
-                      <div key={cinema} className="cinema-seances">
-                        <h4>{cinema}</h4>
+                      <div 
+                        key={cinema} 
+                        className="cinema-seances"
+                        style={{
+                          borderLeft: `8px solid ${getCinemaColor(cinema)}`,
+                          backgroundColor: `${getCinemaColor(cinema)}88`,
+                          padding: '12px',
+                          margin: '8px 0',
+                          borderRadius: '8px',
+                          boxShadow: `0 2px 4px ${getCinemaColor(cinema)}88`
+                        }}
+                      >
+                        <h4 style={{ 
+                          color: isDarkMode ? '#FFFFFF' : getCinemaColor(cinema),
+                          fontWeight: 'bold',
+                          fontSize: '1.1em'
+                        }}>
+                          {cinema}
+                        </h4>
                         <div className="horaires">
                           {seances.map((s, i) => (
-                            <span key={i} className="seance">
+                            <span 
+                              key={i} 
+                              className={`seance ${isWithinNextHour(s.heure) ? 'next-hour' : ''}`}
+                              style={{
+                                backgroundColor: `${getCinemaColor(cinema)}AA`,
+                                border: `2px solid ${getCinemaColor(cinema)}`,
+                                color: isDarkMode ? '#FFFFFF' : '#000000',
+                                fontWeight: 'bold',
+                                padding: '8px 12px',
+                                margin: '4px',
+                                display: 'inline-block',
+                                boxShadow: isWithinNextHour(s.heure) ? '0 0 15px rgba(255, 255, 0, 0.5)' : 'none'
+                              }}
+                            >
                               {s.heure} - {s.version}
                             </span>
                           ))}
