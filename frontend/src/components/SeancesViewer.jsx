@@ -89,6 +89,10 @@ const SeancesViewer = ({ seances }) => {
         acc[seance.titre] = {
           titre: seance.titre,
           duree: seance.duree,
+          date_sortie: seance.date_sortie,
+          note: seance.note,
+          tmdb_id: seance.tmdb_id,
+          poster: seance.poster,
           seances: []
         };
       }
@@ -236,7 +240,21 @@ const SeancesViewer = ({ seances }) => {
                 <div className="film-info">
                   <h3>{film.titre}</h3>
                   <div className="badges">
-                    {film.duree && <span className="badge">{film.duree}</span>}
+                    {film.duree && (
+                      <span className="badge">
+                        {Math.floor(film.duree / 60)}h{film.duree % 60}min
+                      </span>
+                    )}
+                    {film.date_sortie && (
+                      <span className="badge">
+                        Sortie : {new Date(film.date_sortie).toLocaleDateString('fr-FR')}
+                      </span>
+                    )}
+                    {film.note && (
+                      <span className="badge" title="Note TMDb">
+                        ⭐ {film.note.toFixed(1)}/10
+                      </span>
+                    )}
                     {film.genre && <span className="badge">{film.genre}</span>}
                   </div>
                   {film.synopsis && (
@@ -297,9 +315,10 @@ const SeancesViewer = ({ seances }) => {
                     ))}
                   </div>
                   <button 
-                    className="voir-plus"
+                    className="voir-plus-btn"
                     onClick={() => setSelectedFilm(film)}
                   >
+                    Voir plus
                   </button>
                 </div>
               </div>

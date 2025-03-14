@@ -4,7 +4,7 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: rgba(0, 0, 0, 0.75);
+  background-color: rgba(0, 0, 0, 0.7);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -12,15 +12,68 @@
 }
 
 .modal-content {
-  background: white;
-  border-radius: 12px;
-  width: 90%;
+  background-color: white;
+  padding: 2rem;
+  border-radius: 8px;
   max-width: 800px;
+  width: 90%;
   max-height: 90vh;
   overflow-y: auto;
-  position: relative;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
-  animation: modalFadeIn 0.3s ease;
+}
+
+.dark-mode .modal-content {
+  background-color: #1a1a1a;
+  color: white;
+}
+
+.modal-header {
+  display: flex;
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+.modal-poster img {
+  width: 200px;
+  border-radius: 4px;
+}
+
+.film-metadata {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-top: 1rem;
+}
+
+.metadata-item {
+  background-color: #f0f0f0;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.dark-mode .metadata-item {
+  background-color: #2a2a2a;
+}
+
+.seances-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 1rem;
+}
+
+.seance-item {
+  background-color: #f5f5f5;
+  padding: 1rem;
+  border-radius: 4px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.dark-mode .seance-item {
+  background-color: #2a2a2a;
 }
 
 .modal-close {
@@ -43,12 +96,6 @@
 .modal-close:hover {
   background: #e0e0e0;
   transform: scale(1.1);
-}
-
-.modal-header {
-  padding: 1.5rem;
-  padding-right: 3rem;
-  border-bottom: 1px solid #eee;
 }
 
 .modal-header h2 {
@@ -106,12 +153,6 @@
   gap: 2rem;
   margin-bottom: 2rem;
   align-items: start;
-}
-
-.modal-poster {
-  width: 250px;
-  border-radius: 8px;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
 }
 
 .film-info-modal {
