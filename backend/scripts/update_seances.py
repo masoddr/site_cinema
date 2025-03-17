@@ -38,19 +38,18 @@ logger = logging.getLogger(__name__)
 def main():
     logger.info("Démarrage du scraping des séances...")
     
+    # 1. Scraping avec AllocineScraper
     scraper = AllocineScraper()
-    
-    # 1. Mettre à jour le cache backend
     cache_path = Path(__file__).parent.parent / 'data' / 'seances_cache.json'
     scraper.save_to_json(cache_path)
     logger.info(f"Cache backend mis à jour : {cache_path}")
     
-    # 2. Copier vers le frontend
+    # 2. Copie vers le frontend
     frontend_path = Path(__file__).parent.parent.parent / 'frontend' / 'public' / 'seances.json'
     shutil.copy2(cache_path, frontend_path)
     logger.info(f"Données copiées vers le frontend : {frontend_path}")
     
-    # 3. Enrichir avec les données TMDb
+    # 3. Enrichissement avec TMDb
     logger.info("Enrichissement des données avec TMDb...")
     update_seances_with_tmdb_data()
     logger.info("Données TMDb ajoutées avec succès")
