@@ -157,27 +157,23 @@ def get_movie_trailer(tmdb_id):
         
     videos = response.json()["results"]
     
-    # Chercher d'abord une bande-annonce officielle en français
+    # Chercher d'abord une bande-annonce en VOSTFR
+    for video in videos:
+        if video["site"] == "YouTube" and video["type"] == "Trailer" and video["iso_639_1"] == "en":
+            return f"https://www.youtube.com/watch?v={video['key']}"
+    
+    # Sinon chercher une bande-annonce en français
     for video in videos:
         if video["site"] == "YouTube" and video["type"] == "Trailer" and video["iso_639_1"] == "fr":
             return f"https://www.youtube.com/watch?v={video['key']}"
-    
-    # Sinon, prendre la première bande-annonce disponible
+            
+    # En dernier recours, prendre la première bande-annonce disponible
     for video in videos:
         if video["site"] == "YouTube" and video["type"] == "Trailer":
             return f"https://www.youtube.com/watch?v={video['key']}"
             
     return None
 
-def get_movie_data(tmdb_id):
-    # ... existing code ...
-    
-    movie_data = {
-        # ... autres données existantes ...
-        "trailer_url": get_movie_trailer(tmdb_id)
-    }
-    
-    return movie_data
 
 if __name__ == "__main__":
     update_seances_with_tmdb_data() 
