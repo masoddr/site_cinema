@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-03-14T01:11:13.961803",
+  "last_updated": "2025-03-19T19:45:07.110771",
   "movies": {
     "Parthenope": {
       "tmdb_id": 1109255,
@@ -581,6 +581,377 @@
       "release_date": "1938-01-14",
       "vote_average": 7.121,
       "trailer_url": "https://www.youtube.com/watch?v=_NKhSg7thBI"
+    },
+    "Fanon": {
+      "tmdb_id": 1000432,
+      "runtime": 110,
+      "release_date": "2024-12-03",
+      "vote_average": 0.0,
+      "trailer_url": null
+    },
+    "Un jeu à soi": {
+      "tmdb_id": 1329912,
+      "runtime": 94,
+      "release_date": "2024-08-23",
+      "vote_average": 5.7,
+      "trailer_url": null
+    },
+    "The Grill": {
+      "tmdb_id": 966238,
+      "runtime": 140,
+      "release_date": "2024-10-25",
+      "vote_average": 7.2,
+      "trailer_url": null
+    },
+    "J'ai vu trois lumières noires": {
+      "tmdb_id": 1018964,
+      "runtime": 87,
+      "release_date": "2025-03-19",
+      "vote_average": 0.0,
+      "trailer_url": null
+    },
+    "Lumière l'aventure continue": {
+      "tmdb_id": 1446032,
+      "runtime": 105,
+      "release_date": "2025-03-19",
+      "vote_average": 0.0,
+      "trailer_url": null
+    },
+    "Manas": {
+      "tmdb_id": 1256408,
+      "runtime": 101,
+      "release_date": "2025-03-26",
+      "vote_average": 0.0,
+      "trailer_url": null
+    },
+    "Madame Satã": {
+      "tmdb_id": 46993,
+      "runtime": 105,
+      "release_date": "2002-10-03",
+      "vote_average": 6.909,
+      "trailer_url": "https://www.youtube.com/watch?v=U2oqh0DqCas"
+    },
+    "La Chute du Ciel": {
+      "tmdb_id": 1275250,
+      "runtime": 110,
+      "release_date": "2025-02-05",
+      "vote_average": 5.0,
+      "trailer_url": null
+    },
+    "Paterson": {
+      "tmdb_id": 370755,
+      "runtime": 118,
+      "release_date": "2016-11-17",
+      "vote_average": 7.114,
+      "trailer_url": "https://www.youtube.com/watch?v=YtVWk46kaNw"
+    },
+    "Mulholland Drive": {
+      "tmdb_id": 1018,
+      "runtime": 146,
+      "release_date": "2001-06-06",
+      "vote_average": 7.807,
+      "trailer_url": "https://www.youtube.com/watch?v=LCBBCJ-uXKQ"
+    },
+    "Twin Peaks - Fire Walk With Me": {
+      "tmdb_id": 1923,
+      "runtime": 135,
+      "release_date": "1992-06-03",
+      "vote_average": 7.4,
+      "trailer_url": "https://www.youtube.com/watch?v=BDt__3fhvM0"
+    },
+    "Pepe": {
+      "tmdb_id": 1441712,
+      "runtime": 0,
+      "release_date": "2025-03-15",
+      "vote_average": 0.0,
+      "trailer_url": null
+    },
+    "Nuestras madres": {
+      "tmdb_id": 596873,
+      "runtime": 78,
+      "release_date": "2019-10-04",
+      "vote_average": 5.4,
+      "trailer_url": "https://www.youtube.com/watch?v=NCIRg9QCT7w"
+    },
+    "Karnawal": {
+      "tmdb_id": 680017,
+      "runtime": 95,
+      "release_date": "2021-09-23",
+      "vote_average": 6.227,
+      "trailer_url": null
+    },
+    "Alis": {
+      "tmdb_id": 927047,
+      "runtime": 84,
+      "release_date": "2023-01-25",
+      "vote_average": 0.0,
+      "trailer_url": null
+    },
+    "Matar a Jesús": {
+      "tmdb_id": 466175,
+      "runtime": 99,
+      "release_date": "2017-10-16",
+      "vote_average": 6.7,
+      "trailer_url": "https://www.youtube.com/watch?v=00E1r_pmLp4"
+    },
+    "Une seconde mère": {
+      "tmdb_id": 310569,
+      "runtime": 112,
+      "release_date": "2015-06-04",
+      "vote_average": 8.041,
+      "trailer_url": "https://www.youtube.com/watch?v=1T7fPEAk7-g"
+    },
+    "Mémoires d’un corps brûlant": {
+      "tmdb_id": 1232350,
+      "runtime": 90,
+      "release_date": "2024-07-11",
+      "vote_average": 6.0,
+      "trailer_url": null
+    },
+    "Mala Junta": {
+      "tmdb_id": 421883,
+      "runtime": 89,
+      "release_date": "2017-05-11",
+      "vote_average": 6.1,
+      "trailer_url": "https://www.youtube.com/watch?v=qNAyR1yZEGs"
+    },
+    "Motel Destino": {
+      "tmdb_id": 1161879,
+      "runtime": 112,
+      "release_date": "2024-08-22",
+      "vote_average": 6.7,
+      "trailer_url": null
+    },
+    "Los delincuentes": {
+      "tmdb_id": 714889,
+      "runtime": 183,
+      "release_date": "2023-10-16",
+      "vote_average": 6.42,
+      "trailer_url": null
+    },
+    "Délocalisés": {
+      "tmdb_id": 1294174,
+      "runtime": 86,
+      "release_date": "2025-03-12",
+      "vote_average": 6.4,
+      "trailer_url": "https://www.youtube.com/watch?v=JQDzUpyBvuE"
+    },
+    "Reine mère": {
+      "tmdb_id": 1063873,
+      "runtime": 93,
+      "release_date": "2025-03-12",
+      "vote_average": 10.0,
+      "trailer_url": null
+    },
+    "The Last Showgirl": {
+      "tmdb_id": 1235499,
+      "runtime": 89,
+      "release_date": "2024-12-13",
+      "vote_average": 6.4,
+      "trailer_url": "https://www.youtube.com/watch?v=Sq8sBzi3rGY"
+    },
+    "Queer": {
+      "tmdb_id": 1059128,
+      "runtime": 135,
+      "release_date": "2024-11-27",
+      "vote_average": 6.8,
+      "trailer_url": null
+    },
+    "Memento": {
+      "tmdb_id": 77,
+      "runtime": 116,
+      "release_date": "2000-10-11",
+      "vote_average": 8.177,
+      "trailer_url": "https://www.youtube.com/watch?v=40wsa8zqSR4"
+    },
+    "La Fabrique du mensonge": {
+      "tmdb_id": 1219576,
+      "runtime": 124,
+      "release_date": "2024-07-11",
+      "vote_average": 6.8,
+      "trailer_url": "https://www.youtube.com/watch?v=0zGMCKwqQ2Y"
+    },
+    "Dis-moi juste que tu m'aimes": {
+      "tmdb_id": 1193115,
+      "runtime": 111,
+      "release_date": "2025-02-19",
+      "vote_average": 6.0,
+      "trailer_url": "https://www.youtube.com/watch?v=IlCFrmOSppw"
+    },
+    "The Monkey": {
+      "tmdb_id": 1124620,
+      "runtime": 98,
+      "release_date": "2025-02-14",
+      "vote_average": 5.9,
+      "trailer_url": "https://www.youtube.com/watch?v=9PUsGgC0X8g"
+    },
+    "Les Grandes vacances de cowboy et indien": {
+      "tmdb_id": 1135094,
+      "runtime": 52,
+      "release_date": "2023-06-07",
+      "vote_average": 10.0,
+      "trailer_url": "https://www.youtube.com/watch?v=aP1AD656u5A"
+    },
+    "Once Upon a Time... in Hollywood": {
+      "tmdb_id": 466272,
+      "runtime": 162,
+      "release_date": "2019-07-24",
+      "vote_average": 7.432,
+      "trailer_url": "https://www.youtube.com/watch?v=RbMJJHCH5oc"
+    },
+    "Hans Zimmer & Friends : le diamant du désert": {
+      "tmdb_id": 1425725,
+      "runtime": 158,
+      "release_date": "2025-02-19",
+      "vote_average": 0.0,
+      "trailer_url": "https://www.youtube.com/watch?v=mIvPJjfjmgg"
+    },
+    "Des jours meilleurs": {
+      "tmdb_id": 1178518,
+      "runtime": 0,
+      "release_date": "2025-04-23",
+      "vote_average": 0.0,
+      "trailer_url": "https://www.youtube.com/watch?v=_o7Sjba9g7g"
+    },
+    "Mexico 86": {
+      "tmdb_id": 1174027,
+      "runtime": 93,
+      "release_date": "2025-04-23",
+      "vote_average": 0.0,
+      "trailer_url": null
+    },
+    "Marin des montagnes": {
+      "tmdb_id": 662714,
+      "runtime": 95,
+      "release_date": "2023-09-28",
+      "vote_average": 6.6,
+      "trailer_url": "https://www.youtube.com/watch?v=zMv_EZsuLN4"
+    },
+    "La Vie invisible d'Eurídice Gusmão": {
+      "tmdb_id": 548544,
+      "runtime": 140,
+      "release_date": "2019-08-30",
+      "vote_average": 7.9,
+      "trailer_url": "https://www.youtube.com/watch?v=lX0fKDl4LNs"
+    },
+    "The Devil Smokes (and Saves the Burnt Matches in the Same Box)": {
+      "tmdb_id": 1338552,
+      "runtime": 97,
+      "release_date": "2025-02-15",
+      "vote_average": 0.0,
+      "trailer_url": null
+    },
+    "Simón de la montaña": {
+      "tmdb_id": 1274686,
+      "runtime": 98,
+      "release_date": "2024-10-31",
+      "vote_average": 6.1,
+      "trailer_url": null
+    },
+    "Le Jeu de la reine": {
+      "tmdb_id": 848439,
+      "runtime": 120,
+      "release_date": "2024-03-27",
+      "vote_average": 6.4,
+      "trailer_url": "https://www.youtube.com/watch?v=WRoOM8SGORM"
+    },
+    "The Best Mother in the World": {
+      "tmdb_id": 1208758,
+      "runtime": 105,
+      "release_date": "2025-02-15",
+      "vote_average": 0.0,
+      "trailer_url": null
+    },
+    "Les Aristochats": {
+      "tmdb_id": 10112,
+      "runtime": 81,
+      "release_date": "1970-12-24",
+      "vote_average": 7.287,
+      "trailer_url": "https://www.youtube.com/watch?v=ZoaqRRyRVnA"
+    },
+    "La Cache": {
+      "tmdb_id": 1266809,
+      "runtime": 90,
+      "release_date": "2025-03-19",
+      "vote_average": 4.0,
+      "trailer_url": "https://www.youtube.com/watch?v=-NJM3MGF1dQ"
+    },
+    "Kouté vwa": {
+      "tmdb_id": 1012618,
+      "runtime": 77,
+      "release_date": "2025-07-02",
+      "vote_average": 0.0,
+      "trailer_url": null
+    },
+    "Brujeria - Sorcellerie": {
+      "tmdb_id": 977246,
+      "runtime": 103,
+      "release_date": "2024-06-14",
+      "vote_average": 7.7,
+      "trailer_url": null
+    },
+    "Beloved Tropic": {
+      "tmdb_id": 1326068,
+      "runtime": 108,
+      "release_date": "2024-09-07",
+      "vote_average": 4.0,
+      "trailer_url": null
+    },
+    "Reinas": {
+      "tmdb_id": 31822,
+      "runtime": 107,
+      "release_date": "2005-04-08",
+      "vote_average": 5.9,
+      "trailer_url": null
+    },
+    "Une histoire vraie": {
+      "tmdb_id": 438808,
+      "runtime": 111,
+      "release_date": "2018-09-14",
+      "vote_average": 6.351,
+      "trailer_url": "https://www.youtube.com/watch?v=2lZhfil4tQY"
+    },
+    "Le Ciel de Suely": {
+      "tmdb_id": 95342,
+      "runtime": 88,
+      "release_date": "2006-11-17",
+      "vote_average": 7.5,
+      "trailer_url": "https://www.youtube.com/watch?v=QRn0hcz7V_I"
+    },
+    "Hijo de Sicario": {
+      "tmdb_id": 1214508,
+      "runtime": 120,
+      "release_date": "2024-08-21",
+      "vote_average": 6.4,
+      "trailer_url": null
+    },
+    "Mi Bestia": {
+      "tmdb_id": 1000434,
+      "runtime": 76,
+      "release_date": "2024-09-04",
+      "vote_average": 6.0,
+      "trailer_url": null
+    },
+    "The Alto Knights": {
+      "tmdb_id": 1013601,
+      "runtime": 123,
+      "release_date": "2025-03-14",
+      "vote_average": 7.2,
+      "trailer_url": "https://www.youtube.com/watch?v=dsaqPHZnLlA"
+    },
+    "Rapide": {
+      "tmdb_id": 1022882,
+      "runtime": 24,
+      "release_date": "2022-10-15",
+      "vote_average": 5.4,
+      "trailer_url": null
+    },
+    "Novocaine": {
+      "tmdb_id": 1195506,
+      "runtime": 109,
+      "release_date": "2025-03-12",
+      "vote_average": 7.6,
+      "trailer_url": "https://www.youtube.com/watch?v=EpzLTPocw6M"
     }
   }
 }
